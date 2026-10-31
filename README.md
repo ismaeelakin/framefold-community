@@ -4,7 +4,7 @@ An animation workspace for trying another direction and bringing back the change
 
 **Early alpha · 0.2 · Built by Ismaeel Habeeb**
 
-[Open the studio](https://framefold-studio-akin.builtcocoa.chatgpt.site/) · [Start a discussion](https://github.com/ismaeelakin/framefold-community/discussions) · [Report a problem](https://github.com/ismaeelakin/framefold-community/issues/new/choose)
+[Open the studio](https://framefold-studio-akin.builtcocoa.chatgpt.site/) · [Welcome thread](https://github.com/ismaeelakin/framefold-community/discussions/1) · [Report a problem](https://github.com/ismaeelakin/framefold-community/issues/new/choose)
 
 ![Framefold public introduction](docs/images/public-home.png)
 
@@ -56,3 +56,5 @@ Read [contributing](CONTRIBUTING.md), the [community rules](CODE_OF_CONDUCT.md),
 Please share only artwork you own or have permission to share. Public comments, issues and attachments are visible to everyone. Never upload private projects or credentials.
 
 No adoption, performance-at-scale, investment or release-date claims are made. The working name has not been trademark-cleared.
+
+The license in this repository covers its documentation and screenshots. It does not license the privately maintained studio implementation, the brand or artwork supplied by other people.
