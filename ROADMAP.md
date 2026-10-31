@@ -1,33 +1,46 @@
 # Roadmap
 
-A direction for the product, not promised dates. Changes should be guided by observed creative work and reproducible problems.
+Updated 31 October 2026. These are release gates, not promised dates. The application source remains private. Planning does not imply that a capability has shipped.
 
-## Available in 0.2
+## Available in alpha 0.2
 
-- Local animation editing, proposals and selective change review
-- Blank projects, basic sketch layers and portable raster artwork
-- Storyboard panels, panel holds and animatic preview
-- Project/proposal exchange, PNG stills, contact sheets and scene WebM recording
-- Public introduction, first-session guide and community hub
+- Browser-local 2D editing: basic strokes and PNG/JPEG/WebP layers
+- Fixed ten-second, 960 × 540 scenes at 24 fps; position, rotation, scale and opacity with linear keyframes
+- Story panels, holds and animatic preview
+- Project/proposal files, selective review and explicit conflicts
+- Local saves, downloaded backups, PNG/contact sheets and real-time silent WebM scene recording
 
-## Next: make the first collaboration dependable
+There is no frame-by-frame cel animation, audio timeline, rigging, native 3D, account system, hosted projects or audience playback service. Browser recording is not deterministic rendering.
 
-- Observe people completing a scene with a collaborator
-- Improve drawing, layer controls and keyboard access based on those sessions
-- Better timeline editing, easing and keyframe removal
-- Visible recovery and previous-save browsing
-- Profile performance on named devices and bounded example projects
-- Improve export reliability and document interoperability
+## Next: prove and strengthen the local creative workflow
 
-## Later, after the workflow earns repeat use
+1. Complete a moving illustration, storyboard animatic and selectively reviewed alternative using the current alpha. Publish reproducible examples and record blockers.
+2. Improve selection/layers, drawing controls, keyboard access, timeline editing and easing against those blockers.
+3. Specify durable local asset storage, recovery, project migrations, memory budgets and portable packages.
+4. Verify fixed-time rendering and full animatic export, including frame counts, cancellation and browser compatibility.
 
-- Shared projects, identity, roles and invitations
-- Live presence and synchronization with review-aware conflict handling
-- Shared asset storage, revision retention and deterministic rendering
-- Reusable assets, longer sequences and full-sequence exports
+These gates precede accounts and invitations. Appearance remains stable except for defects and accessibility improvements.
 
-## Longer-term exploration
+## Finished local motion release
 
-2D remains the foundation. Imported 3D renders can be used as artwork now. Native model import, cameras and 3D staging may follow actual user needs. A complete 3D modelling suite is not in the current plan.
+Configurable scene presets, pivots/parent transforms, an explicitly bounded compositing toolset, offline operation and a local viewer export. Each feature requires a schema, interaction design, acceptance fixtures and performance checks before implementation. None is claimed available today.
 
-Ideas are welcome in Discussions. A request is not a committed feature. No claims are made about millions of concurrent requests, guaranteed investment or acquisition.
+## Expanded animation releases
+
+Separate releases for frame-by-frame cels, exposure editing and onion skins; audio import and synchronized export; then multi-shot sequences and complete sequence exports. These expand the kinds of finished animation artists can create. No music catalog or paid AI service is planned.
+
+## Portable creative review
+
+Revision-bound timecoded comments, annotations, screenshots and optional user-initiated screen recording. Exchange review bundles without requiring cloud accounts.
+
+## Conditional hosted collaboration
+
+Identity, private projects, roles and expiring invitations; bounded asset storage and asynchronous proposals; optional owner-configured GitHub issue sync; optionally hosted viewing links. These require a viable zero-spend service allocation, enforceable quotas and tested access boundaries. If the budget cannot support them, local creation/export and file-based collaboration remain available.
+
+No paid infrastructure is authorized. Free static hosting is separate from user-media storage, rendering and delivery. Unlimited cloud storage, media bandwidth, uptime or concurrent usage is not promised.
+
+## Research, not committed releases
+
+Live simultaneous editing, skeletal rigs/constraints, native 3D staging and selected professional interchange formats. A full 3D modelling suite, public marketplace and server render farm are outside the current program.
+
+We will document tested capabilities and limitations rather than imply that a roadmap item exists. Product expansion depends on useful finished work and observed artist needs, not a guarantee of investment or acquisition.
