@@ -1,5 +1,9 @@
 # Release notes
 
+## Local-storage research result — 31 October 2026
+
+An isolated browser prototype passed eight bounded transaction/recovery checks, including two-tab conflict handling. This is research evidence, not a new alpha feature or a completed migration. See [the result and limitations](RESEARCH.md#storage-experiment--31-october-2026).
+
 ## Community and specification update — 31 October 2026
 
 Documentation-only update; the available application remains alpha 0.2.

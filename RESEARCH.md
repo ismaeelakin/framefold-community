@@ -24,6 +24,12 @@ Intended outcome: understand changes through synchronized playback, trails and p
 
 Intended outcome: useful finished work, recovery and export without a service account. Measure on named devices and clean browser profiles. Test fixed-time evaluation, memory limits, corrupt/missing assets and worker/storage failures. A same-machine reopen or polished preview does not prove portability or output reliability.
 
+### Storage experiment — 31 October 2026
+
+An isolated local prototype passed eight checks in Chromium 155: database reopen integrity, transaction-abort rollback, injected quota rollback, stale-generation rejection after undo, save-completion ordering, simulated newer-edit dirty state, blocked-upgrade recovery and competing writes from two real tabs. In the two-tab check, one writer committed and the other received an explicit conflict. The private evidence records the frozen fixture, environment and source hashes.
+
+This supports further work on the transaction/revision design, not a claim that the editor has migrated. Quota failure was injected; editor dirty state was simulated. Actual storage exhaustion/eviction, power loss, separate-profile file recovery, broad browser support and production UI integration remain unverified. The experiment is not included in the public app build.
+
 ## Full 3D modelling · C32A–F
 
 | Area             | First bounded scope                                                                        | Condition before expansion                                                              |
