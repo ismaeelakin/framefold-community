@@ -41,6 +41,6 @@ No paid infrastructure is authorized. Free static hosting is separate from user-
 
 ## Research, not committed releases
 
-Live simultaneous editing, skeletal rigs/constraints, native 3D staging and selected professional interchange formats. A full 3D modelling suite, public marketplace and server render farm are outside the current program.
+Live simultaneous editing, skeletal rigs/constraints, native 3D staging and selected professional interchange formats. A full 3D modelling suite is also a research track with conditional implementation, not a permanent exclusion. It requires geometry/topology, modelling interactions, materials/UVs, undo, interchange and topology-aware review specifications, plus local-device feasibility tests. Start with a small mesh-editing prototype before expanding. No release date or parity with mature suites is promised. A public marketplace and server render farm remain outside the current build program.
 
 We will document tested capabilities and limitations rather than imply that a roadmap item exists. Product expansion depends on useful finished work and observed artist needs, not a guarantee of investment or acquisition.
