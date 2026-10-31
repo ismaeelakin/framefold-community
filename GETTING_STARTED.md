@@ -4,7 +4,7 @@ Use a recent desktop browser. The studio works without a Framefold account. GitH
 
 ## First, try the sample
 
-Open [Framefold](https://framefold-studio-akin.builtcocoa.chatgpt.site/) and choose **Open studio**. Select **A quicker delivery** in the proposals panel. Uncheck the rotation changes, keep the courier X-position change and preview the result. Apply the selected change. The movement changes without accepting the proposed rotation.
+Open [Framefold](https://framefold-psi.vercel.app/) and choose **Open studio**. Select **A quicker delivery** in the proposals panel. Uncheck the rotation changes, keep the courier X-position change and preview the result. Apply the selected change. The movement changes without accepting the proposed rotation.
 
 ## Start a project
 

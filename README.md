@@ -4,7 +4,7 @@ An animation workspace for trying another direction and bringing back the change
 
 **Early alpha · 0.2 · Built by Ismaeel Habeeb**
 
-[Open the studio](https://framefold-studio-akin.builtcocoa.chatgpt.site/) · [Welcome thread](https://github.com/ismaeelakin/framefold-community/discussions/1) · [Report a problem](https://github.com/ismaeelakin/framefold-community/issues/new/choose)
+[Open the studio](https://framefold-psi.vercel.app/) · [Welcome thread](https://github.com/ismaeelakin/framefold-community/discussions/1) · [Report a problem](https://github.com/ismaeelakin/framefold-community/issues/new/choose)
 
 ![Framefold public introduction](docs/images/public-home.png)
 

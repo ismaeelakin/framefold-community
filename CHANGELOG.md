@@ -1,5 +1,13 @@
 # Release notes
 
+## Hosting and identity update — 31 October 2026
+
+- Primary public address: https://framefold-psi.vercel.app/
+- Petrol, mineral white and citron interface with Chivo, Source Sans 3 and Fragment Mono.
+- Product-focused footer and refreshed screenshots.
+- The old address stays available so existing local projects can be downloaded and reopened on the new site.
+- Accounts, platform invitations and shared storage remain unreleased.
+
 ## 0.2 — 31 October 2026
 
 - Public product introduction with interactive sample versions.
