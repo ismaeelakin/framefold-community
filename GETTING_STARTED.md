@@ -31,7 +31,7 @@ Sharing is manual. The studio does not email collaborators, upload files or sync
 
 Download project files regularly. Browser storage can fill up, be disabled or be cleared. Undo history is limited and does not survive a reload. Saving pauses if another tab writes to the workspace.
 
-PNG exports the current frame without selection guides. WebM renders one ten-second scene as240 frames at24fps, with no audio, using a supported browser encoder. Storyboard PNG exports a contact sheet. The animatic preview is not a full-sequence video export.
+PNG exports the current frame without selection guides. WebM renders one ten-second scene as 240 frames at 24 fps, with no audio, using a supported browser encoder. Storyboard PNG exports a contact sheet. The animatic preview is not a full-sequence video export.
 
 If a step fails, use [the bug template](https://github.com/ismaeelakin/framefold-community/issues/new?template=bug_report.yml). Use a small, non-confidential reproduction.
 
@@ -45,7 +45,7 @@ There is no hosted gallery, public player page, audio timeline, frame-by-frame c
 
 New courier captures keep their visual wheel phase fixed, including after saving and reopening. Their transforms remain editable. Share these files with Framefold **0.2.1 or newer**; earlier versions reject the new captured-layer type rather than silently animating it.
 
-Older captured panels never stored their visual capture time. Recapture at the intended pose in the current app. Ordinary earlier projects remain supported. The two observed renderer defects are resolved in 0.2.1; scene WebM uses fixed timestamps in0.2.2; wider sequence/export-format work remains research.
+Older captured panels never stored their visual capture time. Recapture at the intended pose in the current app. Ordinary earlier projects remain supported. The two observed renderer defects are resolved in 0.2.1; scene WebM uses fixed timestamps in 0.2.2; wider sequence/export-format work remains research.
 
 ## Find your way around
 

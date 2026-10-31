@@ -20,8 +20,8 @@ The phase column is a dependency sequence, not a release date. G2 entries for ex
 | C03  | Story panels and contact sheets                                 | Available in 0.2; future compatibility changes proposed             | G2    |
 | C04  | Selective proposal review                                       | Available in 0.2; future compatibility changes proposed             | G2    |
 | C05  | Legacy saving and exchange compatibility                        | Available in 0.2; future compatibility changes proposed             | G2    |
-| C06  | Still PNG and fixed-frame scene WebM                            | Available in0.2.2; browser matrix remains limited                   | G2    |
-| C07  | Layer management and selection                                  | Rename available in0.2.2; remaining management proposed             | G2    |
+| C06  | Still PNG and fixed-frame scene WebM                            | Available in 0.2.2; browser matrix remains limited                  | G2    |
+| C07  | Layer management and selection                                  | Rename available in 0.2.2; remaining management proposed            | G2    |
 | C08  | Timeline tools and easing                                       | Proposed implementation                                             | G2    |
 | C09  | Drawing tools and viewport                                      | Proposed implementation                                             | G2    |
 | C10  | Durable local storage and portable packages                     | Proposed implementation                                             | G2    |

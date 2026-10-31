@@ -36,4 +36,4 @@ Later specifications require fixture hashes, exact source/browser versions, timi
 
 ## 0.2.2 checks to repeat
 
-Try layer naming with Enter, Escape and Undo. Seek an animatic across a hold boundary and restart. Export a scene: check240 decoded frames and10-second duration with compatible tooling; an unsupported browser should show save/PNG alternatives. Cancel an export and confirm that it returns a visible cancellation message without a completed download. These are reproducible checks, not claims that every browser has passed.
+Try layer naming with Enter, Escape and Undo. Seek an animatic across a hold boundary and restart. Export a scene: check 240 decoded frames and 10-second duration with compatible tooling; an unsupported browser should show save/PNG alternatives. Cancel an export and confirm that it returns a visible cancellation message without a completed download. These are reproducible checks, not claims that every browser has passed.

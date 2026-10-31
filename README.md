@@ -27,7 +27,7 @@ All screenshots here show the released **0.2 alpha**, not future features.
 
 ## Try a complete project
 
-[**Last Light**](examples/last-light/README.md) includes an editable project, the finished scene video and a three-panel storyboard. Open it, inspect the flight keys, scrub the animatic and try your own proposal. All artwork is embedded.
+[**Last Light**](https://framefold-psi.vercel.app/learn/last-light.html) includes an editable project, the finished scene video and a three-panel storyboard. Open it, inspect the flight keys, scrub the animatic and try your own proposal. All artwork is embedded.
 
 ![Last Light — an actual exported scene](examples/last-light/last-light.png)
 

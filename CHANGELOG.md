@@ -2,7 +2,7 @@
 
 ## 0.2.2 — 31 October 2026
 
-- Fixed-frame scene WebM replaces the imprecise real-time recorder:240 frames at24fps, ten-second decoded duration in the tested Chromium browser.
+- Fixed-frame scene WebM replaces the imprecise real-time recorder: 240 frames at 24 fps, ten-second decoded duration in the tested Chromium browser.
 - Visible export success/cancel/error status and actionable unsupported-encoder fallback.
 - Editable layer names with commit/cancel and undo; first-frame storyboard posters using the established fonts.
 - Animatic seek/restart controls, with seeking pausing playback.
