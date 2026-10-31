@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.2**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.2.1**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -41,6 +41,8 @@ A PNG is a still image. A contact sheet presents story panels together. A scene 
 
 There is no hosted gallery, public player page, audio timeline, frame-by-frame cel editor or native 3D tool in this release. To evaluate the actual output before proposing improvements, use [the creative probes](TESTING.md). The broader direction is in [the roadmap](ROADMAP.md).
 
-## Known capture limitation
+## Captured-file compatibility
 
-The original courier sample can retain animated wheel spokes after **Capture current pose**. Use a still PNG when you need a strictly static image. [The capture defect](https://github.com/ismaeelakin/framefold-community/issues/3) and [render-consistency investigation](https://github.com/ismaeelakin/framefold-community/issues/2) are tracked; they are not fixed by the research export experiment.
+New courier captures keep their visual wheel phase fixed, including after saving and reopening. Their transforms remain editable. Share these files with Framefold **0.2.1 or newer**; earlier versions reject the new captured-layer type rather than silently animating it.
+
+Older captured panels never stored their visual capture time. Recapture at the intended pose in the current app. Ordinary earlier projects remain supported. The two observed renderer defects are resolved in 0.2.1; the wider deterministic export work remains research.

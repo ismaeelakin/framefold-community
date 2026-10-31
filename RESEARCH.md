@@ -34,9 +34,9 @@ This supports further work on the transaction/revision design, not a claim that 
 
 The isolated trial wrote, reopened, decoded and hash-verified **464 PNGs**: 240 scene frames, 144 animatic frames and 80 partial frames from a controlled cancellation. Eight checks passed; two renderer/capture defect probes failed. Frame counts, timestamps, panel boundaries and partial-output status were checked. Sampled pixel comparisons used a documented, measured tolerance of at most four changed channels per image, each differing by at most one colour level.
 
-The defects remain open: [canvas state carried between render calls](https://github.com/ismaeelakin/framefold-community/issues/2) and [captured courier wheel motion remaining animated](https://github.com/ismaeelakin/framefold-community/issues/3). Initial failed trials and the diagnostic measurements were preserved privately. A caller-isolation wrapper was used only in the research exporter; the live app is unchanged.
+The historical defects were: [canvas state carried between render calls](https://github.com/ismaeelakin/framefold-community/issues/2) and [captured courier wheel motion remaining animated](https://github.com/ismaeelakin/framefold-community/issues/3). Initial failed trials and the diagnostic measurements were preserved privately. A caller-isolation wrapper was used only in the research exporter; the live app was unchanged during that historical trial.
 
-This is not encoded video, a production exporter, a long-form performance claim or cross-browser validation. Repairing these defects with compatibility/regression evidence is the next priority before production promotion.
+This is not encoded video, a production exporter, a long-form performance claim or cross-browser validation. The 0.2.1 repair run passes all twelve checks, including the original defect probes and new persisted-pose/selection checks. It again verifies 464 PNGs without widening pixel tolerance. Twenty-three model tests pass. Older readers reject the new captured-layer kind safely. The two observed defects are repaired; production sequence export, cross-browser evidence and broader admission gates remain pending.
 
 ## Full 3D modelling · C32A–F
 

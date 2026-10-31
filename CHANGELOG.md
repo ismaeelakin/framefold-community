@@ -1,8 +1,17 @@
 # Release notes
 
+## 0.2.1 — 31 October 2026
+
+- Isolated canvas drawing state so repeated rendering no longer carries styles between calls.
+- New captured courier panels preserve their visual wheel phase through save/reopen, while transforms remain editable.
+- Kind and capture phase are reviewed together; replacement preserves layer order.
+- Added captured-file compatibility guidance: use 0.2.1 or newer. Older captures need recapturing because they did not store their phase.
+- Verification: 23 model tests and 12 bounded browser render checks pass; 464 PNGs were written, reopened, decoded and hash-checked. The research PNG-sequence harness is not a released export tool.
+
+
 ## Fixed-frame PNG research — 31 October 2026
 
-The isolated trial verified 464 PNG files and recorded eight passing checks plus two failing renderer/capture probes. The failures remain tracked and block production promotion. No new export feature is live. See [research results and limitations](RESEARCH.md#fixed-frame-png-experiment--31-october-2026).
+The isolated trial verified 464 PNG files and recorded eight passing checks plus two failing renderer/capture probes. These historical failures were repaired in 0.2.1; their original reports remain preserved. No new export feature is live. See [research results and limitations](RESEARCH.md#fixed-frame-png-experiment--31-october-2026).
 
 ## Local-storage research result — 31 October 2026
 
