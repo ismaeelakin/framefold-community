@@ -2,7 +2,7 @@
 
 Updated 31 October 2026. This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
 
-## Available: browser alpha 0.2
+## Available: browser alpha 0.2.1
 
 Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and real-time silent scene WebM. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. No new editor features were released by the specification update.
 
@@ -15,6 +15,14 @@ Before further feature coding: refine exact validators and interactions, prepare
 ## G1 — Current creative proofs
 
 Use the existing alpha to complete a moving illustration, a storyboard animatic and a reviewed alternative. Keep source files, exported outputs, exact steps and failures. These probes may amend specifications; they do not stand in for independent artist feedback.
+
+### Frontend acceptance at every gate
+
+Frontend usability advances alongside the engine. Each released workflow needs a discoverable starting action, clear scene/proposal/tool/save states, reversible edits, actionable errors, keyboard access and a verified audience output. Beginner guidance stays optional; experienced creators retain direct access. Layout checks and agent task traces do not replace observing independent first-time and experienced creators.
+
+A future demonstration series will build one original project through creation, animation, storyboards, review, recovery and export. Each chapter needs editable checkpoints, verified output, actual released controls, captions/transcript and pause/replay. Recording and free media hosting must be verified before promising publication. These videos are planned, not currently available.
+
+The first existing-alpha primitive-motion trace has confirmed blank-project creation, two position keys and the expected midpoint. It also identified layer naming, keyframe explanations and first-action guidance for further specification. It is not a completed moving illustration or a passed delivery/reopen proof. The three creative proofs remain open.
 
 ## G2 — Reliable local foundation
 
