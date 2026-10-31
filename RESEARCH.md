@@ -68,3 +68,11 @@ Research is limited to a specific artist task, acceptable licences/privacy and b
 ## Proposing research
 
 State the blocked artist task, hypothesis, alternatives, safe fixture, measurements, cost ceiling and stop condition. Report failures as carefully as successes. See [the specification process](SPECIFICATION.md).
+
+## First creative workflow trace — 31 October 2026
+
+The primitive-motion source was downloaded through Save project, then opened using the actual file chooser on a separate localhost origin. Its two position keys and evaluated midpoint were preserved. This is one-browser, separate-origin portability evidence, not clean-device recovery or independent artist feedback.
+
+PNG and WebM files exported from that reopened project were retrieved and decoded. The still is960×540 and was visually checked without selection guides. Video samples show the expected left-to-right motion. **Measured WebM duration:9.746828s for a nominal10s scene**, a0.253172s shortfall. The broad media sanity checks do not establish frame-accurate timing. This known real-time-export limitation remains part of C11's deterministic delivery work.
+
+Actual editable source, PNG, WebM, browser measurements and hashes are retained privately. The moving rectangle is a workflow exercise; the finished moving illustration, storyboard animatic and reviewed-alternative proofs remain open. No new application feature or paid service was introduced.
