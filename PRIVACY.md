@@ -13,3 +13,9 @@ GitHub is a separate service. Public discussions, issues, pull requests and atta
 For concerns, use the security guidance or ask for a contact channel without publishing sensitive details. This page describes the current alpha, not a promise about an unreleased cloud service. Updated 31 October 2026.
 
 The primary app is hosted on Vercel at https://framefold-psi.vercel.app/. The earlier Sites address remains available for continuity. Each origin has separate local browser storage; download project files to move your work between them.
+
+## Proposed features are separate
+
+The specification set discusses review comments, capture, identity, hosted storage, invitations, GitHub issue sync and audience publications. These services are not active in alpha 0.2. Screen/microphone capture, asset upload and public publication must never be inferred from merely using the editor. Any future service needs a feature-specific privacy/access description before launch.
+
+GitHub feedback is not automatically copied from the app. If you attach a project to a public issue, that is your public disclosure, not private collaboration. Downloaded files can contain artwork and metadata; inspect them before sharing.

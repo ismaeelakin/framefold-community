@@ -1,65 +1,61 @@
 # Roadmap
 
-Updated 31 October 2026. These are release gates, not promised dates. The application source remains private. Planning does not imply that a capability has shipped.
+Updated 31 October 2026. This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
 
-## Available in alpha 0.2
+## Available: browser alpha 0.2
 
-- Browser-local 2D editing: basic strokes and PNG/JPEG/WebP layers
-- Fixed ten-second, 960 × 540 scenes at 24 fps; position, rotation, scale and opacity with linear keyframes
-- Story panels, holds and animatic preview
-- Project/proposal files, selective review and explicit conflicts
-- Local saves, downloaded backups, PNG/contact sheets and real-time silent WebM scene recording
+Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and real-time silent scene WebM. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. No new editor features were released by the specification update.
 
-There is no frame-by-frame cel animation, audio timeline, rigging, native 3D, account system, hosted projects or audience playback service. Browser recording is not deterministic rendering.
+## G0 — Specification review · active
 
-## Active: specification before further feature coding
+The private design set contains 48 proposed packets, 149 capability-specific acceptance recipes and 12 mathematical vectors. Coverage, dependency-cycle, internal-link and formatting checks passed on the initial set. That does not mean the fixtures have been implemented or the designs validated.
 
-The private engineering specification set now contains 48 proposed capability packets, 149 acceptance fixture recipes and 12 mathematical vectors. Each packet records data/schema changes, interactions, algorithms, limits, failure behaviour, dependencies and entry/exit gates. Research packets describe experiments and stop conditions; they do not assert solved algorithms or shipped features. Archive, encoding, geometry and hosted-service choices remain open until evaluated. The product has not gained these features through documentation.
+Before further feature coding: refine exact validators and interactions, prepare fixture assets, resolve the relevant technical decisions and record capability readiness. Research packets require experiment designs and decision criteria. [Specification process](SPECIFICATION.md)
 
-All known capabilities must pass specification review before the creative probes. Production implementation then requires the relevant packet's readiness gate. No paid infrastructure is authorized.
+## G1 — Current creative proofs
 
-## Next: prove and strengthen the local creative workflow
+Use the existing alpha to complete a moving illustration, a storyboard animatic and a reviewed alternative. Keep source files, exported outputs, exact steps and failures. These probes may amend specifications; they do not stand in for independent artist feedback.
 
-1. Complete a moving illustration, storyboard animatic and selectively reviewed alternative using the current alpha. Publish reproducible examples and record blockers.
-2. Improve selection/layers, drawing controls, keyboard access, timeline editing and easing against those blockers.
-3. Specify durable local asset storage, recovery, project migrations, memory budgets and portable packages.
-4. Verify fixed-time rendering and full animatic export, including frame counts, cancellation and browser compatibility.
+## G2 — Reliable local foundation
 
-These gates precede accounts and invitations. Appearance remains stable except for defects and accessibility improvements.
+C01–C11 preserve compatibility and strengthen drawing, layers, timelines, recovery and exports. C34 adds efficient editable alternatives; C37 defines the local engine's reliability/performance evidence; C38 defines portable inspectable projects. Fixed-time rendering must prove its timing and actual output compatibility. A clean-device reopen must prove portability.
 
-## Finished local motion release
+## G3 — Finished local motion release
 
-Configurable scene presets, pivots/parent transforms, an explicitly bounded compositing toolset, offline operation and a local viewer export. Each feature requires a schema, interaction design, acceptance fixtures and performance checks before implementation. None is claimed available today.
+C12–C14 add bounded presets, pivots/parent transforms and compositing/path tools. C20 covers offline use and safe updates; C21 covers an audience viewer package. Release requires usable finished outputs, a tested browser matrix and recovery evidence. This is not yet a full character-animation suite.
 
-## Expanded animation releases
+## G4 — Expanded animation
 
-Separate releases for frame-by-frame cels, exposure editing and onion skins; audio import and synchronized export; then multi-shot sequences and complete sequence exports. These expand the kinds of finished animation artists can create. No music catalog or paid AI service is planned.
+C15: cels, exposures, holds and onion skins. C16: imported audio and synchronized export. C17: animated shots, transitions and full sequences. Deliver them separately with schema migrations and actual output fixtures. Silent sequences need not wait for audio support. No music catalogue is planned.
 
-## Portable creative review
+## G5 — Portable and motion-aware review
 
-Revision-bound timecoded comments, annotations, screenshots and optional user-initiated screen recording. Exchange review bundles without requiring cloud accounts.
+C18–C19: revision-bound timecoded comments, annotations, screenshots and optional explicit screen capture. C36: motion trails, timed comparisons and pose overlays. Review bundles work through files first; a cloud account is not required. 3D-specific overlays follow C28 rather than blocking useful 2D review.
 
-## Conditional hosted collaboration
+## G6 — Conditional hosted collaboration
 
-Identity, private projects, roles and expiring invitations; bounded asset storage and asynchronous proposals; optional owner-configured GitHub issue sync; optionally hosted viewing links. These require a viable zero-spend service allocation, enforceable quotas and tested access boundaries. If the budget cannot support them, local creation/export and file-based collaboration remain available.
+C22: identity, server-enforced permissions and expiring invitations. C23: private shared assets and asynchronous revisions. C24: optional owner-configured GitHub issue sync. C25: optional hosted audience links. Each requires free-allocation feasibility, hard quotas, privacy/access tests and graceful local fallback. No service is provisioned by a roadmap entry.
 
-No paid infrastructure is authorized. Free static hosting is separate from user-media storage, rendering and delivery. Unlimited cloud storage, media bandwidth, uptime or concurrent usage is not promised.
+## G7 — Exceptional research and 3D
 
-## Research, not committed releases
+- C26: real presence and simultaneous editing, with offline/conflict behaviour.
+- C27: skeletal rigs, constraints and inverse kinematics.
+- C28–C29: 3D staging, cameras and explicitly bounded interchange.
+- C32A: direct mesh editing and stable topology identities.
+- C32B–F: modifiers, sculpting, retopology, UV editing and materials, each independently gated.
+- C33: selective geometry review with dependency closure and validity checks.
+- C35: connected storyboard, 3D staging and drawn finishing.
 
-Live simultaneous editing, skeletal rigs/constraints, native 3D staging and selected professional interchange formats. A full 3D modelling suite is also a research track with conditional implementation, not a permanent exclusion. It requires geometry/topology, modelling interactions, materials/UVs, undo, interchange and topology-aware review specifications, plus local-device feasibility tests. Start with a small mesh-editing prototype before expanding. No release date or parity with mature suites is promised. A public gallery, marketplace, payments and remote rendering are conditional research tracks with separate packets. They remain disabled unless their operational, privacy, rights and zero-spend conditions can be met. Optional local creative assistance is research; paid inference and automatic legal ownership judgments remain excluded.
+A full 3D modelling suite is a long-term conditional research program, not permanently excluded and not promised parity with mature suites. [Research questions and stop conditions](RESEARCH.md)
 
-We will document tested capabilities and limitations rather than imply that a roadmap item exists. Product expansion depends on useful finished work and observed artist needs, not a guarantee of investment or acquisition.
+## G8 — Conditional platform extensions
 
-## Exceptional workflows explicitly sequenced
+C30A–D preserve public discovery, a marketplace, payments and remote rendering as conditional research. C31 preserves optional local creative assistance while excluding mandatory paid inference and automatic legal ownership judgments. These cannot bypass the zero-spend policy or become requirements for local creation/export.
 
-| Workflow | Sequence |
-|---|---|
-| Editable alternatives with shared assets and efficient revisions | Local foundation |
-| Dependable local evaluation, rendering, recovery and portability | Local foundation; tested at every release |
-| Motion trails, timed overlays and meaningful movement comparison | Portable review; 3D extension after staging |
-| Selective 3D review with dependency and topology validation | 3D research after basic mesh editing |
-| Connected storyboard, 3D staging and drawn finishing | 3D research after shots/cels/staging |
-| Full modelling: direct mesh editing, modifiers, sculpting, retopology, UVs and materials | Individually gated 3D research tracks |
+## Rules for moving forward
 
-These are product hypotheses and proposed engineering scope. Artist usefulness and performance must be demonstrated before promotion to released capability.
+- A specification is not a shipped feature; a request is not a delivery commitment.
+- Capability dependencies determine order within a gate. Research uncertainty stays visible.
+- Local files and useful exports must survive unavailable services.
+- No paid hosting, automatic upgrade or unlimited cloud-scale claim.
+- Keep one public roadmap. Update guides/screenshots when the released product changes, not when a design is written.

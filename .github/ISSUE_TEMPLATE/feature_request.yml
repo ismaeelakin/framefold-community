@@ -1,25 +1,39 @@
 name: Suggest a workflow improvement
-description: Explain a creative task the studio should handle better
-title: "[Idea] "
+description: Describe an artist task and useful output
+title: "[Workflow] "
 labels: [enhancement]
 body:
+  - type: markdown
+    attributes:
+      value: "Check FEATURES.md and ROADMAP.md first. A request does not commit a release. No paid hosting is authorized; distinguish local tools from optional hosted services."
+  - type: input
+    id: capability
+    attributes:
+      label: Related capability IDs, if known
+      placeholder: "For example: C15 exposures or C35 connected production"
   - type: textarea
     id: task
     attributes:
-      label: What are you trying to make?
-      description: Describe the task and who you work with.
+      label: What are you trying to create?
+      description: Include the audience output, not only an editor feature name.
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
-      label: Where does the current workflow get in the way?
+      label: Where does the current workflow fail or take unnecessary effort?
+      description: Distinguish observed alpha behaviour from a future requirement.
     validations:
       required: true
   - type: textarea
     id: outcome
     attributes:
       label: What would a useful result look like?
-      description: Describe the outcome. A specific implementation is optional.
+      description: Include a small example, important constraints and any existing workaround.
     validations:
       required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: How could we check that it works?
+      description: Suggest a safe fixture, expected outcome and relevant failure case. Optional implementation ideas are welcome.

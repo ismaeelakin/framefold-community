@@ -5,6 +5,8 @@ Make this a useful place for people making visual work.
 - Be respectful. Critique the work or proposal, not the person.
 - No harassment, discrimination, threats, impersonation or unwanted contact.
 - Share only material you own or have permission to share. Keep confidential projects and personal data out of public threads.
+- Separate measured results from hypotheses. Do not fabricate benchmark results, users, endorsements or contribution activity.
+- Disagree constructively about research; a deferred proposal is not a reason to pressure contributors.
 - Keep discussions relevant. No spam, explicit sexual content, betting promotion or unrelated advertising.
 - Do not pressure people to share private source, files or credentials.
 

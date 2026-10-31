@@ -1,39 +1,45 @@
 name: Report a problem
-description: A reproducible problem in the Framefold browser alpha
+description: A reproducible failure in the released browser alpha
 title: "[Bug] "
 labels: [bug]
 body:
   - type: markdown
     attributes:
-      value: "Use a small non-confidential example. Do not upload private artwork, credentials or personal data."
+      value: "This form concerns released alpha 0.2. Planned tools belong in workflow or research requests. Use disposable files; every attachment here is public. For vulnerabilities use Security, not a public report."
   - type: input
-    id: browser
+    id: environment
     attributes:
-      label: Browser and operating system
-      placeholder: Browser name, version and operating system
+      label: App URL, browser version and operating system
+      description: Include the approximate session date. Do not include device serial numbers or private identifiers.
     validations:
       required: true
+  - type: input
+    id: area
+    attributes:
+      label: Affected area or capability ID
+      placeholder: "For example: proposal review / C04"
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
-      description: Start from a fresh sample or describe the smallest project that reproduces it.
+      label: Smallest steps to reproduce
+      description: Start from the sample or a safe blank project. State whether the project came from another app address.
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: What did you expect?
+      label: Expected result
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: What happened instead?
+      label: Actual result and effect on your work
+      description: Mention save/reopen/export behaviour or data loss if relevant. Do not publish the affected private work.
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Optional screenshot or safe example
-      description: Check that any attachment is safe to publish.
+      label: Optional safe evidence
+      description: A minimal permitted file, screenshot or measured output. Check every attachment before posting.

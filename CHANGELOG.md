@@ -1,5 +1,17 @@
 # Release notes
 
+## Community and specification update — 31 October 2026
+
+Documentation-only update; the available application remains alpha 0.2.
+
+- Aligned the full public hub with specification-first development and explicit release/research gates.
+- Added the public capability register, specification process, research conditions, architecture boundaries and testing guide.
+- Recorded the exceptional workflows: editable alternatives, local reliability/portability, motion-aware review, selective 3D review and connected 2D/3D production.
+- Preserved full 3D modelling as six individually gated research areas. Gallery, commerce and remote rendering remain conditional rather than blanket exclusions.
+- Added research reporting and improved bug/workflow templates.
+- The private design set contains 48 proposed packets, 149 acceptance recipes and 12 mathematical vectors. These are not new tools or passed implementation tests.
+- No paid hosting or new backend service was provisioned.
+
 ## Hosting and identity update — 31 October 2026
 
 - Primary public address: https://framefold-psi.vercel.app/

@@ -2,14 +2,25 @@ title: ""
 body:
   - type: markdown
     attributes:
-      value: "Tell us about the creative task before proposing features. Keep private projects and personal data out of public posts."
+      value: "Start with the creative task and check FEATURES.md. Separate current observations from proposed research. Keep private artwork and personal data out of public posts."
+  - type: input
+    id: capability
+    attributes:
+      label: Related capability, if known
   - type: textarea
     id: workflow
     attributes:
-      label: What are you making, and where did you get stuck?
+      label: What are you making, and what is difficult today?
     validations:
       required: true
   - type: textarea
     id: result
     attributes:
-      label: What would make the workflow better?
+      label: What output or workflow would improve?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Safe example, alternatives or research question
+      description: State what is observed and what remains untested. No promised release date or hosted service is implied.

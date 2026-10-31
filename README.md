@@ -1,60 +1,83 @@
 # Framefold
 
-An animation workspace for trying another direction and bringing back the changes that work.
+A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Early alpha · 0.2 · Built by Ismaeel Habeeb**
+**Browser alpha 0.2 available · Specification-first development · Application source private**
 
-[Open the studio](https://framefold-psi.vercel.app/) · [Welcome thread](https://github.com/ismaeelakin/framefold-community/discussions/1) · [Report a problem](https://github.com/ismaeelakin/framefold-community/issues/new/choose)
+[Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
-![Framefold public introduction](docs/images/public-home.png)
+![Framefold 0.2 public introduction](docs/images/public-home.png)
 
-Draw, import artwork, arrange story panels and animate a scene. A proposal keeps an alternative separate from the approved scene. Review its edits, preview the combination, then accept selected changes.
+Framefold starts with a practical creative problem: trying another direction should not mean losing the working version. Make a separate proposal, compare it with the current scene and bring back selected edits. The current alpha does this with local files and basic 2D motion. The longer-term program includes hand-drawn animation, connected 2D/3D production and research into meaningful review of geometry changes.
 
-## Try it with someone
+## Available now
 
-1. Open the studio and explore the original sample, *The afternoon post*.
+| Work                   | What the alpha supports                                                                             |
+| ---------------------- | --------------------------------------------------------------------------------------------------- |
+| Make artwork           | Basic sketch layers, shapes and imported PNG/JPEG/WebP artwork                                      |
+| Animate a scene        | 960 × 540, 24 fps, ten seconds; position, rotation, uniform scale and opacity with linear keyframes |
+| Plan a story           | A first scene and up to twelve additional panels, holds, captured poses and animatic preview        |
+| Explore an alternative | Independent proposals, synchronized comparisons, selected changes and explicit conflict choices     |
+| Keep editable work     | Browser-local saves, downloaded project files and portable proposal exchange                        |
+| Deliver an output      | Still PNG, storyboard contact sheet and real-time silent WebM recording of one scene                |
+
+Moving a character illustration is not skeletal or frame-by-frame character animation. The alpha has no cels, easing editor, audio timeline, native 3D, full-sequence video export, accounts, hosted projects or in-app invitations. WebM recording can vary under load. Browser storage is not a backup service.
+
+All screenshots here show the released **0.2 alpha**, not future features.
+
+## Try a selective review
+
+1. Open the studio and the original sample, _The afternoon post_.
 2. Review **A quicker delivery**. Keep the courier's position change and leave its rotation changes out.
-3. Start your own blank project. Draw, import a PNG/JPEG/WebP, or add a shape.
-4. Download the editable project and send it to a collaborator through your usual channel.
-5. They open the same project, create a proposal, make edits and return the **Share proposal file** download.
-6. Open that proposal in your original project, compare it and choose what to accept.
+3. Preview and apply your selection. The main scene gets the movement without the proposed rotation.
+4. Download the project. For collaboration, send that file through your usual channel; your collaborator returns a proposal file for you to review.
 
-[Full first-session guide](GETTING_STARTED.md)
+[Follow the complete guide](GETTING_STARTED.md) · [Use the testing checklist](TESTING.md)
 
-![The editing workspace](docs/images/editor.png)
+![The current 2D editing workspace](docs/images/editor.png)
 
-## What you can use today
+![Selected-change review in the current alpha](docs/images/review.png)
 
-| Area | Available in the alpha |
-| --- | --- |
-| Artwork | Basic sketch layers; embedded PNG, JPEG and WebP imports |
-| Motion | Ten-second scenes; position, rotation, scale and opacity; linear keyframes |
-| Story | Additional panels, panel holds, animatic preview and contact-sheet PNG export |
-| Review | Separate proposals, side-by-side previews, selected changes and explicit conflict choices |
-| Files | Local saving, editable project files and portable proposal exchange |
-| Export | Still PNG and browser-recorded WebM for an individual scene |
+## Where the product is going
 
-This is a desktop-first alpha. It does not yet have accounts, live multiplayer sessions, cloud project storage, native 3D editing, advanced painting tools or full-sequence video export. Keep downloaded backups of important work.
+The intended product connects **creation, alternatives, review and delivery**. These directions are in the sequence; they are not released capabilities or guaranteed research outcomes.
 
-## How the parts fit
+| Direction                       | Intended result                                                                             | Status                                                         |
+| ------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Reliable local production       | Recoverable projects, dependable timing and useful finished exports without a cloud account | Foundation work is specified; implementation gate remains open |
+| Efficient editable alternatives | Explore branches without copying every asset or losing the original                         | Proposed local foundation                                      |
+| Motion-aware review             | Inspect timing, trajectories and poses rather than changed numbers alone                    | Planned, with comprehension testing                            |
+| Hand-drawn animation            | Cels, exposures, onion skins, sound and complete shot sequences                             | Planned in separate releases                                   |
+| Connected 2D/3D work            | Carry a shot from storyboard to 3D staging to drawn finishing                               | Conditional research                                           |
+| Selective 3D review             | Accept meaningful geometry/material/camera changes with explicit dependencies and conflicts | Conditional research                                           |
+| Full 3D modelling               | Direct mesh editing, modifiers, sculpting, retopology, UVs and materials                    | Separate research gates for each area                          |
 
-![Public product architecture](docs/architecture.svg)
+[Complete capability register](FEATURES.md) · [Research and conditions](RESEARCH.md)
 
-The browser edits and renders your project. Project and proposal files carry artwork and structured scene changes between people. GitHub hosts the public conversation, bug reports and roadmap. The implementation stays in a separate private repository.
+## The current development gate
 
-This public hub contains documentation and approved screenshots, not the application source. GitHub permits forks of public repositories, including this hub. Private implementation is not made public by participating here. Browser-delivered application code can still be inspected.
+**Specification review comes before further feature coding.** The private engineering set contains 48 proposed capability packets, 149 acceptance recipes and 12 mathematical vectors. Each packet addresses data, interactions, algorithms, limits, failure handling, dependencies and evidence required for release. These counts describe planning coverage, not working features or passing tests.
 
-## Join in
+Archive, codec/muxer, geometry-kernel, device-budget and hosted-service decisions remain open. The next steps are to resolve the relevant designs, prepare real fixture assets and then run three current-alpha creative probes. [Read how features enter a release](SPECIFICATION.md).
 
-- **Questions and work in progress:** [Discussions](https://github.com/ismaeelakin/framefold-community/discussions)
-- **Reproducible problems:** [Issues](https://github.com/ismaeelakin/framefold-community/issues/new/choose)
-- **Workflow improvements:** [Feature requests](https://github.com/ismaeelakin/framefold-community/issues/new?template=feature_request.yml)
-- **Documentation fixes:** Pull requests to this repository are welcome.
+## Architecture and ownership
 
-Read [contributing](CONTRIBUTING.md), the [community rules](CODE_OF_CONDUCT.md), [roadmap](ROADMAP.md), [privacy notes](PRIVACY.md) and [release notes](CHANGELOG.md).
+![Current system and proposed development boundaries](docs/architecture.svg)
 
-Please share only artwork you own or have permission to share. Public comments, issues and attachments are visible to everyone. Never upload private projects or credentials.
+Today, editing and rendering happen in the browser. People exchange project/proposal files themselves. GitHub hosts the public documentation and discussion; it is not a project-storage or animation-review backend. [Architecture and limits](docs/ARCHITECTURE.md)
 
-No adoption, performance-at-scale, investment or release-date claims are made. The working name has not been trademark-cleared.
+The operating constraint is **zero hosting spend**. Local creation/export must remain useful without a service account. Hosted storage, invitations, GitHub feedback sync and audience playback links are conditional on viable free allocations and enforceable limits. There is no promise of unlimited media delivery or free global scale. [Budget rules](docs/ARCHITECTURE.md#zero-spend-boundary)
 
-The license in this repository covers its documentation and screenshots. It does not license the privately maintained studio implementation, the brand or artwork supplied by other people.
+This is a public documentation and community repository, not the application source. GitHub permits forks of public repositories, including this one. Private source access is separate, and browser-delivered application code can still be inspected. The repository licence does not grant rights to the private implementation or third-party artwork.
+
+## Participate
+
+- [Discussions](https://github.com/ismaeelakin/framefold-community/discussions): artist workflows, questions and work you can safely share.
+- [Bug reports](https://github.com/ismaeelakin/framefold-community/issues/new?template=bug_report.yml): reproducible failures in the released alpha.
+- [Workflow requests](https://github.com/ismaeelakin/framefold-community/issues/new?template=feature_request.yml): the task and outcome a feature should support.
+- [Research proposals](https://github.com/ismaeelakin/framefold-community/issues/new?template=research_proposal.yml): a bounded experiment with evidence and a stop condition.
+- Documentation pull requests: corrections, clearer guides and reproducible public examples.
+
+Read [contributing](CONTRIBUTING.md), [community rules](CODE_OF_CONDUCT.md), [privacy](PRIVACY.md), [security](SECURITY.md) and [release notes](CHANGELOG.md). Public attachments can be read by anyone; share only material you have permission to publish.
+
+Maintained by [Ismaeel Habeeb](https://github.com/ismaeelakin). No release date, adoption, investment or acquisition is guaranteed. Framefold remains a working name.

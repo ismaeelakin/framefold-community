@@ -1,21 +1,33 @@
 # Contributing
 
-This repository is the public home for Framefold documentation, feedback and product discussion. The studio implementation is maintained privately.
+Framefold's public community covers documentation, artist workflows, feedback and research discussion. The application source and full engineering specification set are maintained privately.
 
-## Start with the problem
+## Choose the right route
 
-Use Discussions for questions, workflows and work in progress. Use Issues for reproducible bugs or a focused feature request. Describe what you were trying to make, what happened and how it affected the work. A small example is more useful than a broad feature list.
+| Contribution                                              | Where it belongs           |
+| --------------------------------------------------------- | -------------------------- |
+| A reproducible problem in alpha 0.2                       | Bug report                 |
+| An artist task or useful result the tool does not support | Workflow request           |
+| A bounded technical/product experiment                    | Research proposal          |
+| Questions, observations and safe work in progress         | Discussions                |
+| Corrections to these public documents                     | Documentation pull request |
 
-Search for an existing conversation before starting another. Add a comment if you have different reproduction steps, a relevant example or a practical constraint.
+Search existing threads first. Reference a capability ID from [FEATURES.md](FEATURES.md) where relevant. A planned or research feature is not a released capability; say which behaviour you actually observed.
+
+## Specification-first development
+
+The active gate is [specification review](SPECIFICATION.md). All known capabilities have proposed packets; research and exact production decisions remain open. Useful contributions include missing failure cases, schema/interaction contradictions, licensed minimal examples, algorithm comparisons and clearer acceptance criteria.
+
+For research, state hypothesis, alternatives, reproducible inputs, measurements and a stop condition. Do not invent users, benchmarks or conclusions. Suggesting a feature does not commit the project to deliver it. No paid infrastructure is authorized.
 
 ## Documentation pull requests
 
-Small corrections can be proposed directly. For larger changes, discuss the intended change first. Keep statements consistent with the released product, use plain language and avoid publishing confidential work. Include screenshots only when you have permission to share them.
+Keep changes focused and use plain language. Separate current behaviour from planned scope. Update related links, capability IDs and dates when necessary. Images must show the actual released version and have permission to be published; concept images must be labelled as concepts, never release screenshots.
 
-Code access is not required to report problems, test the studio, suggest workflows or improve these guides. Public participation does not automatically grant private-source access or a maintainer role.
+This repository does not build the studio. Do not upload private implementation, credentials, private design packets or confidential artwork here. Public participation does not automatically grant application-source access, project membership or a maintainer role.
 
-## Test with a collaborator
+## Testing
 
-Follow GETTING_STARTED.md with a person you already work with. Record the browser and version, the task, where you got stuck, what you expected and whether you could complete the scene. Do not invent usage or performance numbers.
+Follow [GETTING_STARTED.md](GETTING_STARTED.md) and [TESTING.md](TESTING.md) with disposable files. Keep backups and record the browser/task/result. Do not post another person's work without permission. GitHub participation is separate from manually exchanging private project files.
 
-There is no guaranteed response time. The maintainer may combine duplicate requests or decline work outside the current direction.
+There is no guaranteed response time, bounty, employment offer or release date. Maintainers may combine duplicates, request evidence, defer research or decline a proposal. See [community rules](CODE_OF_CONDUCT.md), [privacy](PRIVACY.md) and [security](SECURITY.md).

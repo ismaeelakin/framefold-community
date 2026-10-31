@@ -1,0 +1,43 @@
+name: Propose a research experiment
+description: A bounded experiment for a documented uncertainty
+title: "[Research] "
+labels: [research]
+body:
+  - type: markdown
+    attributes:
+      value: "Read RESEARCH.md and SPECIFICATION.md. This is an experiment proposal, not a claim of a solved algorithm or a request for private-source access. Share only safe, permitted material."
+  - type: input
+    id: capability
+    attributes:
+      label: Capability or research question
+      placeholder: "For example: C33 topology review"
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Artist task and hypothesis
+      description: What would improve, and what is currently unknown?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or baseline
+      description: What simpler method will this be compared against?
+    validations:
+      required: true
+  - type: textarea
+    id: experiment
+    attributes:
+      label: Inputs, procedure and measurements
+      description: Specify a small safe fixture, device/browser context, expected outputs and correctness checks.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Success, failure and stop conditions
+      description: What evidence would support adoption, revision or deferral? State resource and licence considerations. Hosting spend must remain zero.
+    validations:
+      required: true

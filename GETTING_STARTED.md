@@ -1,5 +1,7 @@
 # Your first Framefold session
 
+This guide describes released **alpha 0.2**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
 ## First, try the sample
@@ -32,3 +34,9 @@ Download project files regularly. Browser storage can fill up, be disabled or be
 PNG exports the current frame without selection guides. WebM records one ten-second scene in real time, with no audio; keep the tab visible. Storyboard PNG exports a contact sheet. The animatic preview is not a full-sequence video export.
 
 If a step fails, use [the bug template](https://github.com/ismaeelakin/framefold-community/issues/new?template=bug_report.yml). Use a small, non-confidential reproduction.
+
+## What your audience receives
+
+A PNG is a still image. A contact sheet presents story panels together. A scene WebM is a silent short video that needs a compatible player; recording may vary under device load. A project/proposal file is editable source for another Framefold user, not an audience playback link.
+
+There is no hosted gallery, public player page, audio timeline, frame-by-frame cel editor or native 3D tool in this release. To evaluate the actual output before proposing improvements, use [the creative probes](TESTING.md). The broader direction is in [the roadmap](ROADMAP.md).

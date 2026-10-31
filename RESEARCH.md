@@ -1,0 +1,56 @@
+# Research and conditional features
+
+These directions remain in the product vision. Their conditions determine whether a bounded implementation is admitted; inclusion does not establish technical success or market demand.
+
+## Selective 3D change review · C33
+
+Intended outcome: keep a material or silhouette improvement without accepting unrelated camera or topology changes. Investigate stable element identities, operation provenance, dependency closure and geometry validation. Begin with independent operations and explicitly reject ambiguous overlapping topology edits.
+
+Evidence: valid results for controlled mesh branches, visible conflicts for deletion versus extrusion, and artists correctly understanding what they accept. If correspondence or comprehension fails, keep whole-asset replacement review while revising the design. Arbitrary automatic mesh merging is not promised.
+
+## Efficient editable alternatives · C34
+
+Intended outcome: branch a design without copying every raster/mesh asset. Investigate immutable revisions, content-addressed assets, recovery and safe garbage collection. Evidence includes independent branches, interrupted saves and shared assets surviving branch deletion. No storage optimization may erase the last recoverable version.
+
+## Connected 2D and 3D production · C35
+
+Intended outcome: storyboard, stage in 3D, then finish with drawings in a linked shot. Research pinned cameras/revisions, shared frame mapping and stale-reference notices. Evidence is a complete shot whose drawn work survives source-camera changes. There is no automatic sketch-to-3D reconstruction promise.
+
+## Motion-aware review · C36
+
+Intended outcome: understand changes through synchronized playback, trails and poses. Research whether overlays help decisions compared with ordinary side-by-side playback. Pixel difference is not an artistic quality score. Overlays must remain optional and absent from finished exports.
+
+## Dependable local engine and portable projects · C37–C38
+
+Intended outcome: useful finished work, recovery and export without a service account. Measure on named devices and clean browser profiles. Test fixed-time evaluation, memory limits, corrupt/missing assets and worker/storage failures. A same-machine reopen or polished preview does not prove portability or output reliability.
+
+## Full 3D modelling · C32A–F
+
+| Area             | First bounded scope                                                                        | Condition before expansion                                                              |
+| ---------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| Direct modelling | Primitives, stable vertex/edge/face identities, selection, transforms and planar extrusion | Valid topology, exact undo, save/reopen and export                                      |
+| Modifiers        | Bounded mirror/array prototypes, then separately evaluated subdivision                     | Resource preflight, provenance and reversible baking                                    |
+| Sculpting        | Fixed-topology inflate/smooth experiments                                                  | Local latency, stable geometry and cancellation                                         |
+| Retopology       | Separate source/target meshes and bounded surface projection                               | Explicit failures and preserved originals; automatic retopology needs separate evidence |
+| UV editing       | Direct island edits and simple projections                                                 | Per-corner seams, distortion diagnostics and interchange fixtures                       |
+| Materials        | A declared material subset and texture assignments                                         | Preview/export agreement and correct colour/data interpretation                         |
+
+Full-suite parity has no promised date. General booleans, dynamic remeshing, advanced physics and arbitrary shader graphs require new child specifications before admission. A small successful mesh prototype is not a complete modelling suite.
+
+## Rigs, live editing and interchange · C26–C29
+
+Rigs need rest/pose separation, stable skinning, constrained solvers and honest nonconvergence. Live editing needs real identities, partitions, duplicate delivery, reconnect behaviour and explicit creative conflicts. Interchange needs a declared supported subset, loss reports and tests in target applications. These are separate experiments, not checkboxes satisfied by adding a library.
+
+## Hosted and commercial extensions · C22–C25, C30A–D
+
+Accounts, invitations, private media, GitHub sync and hosted viewing require a viable free allocation, server-enforced access, deletion rules and quota exhaustion behaviour. Galleries additionally require moderation and public-publishing consent. Marketplaces/payments require a sustainable operating model and appropriate rights/provider/legal review. Remote rendering requires explicitly funded or donated capacity; no device is volunteered for compute by using Framefold.
+
+The owner's authorized hosting spend remains zero. If conditions cannot be met, the feature stays unavailable and the local workflow remains usable. Static website delivery is not unlimited private-media storage.
+
+## Optional local assistance · C31
+
+Research is limited to a specific artist task, acceptable licences/privacy and bounded local execution. No paid inference dependency or automatic replacement of approved work. Attribution notes can record what a user claims; they cannot adjudicate legal ownership.
+
+## Proposing research
+
+State the blocked artist task, hypothesis, alternatives, safe fixture, measurements, cost ceiling and stop condition. Report failures as carefully as successes. See [the specification process](SPECIFICATION.md).

@@ -2,4 +2,10 @@ blank_issues_enabled: false
 contact_links:
   - name: Questions and creative discussion
     url: https://github.com/ismaeelakin/framefold-community/discussions
-    about: Ask a question, show a workflow or discuss the product direction.
+    about: Ask about workflows, share permitted work or discuss the direction.
+  - name: Current capability register
+    url: https://github.com/ismaeelakin/framefold-community/blob/main/FEATURES.md
+    about: Check what is released, proposed, conditional or research before reporting a missing tool.
+  - name: Security reporting
+    url: https://github.com/ismaeelakin/framefold-community/security
+    about: Use private vulnerability reporting when available; never post sensitive details publicly.
