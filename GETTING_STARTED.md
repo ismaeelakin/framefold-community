@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.2.1**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.2.2**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -31,13 +31,13 @@ Sharing is manual. The studio does not email collaborators, upload files or sync
 
 Download project files regularly. Browser storage can fill up, be disabled or be cleared. Undo history is limited and does not survive a reload. Saving pauses if another tab writes to the workspace.
 
-PNG exports the current frame without selection guides. WebM records one ten-second scene in real time, with no audio; keep the tab visible. Storyboard PNG exports a contact sheet. The animatic preview is not a full-sequence video export.
+PNG exports the current frame without selection guides. WebM renders one ten-second scene as240 frames at24fps, with no audio, using a supported browser encoder. Storyboard PNG exports a contact sheet. The animatic preview is not a full-sequence video export.
 
 If a step fails, use [the bug template](https://github.com/ismaeelakin/framefold-community/issues/new?template=bug_report.yml). Use a small, non-confidential reproduction.
 
 ## What your audience receives
 
-A PNG is a still image. A contact sheet presents story panels together. A scene WebM is a silent short video that needs a compatible player; recording may vary under device load. A project/proposal file is editable source for another Framefold user, not an audience playback link.
+A PNG is a still image. A contact sheet presents story panels together. A scene WebM is a silent short video that needs a compatible player; encoding support depends on your browser. A project/proposal file is editable source for another Framefold user, not an audience playback link.
 
 There is no hosted gallery, public player page, audio timeline, frame-by-frame cel editor or native 3D tool in this release. To evaluate the actual output before proposing improvements, use [the creative probes](TESTING.md). The broader direction is in [the roadmap](ROADMAP.md).
 
@@ -45,4 +45,10 @@ There is no hosted gallery, public player page, audio timeline, frame-by-frame c
 
 New courier captures keep their visual wheel phase fixed, including after saving and reopening. Their transforms remain editable. Share these files with Framefold **0.2.1 or newer**; earlier versions reject the new captured-layer type rather than silently animating it.
 
-Older captured panels never stored their visual capture time. Recapture at the intended pose in the current app. Ordinary earlier projects remain supported. The two observed renderer defects are resolved in 0.2.1; the wider deterministic export work remains research.
+Older captured panels never stored their visual capture time. Recapture at the intended pose in the current app. Ordinary earlier projects remain supported. The two observed renderer defects are resolved in 0.2.1; scene WebM uses fixed timestamps in0.2.2; wider sequence/export-format work remains research.
+
+## Find your way around
+
+Use **Guide** for a first movement and the vocabulary. **Layer name** in Properties commits with Enter or leaving the field; Escape cancels, blank text preserves the old name, and Undo restores the previous name. Storyboard thumbnails/contact sheets show first frames. In **Play animatic**, seek with **Animatic time** (this pauses), then Resume or Restart.
+
+Export success, cancellation and errors stay visible inside the Export dialog. An unsupported encoder offers editable project/PNG alternatives. [Open the complete Last Light example](examples/last-light/README.md) for a project you can inspect and change.

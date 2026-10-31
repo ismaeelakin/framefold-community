@@ -4,11 +4,11 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.2
+## Current system: alpha 0.2.2
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
-Persistence uses browser-local storage and downloaded JSON files. WebM is a real-time browser recording, not deterministic offline rendering. Project/proposal exchange is manual. GitHub discussions and issues are separate public community records; app feedback is not automatically synchronized there.
+Persistence uses browser-local storage and downloaded JSON files. Scene WebM uses fixed-time frame enumeration and a lazy-loaded local WebCodecs/Mediabunny muxing path. It has been decoded and timed in Chromium; broader codecs/browsers and full-sequence UI export remain pending. Project/proposal exchange is manual. GitHub discussions and issues are separate public community records; app feedback is not automatically synchronized there.
 
 The primary address is [framefold-psi.vercel.app](https://framefold-psi.vercel.app/). The old Sites address retains a working deployment for continuity. Each origin has separate local storage; download and reopen projects to move them. The old-site migration-notice update remains blocked by a source-host connection failure; no automatic redirect is in place.
 

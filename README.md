@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.2.1 available · Specification-first development · Application source private**
+**Browser alpha 0.2.2 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -19,11 +19,17 @@ Framefold starts with a practical creative problem: trying another direction sho
 | Plan a story           | A first scene and up to twelve additional panels, holds, captured poses and animatic preview        |
 | Explore an alternative | Independent proposals, synchronized comparisons, selected changes and explicit conflict choices     |
 | Keep editable work     | Browser-local saves, downloaded project files and portable proposal exchange                        |
-| Deliver an output      | Still PNG, storyboard contact sheet and real-time silent WebM recording of one scene                |
+| Deliver an output      | Still PNG, storyboard contact sheet and fixed-frame silent WebM export of one scene                 |
 
-Moving a character illustration is not skeletal or frame-by-frame character animation. The alpha has no cels, easing editor, audio timeline, native 3D, full-sequence video export, accounts, hosted projects or in-app invitations. WebM recording can vary under load. Browser storage is not a backup service.
+Moving a character illustration is not skeletal or frame-by-frame character animation. The alpha has no cels, easing editor, audio timeline, native 3D, full-sequence video export, accounts, hosted projects or in-app invitations. Fixed-frame WebM requires a supported browser encoder. Browser storage is not a backup service.
 
 All screenshots here show the released **0.2 alpha**, not future features.
+
+## Try a complete project
+
+[**Last Light**](examples/last-light/README.md) includes an editable project, the finished scene video and a three-panel storyboard. Open it, inspect the flight keys, scrub the animatic and try your own proposal. All artwork is embedded.
+
+![Last Light — an actual exported scene](examples/last-light/last-light.png)
 
 ## Try a selective review
 

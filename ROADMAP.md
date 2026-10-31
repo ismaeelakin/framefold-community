@@ -2,9 +2,9 @@
 
 Updated 31 October 2026. This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
 
-## Available: browser alpha 0.2.1
+## Available: browser alpha 0.2.2
 
-Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and real-time silent scene WebM. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. No new editor features were released by the specification update.
+Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and fixed-frame silent scene WebM. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. No new editor features were released by the specification update.
 
 ## G0 — Specification review · active
 
@@ -22,7 +22,7 @@ Frontend usability advances alongside the engine. Each released workflow needs a
 
 A future demonstration series will build one original project through creation, animation, storyboards, review, recovery and export. Each chapter needs editable checkpoints, verified output, actual released controls, captions/transcript and pause/replay. Recording and free media hosting must be verified before promising publication. These videos are planned, not currently available.
 
-The first existing-alpha primitive-motion trace has confirmed blank-project creation, two position keys and the expected midpoint. It also identified layer naming, keyframe explanations and first-action guidance for further specification. It is not a completed moving illustration or a passed delivery/reopen proof. The three creative proofs remain open.
+Last Light now completes the three bounded operator tasks: an original moving illustration, a three-panel animatic and an exchanged/selectively reviewed alternative. Actual files and outputs are preserved, including historical failures. Layer naming, first-frame posters, animatic navigation and fixed scene export were repaired from that evidence. Independent beginner/expert observation and broader browser/recovery checks remain open. [Try the project](examples/last-light/README.md).
 
 ## G2 — Reliable local foundation
 

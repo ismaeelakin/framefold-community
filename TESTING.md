@@ -1,6 +1,6 @@
 # Test the current alpha
 
-This guide concerns **released 0.2 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below are planned evaluation tasks, not claims that independent artists have completed them.
+This guide concerns **released 0.2.2 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
 
 ## Before a session
 
@@ -8,7 +8,7 @@ Use a desktop browser and a disposable project. Download any existing work befor
 
 ## Probe 1: moving illustration
 
-Create a blank project, import two safe images or draw a simple composition, change position/rotation/scale/opacity at several times and preview. Download the project, reopen it, export PNG and record a scene WebM.
+Create a blank project, import two safe images or draw a simple composition, change position/rotation/scale/opacity at several times and preview. Download the project, reopen it, export PNG and export a fixed-frame scene WebM.
 
 Record whether the artwork was selectable, movement matched the intended keys, reopened work matched the saved version and the output played correctly. Check dimensions and visible timing; do not treat a completed download as proof of video quality. This is layer motion, not generated walk cycles or rigged character animation.
 
@@ -33,3 +33,7 @@ Include the task, smallest safe reproduction, expected result, observed result, 
 ## Future release evidence
 
 Later specifications require fixture hashes, exact source/browser versions, timing/frame-count checks, clean-device portability, measured resource use, cancellation and failure injection. Hosted features additionally require separate-identity authorization tests. None is considered passed just because it is listed here.
+
+## 0.2.2 checks to repeat
+
+Try layer naming with Enter, Escape and Undo. Seek an animatic across a hold boundary and restart. Export a scene: check240 decoded frames and10-second duration with compatible tooling; an unsupported browser should show save/PNG alternatives. Cancel an export and confirm that it returns a visible cancellation message without a completed download. These are reproducible checks, not claims that every browser has passed.

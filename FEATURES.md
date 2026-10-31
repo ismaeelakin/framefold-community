@@ -20,12 +20,12 @@ The phase column is a dependency sequence, not a release date. G2 entries for ex
 | C03  | Story panels and contact sheets                                 | Available in 0.2; future compatibility changes proposed             | G2    |
 | C04  | Selective proposal review                                       | Available in 0.2; future compatibility changes proposed             | G2    |
 | C05  | Legacy saving and exchange compatibility                        | Available in 0.2; future compatibility changes proposed             | G2    |
-| C06  | Existing still and browser-recorded exports                     | Available in 0.2; future compatibility changes proposed             | G2    |
-| C07  | Layer management and selection                                  | Proposed implementation                                             | G2    |
+| C06  | Still PNG and fixed-frame scene WebM                            | Available in0.2.2; browser matrix remains limited                   | G2    |
+| C07  | Layer management and selection                                  | Rename available in0.2.2; remaining management proposed             | G2    |
 | C08  | Timeline tools and easing                                       | Proposed implementation                                             | G2    |
 | C09  | Drawing tools and viewport                                      | Proposed implementation                                             | G2    |
 | C10  | Durable local storage and portable packages                     | Proposed implementation                                             | G2    |
-| C11  | Fixed-time rendering and complete animatic export               | Proposed implementation                                             | G2    |
+| C11  | Fixed-time rendering and complete animatic export               | Scene WebM available; full-sequence video remains research          | G2    |
 | C12  | Scene presets and limits                                        | Proposed implementation                                             | G3    |
 | C13  | Parent transforms and pivots                                    | Proposed implementation                                             | G3    |
 | C14  | Paths, masks and compositing                                    | Proposed implementation                                             | G3    |
@@ -66,7 +66,7 @@ The phase column is a dependency sequence, not a release date. G2 entries for ex
 
 ## Important boundaries
 
-- Current exports are PNG/contact sheets and a silent real-time scene WebM. Fixed-time encoded output and full-sequence export are proposed.
+- Current exports are PNG/contact sheets and silent fixed-frame scene WebM on supported encoders. Complete animatic video remains research and is not an editor feature.
 - Current proposals compare supported 2D scene changes. Topology-aware 3D review is research, not an existing merge engine.
 - The full 3D program is C32, with separately gated C32A–F. It is preserved in the vision rather than permanently excluded.
 - C30 is an umbrella for conditional gallery, commerce and render services; C30A–D must pass independently.

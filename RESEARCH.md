@@ -76,3 +76,11 @@ The primitive-motion source was downloaded through Save project, then opened usi
 PNG and WebM files exported from that reopened project were retrieved and decoded. The still is960×540 and was visually checked without selection guides. Video samples show the expected left-to-right motion. **Measured WebM duration:9.746828s for a nominal10s scene**, a0.253172s shortfall. The broad media sanity checks do not establish frame-accurate timing. This known real-time-export limitation remains part of C11's deterministic delivery work.
 
 Actual editable source, PNG, WebM, browser measurements and hashes are retained privately. The moving rectangle is a workflow exercise; the finished moving illustration, storyboard animatic and reviewed-alternative proofs remain open. No new application feature or paid service was introduced.
+
+## Last Light and fixed-video result — 0.2.2
+
+The three bounded operator tasks now have actual files: original moving illustration, three-panel animatic and separate-origin proposal exchange with an intervening owner conflict. Applying only the resolved Y change retained rotation and left panels intact. The downloaded result reopened/resaved semantically identical. Eleven actual-source assertions pass; a separate drawing/shape proposal leaves approved main unchanged.
+
+The historical WebMs ran9.571587/9.653675s and the opening-frame probe failed; those artifacts remain retained privately. They triggered a pinned local WebCodecs/muxer experiment. Six encoding/failure-path checks pass, and the actual replacement editor download has240 packets,240 decoded frames,960×540 and10s native duration (1ms timestamp tolerance). Actual UI Cancel produced a visible confirmation and no download during an8s observation. Unsupported capability is an injected provider test, not proof of another browser.
+
+Only fixed **scene** WebM is released. The192-frame/eight-second animatic encoder stays research. No MP4, audio, long-form or cross-browser promise. [Try the complete sample](examples/last-light/README.md). No full navigation video has been recorded yet.

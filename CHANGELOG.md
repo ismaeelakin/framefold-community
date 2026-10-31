@@ -1,5 +1,15 @@
 # Release notes
 
+## 0.2.2 — 31 October 2026
+
+- Fixed-frame scene WebM replaces the imprecise real-time recorder:240 frames at24fps, ten-second decoded duration in the tested Chromium browser.
+- Visible export success/cancel/error status and actionable unsupported-encoder fallback.
+- Editable layer names with commit/cancel and undo; first-frame storyboard posters using the established fonts.
+- Animatic seek/restart controls, with seeking pausing playback.
+- Completed the bounded Last Light operator proofs; downloadable project, actual scene video and contact sheet are public.
+- Eleven actual-source assertions, six encoding/failure-path checks and six actual-editor decode checks pass. Independent artist usability and other browsers remain unverified.
+- Full-sequence video remains a private experiment. The navigation demo has not been recorded.
+
 ## 0.2.1 — 31 October 2026
 
 - Isolated canvas drawing state so repeated rendering no longer carries styles between calls.
@@ -7,7 +17,6 @@
 - Kind and capture phase are reviewed together; replacement preserves layer order.
 - Added captured-file compatibility guidance: use 0.2.1 or newer. Older captures need recapturing because they did not store their phase.
 - Verification: 23 model tests and 12 bounded browser render checks pass; 464 PNGs were written, reopened, decoded and hash-checked. The research PNG-sequence harness is not a released export tool.
-
 
 ## Fixed-frame PNG research — 31 October 2026
 
