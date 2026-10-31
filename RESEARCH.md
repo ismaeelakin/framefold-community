@@ -30,6 +30,14 @@ An isolated local prototype passed eight checks in Chromium 155: database reopen
 
 This supports further work on the transaction/revision design, not a claim that the editor has migrated. Quota failure was injected; editor dirty state was simulated. Actual storage exhaustion/eviction, power loss, separate-profile file recovery, broad browser support and production UI integration remain unverified. The experiment is not included in the public app build.
 
+### Fixed-frame PNG experiment — 31 October 2026
+
+The isolated trial wrote, reopened, decoded and hash-verified **464 PNGs**: 240 scene frames, 144 animatic frames and 80 partial frames from a controlled cancellation. Eight checks passed; two renderer/capture defect probes failed. Frame counts, timestamps, panel boundaries and partial-output status were checked. Sampled pixel comparisons used a documented, measured tolerance of at most four changed channels per image, each differing by at most one colour level.
+
+The defects remain open: [canvas state carried between render calls](https://github.com/ismaeelakin/framefold-community/issues/2) and [captured courier wheel motion remaining animated](https://github.com/ismaeelakin/framefold-community/issues/3). Initial failed trials and the diagnostic measurements were preserved privately. A caller-isolation wrapper was used only in the research exporter; the live app is unchanged.
+
+This is not encoded video, a production exporter, a long-form performance claim or cross-browser validation. Repairing these defects with compatibility/regression evidence is the next priority before production promotion.
+
 ## Full 3D modelling · C32A–F
 
 | Area             | First bounded scope                                                                        | Condition before expansion                                                              |

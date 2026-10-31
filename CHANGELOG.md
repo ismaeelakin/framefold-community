@@ -1,5 +1,9 @@
 # Release notes
 
+## Fixed-frame PNG research — 31 October 2026
+
+The isolated trial verified 464 PNG files and recorded eight passing checks plus two failing renderer/capture probes. The failures remain tracked and block production promotion. No new export feature is live. See [research results and limitations](RESEARCH.md#fixed-frame-png-experiment--31-october-2026).
+
 ## Local-storage research result — 31 October 2026
 
 An isolated browser prototype passed eight bounded transaction/recovery checks, including two-tab conflict handling. This is research evidence, not a new alpha feature or a completed migration. See [the result and limitations](RESEARCH.md#storage-experiment--31-october-2026).

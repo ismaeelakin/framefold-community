@@ -40,3 +40,7 @@ If a step fails, use [the bug template](https://github.com/ismaeelakin/framefold
 A PNG is a still image. A contact sheet presents story panels together. A scene WebM is a silent short video that needs a compatible player; recording may vary under device load. A project/proposal file is editable source for another Framefold user, not an audience playback link.
 
 There is no hosted gallery, public player page, audio timeline, frame-by-frame cel editor or native 3D tool in this release. To evaluate the actual output before proposing improvements, use [the creative probes](TESTING.md). The broader direction is in [the roadmap](ROADMAP.md).
+
+## Known capture limitation
+
+The original courier sample can retain animated wheel spokes after **Capture current pose**. Use a still PNG when you need a strictly static image. [The capture defect](https://github.com/ismaeelakin/framefold-community/issues/3) and [render-consistency investigation](https://github.com/ismaeelakin/framefold-community/issues/2) are tracked; they are not fixed by the research export experiment.
