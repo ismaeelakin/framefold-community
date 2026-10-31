@@ -1,0 +1,15 @@
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: "Tell us about the creative task before proposing features. Keep private projects and personal data out of public posts."
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What are you making, and where did you get stuck?
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What would make the workflow better?

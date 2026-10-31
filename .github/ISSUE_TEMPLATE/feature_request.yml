@@ -1,0 +1,25 @@
+name: Suggest a workflow improvement
+description: Explain a creative task the studio should handle better
+title: "[Idea] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to make?
+      description: Describe the task and who you work with.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Where does the current workflow get in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a useful result look like?
+      description: Describe the outcome. A specific implementation is optional.
+    validations:
+      required: true

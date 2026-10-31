@@ -1,0 +1,39 @@
+name: Report a problem
+description: A reproducible problem in the Framefold browser alpha
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Use a small non-confidential example. Do not upload private artwork, credentials or personal data."
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: Browser name, version and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Start from a fresh sample or describe the smallest project that reproduces it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional screenshot or safe example
+      description: Check that any attachment is safe to publish.
