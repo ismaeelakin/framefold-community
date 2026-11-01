@@ -2,7 +2,7 @@
 
 Updated 31 October 2026. This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
 
-## Available: browser alpha 0.4.0
+## Available: browser alpha 0.5.0
 
 Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and fixed-frame silent scene/storyboard WebM, duplicate/remove/fit layer commands and individual add/remove/move keys. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. No new editor features were released by the specification update.
 
@@ -71,3 +71,7 @@ C30A–D preserve public discovery, a marketplace, payments and remote rendering
 ## Manual library admission
 
 0.4.0 adds explicit IndexedDB snapshots, checkpoint recovery as a new entry, reversible archives and matching-workspace continuation. Fourteen actual adapter checks, three delayed React scenarios and eight source-artifact assertion groups pass on one Chromium browser. Actual editor checks include two-tab conflicts and project-switch Undo. Full automatic migration, external assets, ZIP packages and retention/GC remain separate gates.
+
+## Canvas navigation admission
+
+0.5.0 adds session-only zoom/pan, Fit scene, keyboard pan directions and safe pointer cancellation. Actual fitted/double input and unchanged-output checks pass alongside nine controlled React gesture checks. Smoothing, pressure, erasing, native 3D and broader device-performance work retain their own gates.

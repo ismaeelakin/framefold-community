@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.4.0 available · Specification-first development · Application source private**
+**Browser alpha 0.5.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -38,6 +38,12 @@ Duplicate or remove layers, fit still artwork, enter an exact frame and add/remo
 ![Individual key controls in the actual 0.3.0 editor](docs/images/editing-controls.png)
 
 The complete approved storyboard can now be delivered as a silent WebM. [Download the eight-second Last Light storyboard](examples/last-light/last-light-storyboard.webm). The tested maximum is thirteen panels /130 seconds; ten-second individual scenes are unchanged.
+
+## Look closer, keep the scene intact
+
+Use View zoom and Pan view to inspect details. Fit scene returns to the whole composition. Navigation changes the view only: artwork, keys and full-scene exports remain intact. Escape cancels unfinished input.
+
+![Zooming into the actual artwork in the editor](docs/images/canvas-view.png)
 
 ## Keep more than one project
 

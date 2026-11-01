@@ -4,7 +4,7 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.4.0
+## Current system: alpha 0.5.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
@@ -40,3 +40,7 @@ Provider references, checked 31 October 2026: [Vercel Hobby](https://vercel.com/
 ## Public and private material
 
 This repository contains public documentation, approved screenshots and community templates. Implementation source and full engineering packets remain private. Public participation does not grant access to private projects. Public repositories can be forked; the source privacy boundary is the separate private application repository.
+
+## Canvas view boundary
+
+View pan/zoom is session state and does not enter project files. Input maps through the transformed canvas rectangle once. One primary pointer owns artwork input; cancellation discards unfinished work. Resulting scene edits are validated before committing. Export uses the full scene renderer and ignores viewport cropping.

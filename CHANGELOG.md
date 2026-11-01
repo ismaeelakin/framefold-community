@@ -1,5 +1,14 @@
 # Release notes
 
+## 0.5.0 — 1 November 2026
+
+- Canvas view zoom, pan, keyboard directions and Fit scene. Navigation leaves artwork, keys and exports unchanged.
+- Pointer ownership, Escape/capture cancellation, final stroke endpoints and rejection of excess samples without truncated commits.
+- Coordinate and key-cap validation preserves readable project files. Narrow headers keep Save/Export within reach.
+- Forty model tests, nine controlled React gesture checks and eight actual-artifact assertion groups pass. Actual fitted/double movement and unchanged PNG/source files are recorded.
+
+Format2 remains unchanged. Pressure/smoothing/erasers and broader device performance remain future work. No navigation demo was recorded.
+
 ## 0.4.0 — 31 October 2026 local / 1 November UTC
 
 - Manual local project library: named work, checkpoints, recovery copies and reversible archives, separate from automatic workspace saving.
@@ -17,7 +26,7 @@ Format2 and JSON interchange remain compatible. Full autosave migration, externa
 - Validated hex colour entry and repaired picker commits.
 - Fixed a history snapshot bug found during accepted layer deletion; actual downloads verify Undo/Redo and independent edits. Format2 remains compatible.
 
-No navigation walkthrough was recorded. Audio, cels, longer shots, native3D and hosted collaboration remain future work. This is bounded operator verification, not independent artist adoption.
+No navigation walkthrough was recorded. Audio, cels, longer shots, native 3D and hosted collaboration remain future work. This is bounded operator verification, not independent artist adoption.
 
 ## 0.2.2 — 31 October 2026
 

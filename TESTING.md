@@ -1,6 +1,6 @@
 # Test the current alpha
 
-This guide concerns **released 0.4.0 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
+This guide concerns **released 0.5.0 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
 
 ## Before a session
 
@@ -51,3 +51,9 @@ Save a project to Library, edit it and save a checkpoint. Open the earlier check
 Use two browser tabs to open the same library entry. Save different edits from each: the second stale save must be rejected. Keep it as a new copy and verify the first entry is unchanged. Download a checkpoint and open it on another origin or browser. Closing a library while an operation finishes must not unexpectedly replace newer work.
 
 Current evidence is bounded operator testing in one Chromium browser, with injected quota failure and controlled promise-delivery latency. Power loss, actual disk exhaustion and broad browser support are not established. No demo recording was made.
+
+## 0.5.0 view checks to repeat
+
+Zoom and pan, then save the project and export a frame: source and full-scene output must stay unchanged. Move/draw at fitted and double zoom. Pan while Draw is selected must not add a stroke. Release a stroke outside the canvas, then draw another. Escape and pointer cancellation must not commit unfinished artwork.
+
+Current evidence includes actual mouse/file checks, nine synthetic React handler checks and eight stored-artifact assertion groups. Synthetic capture is explicitly shimmed in its private harness; it does not prove stylus feel, OS capture failures or latency. Narrow 319px layout was checked for reachable Save/Export, not mobile drawing quality.

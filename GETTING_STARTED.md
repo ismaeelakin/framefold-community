@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.4.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.5.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -72,3 +72,11 @@ Inspect a card to see saved checkpoints. **Open saved project** asks you to keep
 After reload, the automatic workspace is separate from the library. If its content matches a saved entry, **Continue saved project** reconnects it without another copy. If another tab saved the same entry, a stale save is rejected. Open the current version or save your alternative as a new library copy. Downloads remain available.
 
 Limits: 20 entries including archived work, 10 checkpoints per entry,8 MiB per snapshot and 64 MiB total logical snapshot data. No automatic eviction. Browser quota may be lower. Download files to move between the Vercel/Sites addresses or other browsers.
+
+## Zoom and pan the canvas
+
+**View zoom** runs from 25% to 800% of the fitted scene. 100% means fitted to the workspace, rather than one screen pixel per artwork pixel. Choose **Pan view**, then drag or use its direction buttons. **Fit scene** centres the whole composition again. At 100% or smaller, the scene stays centred.
+
+View controls do not move layers, create keys or crop exports. Use Select/Draw for artwork. Escape cancels an unfinished drawing or object drag; losing pointer capture or switching scene/tool/time also cancels unfinished input. A completed stroke is one Undo step.
+
+If a drawing on a very small layer scale exceeds supported coordinates, it is rejected without changing source. Use a new drawing layer or a larger layer scale. Save/Export now wrap within narrow headers; desktop remains the primary editing layout.
