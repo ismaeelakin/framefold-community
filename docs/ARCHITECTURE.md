@@ -4,13 +4,13 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.3.0
+## Current system: alpha 0.4.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
-Persistence uses browser-local storage and downloaded JSON files. Scene and approved-storyboard WebM use fixed-time frame enumeration and a lazy-loaded local WebCodecs/Mediabunny muxing path. It has been decoded and timed in Chromium; broader codecs/browsers and longer sequence tools remain pending. The storyboard UI exports up to3,120 frames/130seconds using approved panel holds; exact boundary samples have been checked. Project/proposal exchange is manual. GitHub discussions and issues are separate public community records; app feedback is not automatically synchronized there.
+Persistence keeps the legacy automatic localStorage workspace and a separate explicit IndexedDB library. Atomic checkpoint/head transactions compare generation and content fingerprint; stale saves fail. Recovery creates another entry and archives are reversible. JSON downloads remain portable. Scene and approved-storyboard WebM use fixed-time frame enumeration and a lazy-loaded local WebCodecs/Mediabunny muxing path. It has been decoded and timed in Chromium; broader codecs/browsers and longer sequence tools remain pending. The storyboard UI exports up to3,120 frames/130seconds using approved panel holds; exact boundary samples have been checked. Project/proposal exchange is manual. GitHub discussions and issues are separate public community records; app feedback is not automatically synchronized there.
 
-The primary address is [framefold-psi.vercel.app](https://framefold-psi.vercel.app/). The old Sites address retains a working deployment for continuity. Each origin has separate local storage; download and reopen projects to move them. The old-site migration-notice update remains blocked by a source-host connection failure; no automatic redirect is in place.
+The primary address is [framefold-psi.vercel.app](https://framefold-psi.vercel.app/). The old Sites address retains a working deployment for continuity. Each origin has separate local storage; download and reopen projects to move them. The old-site migration notice and current releases are synchronized; there is no automatic redirect.
 
 ## Proposed local engine
 
@@ -21,7 +21,7 @@ The primary address is [framefold-psi.vercel.app](https://framefold-psi.vercel.a
 - Bounded rendering jobs with cancellation, format checks and resource preflight.
 - Optional 3D geometry, rigging and shot bridges, admitted through research gates.
 
-These are design boundaries. IndexedDB migration, fixed-time encoded video, the 3D kernel and their libraries are not implemented or selected merely by this plan.
+Remaining design boundaries include automatic workspace migration, externalized assets, full archives and the 3D kernel. A bounded manual IndexedDB library and fixed-time WebM are already released; their existence does not complete the full future architecture.
 
 ## Optional services
 

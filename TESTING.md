@@ -1,6 +1,6 @@
 # Test the current alpha
 
-This guide concerns **released 0.3.0 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
+This guide concerns **released 0.4.0 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
 
 ## Before a session
 
@@ -43,3 +43,11 @@ Try layer naming with Enter, Escape and Undo. Seek an animatic across a hold bou
 Duplicate/remove a layer in a proposal, then review and accept only that change. One Undo must restore the approved layer; Redo reapplies it. Check shared artwork survives. Fit a still imported image and reopen the saved project. Add a key, move it to an empty frame, cancel a collision and explicitly replace a destination. Remove a final key and confirm its pose stays constant. Imported off-grid keys must not move until requested.
 
 Try picker and hex colours on an empty scene; invalid hex text must not change source. Cancel a long storyboard export, then save and reopen the unchanged project. Supported-browser evidence currently covers one Chromium browser, not universal codec support or peak memory guarantees.
+
+## 0.4.0 library checks to repeat
+
+Save a project to Library, edit it and save a checkpoint. Open the earlier checkpoint as a new project, then verify the original latest checkpoint remains intact. Undo/Redo across the project switch. Archive, show archived and restore. Rename the workspace and save a new copy; the original entry must keep its name. Refresh and Continue saved project when the workspace matches.
+
+Use two browser tabs to open the same library entry. Save different edits from each: the second stale save must be rejected. Keep it as a new copy and verify the first entry is unchanged. Download a checkpoint and open it on another origin or browser. Closing a library while an operation finishes must not unexpectedly replace newer work.
+
+Current evidence is bounded operator testing in one Chromium browser, with injected quota failure and controlled promise-delivery latency. Power loss, actual disk exhaustion and broad browser support are not established. No demo recording was made.

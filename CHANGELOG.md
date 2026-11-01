@@ -1,5 +1,14 @@
 # Release notes
 
+## 0.4.0 — 31 October 2026 local / 1 November UTC
+
+- Manual local project library: named work, checkpoints, recovery copies and reversible archives, separate from automatic workspace saving.
+- Atomic IndexedDB saves with generation/hash conflict checks, content integrity validation and explicit resource caps. No automatic deletion.
+- Safe open/preserve choices, project-switch Undo/Redo, matching-workspace continuation and direct homepage/library navigation.
+- Fourteen adapter checks, three controlled React timing scenarios and eight artifact assertion groups pass. Two actual editors preserve both winning and conflicting alternatives without overwriting.
+
+Format2 and JSON interchange remain compatible. Full autosave migration, external assets, ZIP packages and cloud collaboration remain future work. No tools/navigation demo was recorded.
+
 ## 0.3.0 — 31 October 2026
 
 - Duplicate/remove layers, fit still imported artwork and enter exact playhead frames.

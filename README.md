@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.3.0 available · Specification-first development · Application source private**
+**Browser alpha 0.4.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -12,14 +12,14 @@ Framefold starts with a practical creative problem: trying another direction sho
 
 ## Available now
 
-| Work                   | What the alpha supports                                                                             |
-| ---------------------- | --------------------------------------------------------------------------------------------------- |
-| Make artwork           | Basic sketch layers, shapes and imported PNG/JPEG/WebP artwork                                      |
-| Animate a scene        | 960 × 540, 24 fps, ten seconds; position, rotation, uniform scale and opacity with linear keyframes |
-| Plan a story           | A first scene and up to twelve additional panels, holds, captured poses and animatic preview        |
-| Explore an alternative | Independent proposals, synchronized comparisons, selected changes and explicit conflict choices     |
-| Keep editable work     | Browser-local saves, downloaded project files and portable proposal exchange                        |
-| Deliver an output      | Still PNG, contact sheet, fixed-frame scene and approved-storyboard WebM (up to 130 seconds)        |
+| Work                   | What the alpha supports                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------------------------------ |
+| Make artwork           | Basic sketch layers, shapes and imported PNG/JPEG/WebP artwork                                         |
+| Animate a scene        | 960 × 540, 24 fps, ten seconds; position, rotation, uniform scale and opacity with linear keyframes    |
+| Plan a story           | A first scene and up to twelve additional panels, holds, captured poses and animatic preview           |
+| Explore an alternative | Independent proposals, synchronized comparisons, selected changes and explicit conflict choices        |
+| Keep editable work     | Automatic workspace save, manual project/checkpoint library, JSON files and portable proposal exchange |
+| Deliver an output      | Still PNG, contact sheet, fixed-frame scene and approved-storyboard WebM (up to 130 seconds)           |
 
 Moving a character illustration is not skeletal or frame-by-frame character animation. The alpha has no cels, easing editor, audio timeline, native 3D, longer shots/transitions, accounts, hosted projects or in-app invitations. Fixed-frame WebM requires a supported browser encoder. Browser storage is not a backup service.
 
@@ -38,6 +38,14 @@ Duplicate or remove layers, fit still artwork, enter an exact frame and add/remo
 ![Individual key controls in the actual 0.3.0 editor](docs/images/editing-controls.png)
 
 The complete approved storyboard can now be delivered as a silent WebM. [Download the eight-second Last Light storyboard](examples/last-light/last-light-storyboard.webm). The tested maximum is thirteen panels /130 seconds; ten-second individual scenes are unchanged.
+
+## Keep more than one project
+
+[**Your project library**](https://framefold-psi.vercel.app/#studio/library) keeps manual local checkpoints alongside the automatic workspace save. Name a project, save a milestone, recover an earlier checkpoint as a new entry, or archive and restore work. Returning to identical saved content offers Continue saved project without making another copy.
+
+![The actual local project library](docs/images/project-library.png)
+
+Up to 20 entries including archives, 10 checkpoints each, 8 MiB per snapshot and 64 MiB total snapshot data. Limits preserve existing checkpoints; none are automatically deleted. Browser storage can still be cleared or unavailable, so download backups. This is a bounded manual library, not cloud backup or a complete autosave migration.
 
 ## Try a selective review
 

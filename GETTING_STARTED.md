@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.3.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.4.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -60,3 +60,15 @@ Select a layer, then use **Duplicate layer** or **Remove layer**. Duplicate offs
 Enter **Playhead frame** for exact timing (0–240). Expand **Edit individual keyframes** in Properties. Choose a property, then a key. **Add key here** samples the motion at the playhead. **Remove selected key** affects only that property; deleting its final key keeps the pose constant. **Move key** preserves the value and asks before replacing another key. Imported off-grid keys remain exact until you explicitly move them.
 
 Scene background and shape fill accept a six-digit hex value such as `#153b40`. Enter or leaving the field commits; Escape restores; invalid text leaves the project intact. Property editing pauses playback. Save a project file after finishing your changes.
+
+## Keep projects in your local library
+
+Choose **Library** in the studio or **Your project library** on the homepage. The current workspace still saves automatically as before; library snapshots are explicit. Use **Keep in library** for a first save, **Save library checkpoint** for a milestone and **Save as new library copy** for a separate entry. A six-character entry label and full local date distinguish copies.
+
+Edit **Project name** in the library: Enter or leaving the field commits, Escape cancels and blank keeps the prior name. This changes your workspace, then a library save records it.
+
+Inspect a card to see saved checkpoints. **Open saved project** asks you to keep the current workspace in the library or download it first. **Recover as new project** preserves the original history. **Archive project** is reversible; use Show archived and Restore to library. Archiving does not free storage. There is no permanent-delete control in this release.
+
+After reload, the automatic workspace is separate from the library. If its content matches a saved entry, **Continue saved project** reconnects it without another copy. If another tab saved the same entry, a stale save is rejected. Open the current version or save your alternative as a new library copy. Downloads remain available.
+
+Limits: 20 entries including archived work, 10 checkpoints per entry,8 MiB per snapshot and 64 MiB total logical snapshot data. No automatic eviction. Browser quota may be lower. Download files to move between the Vercel/Sites addresses or other browsers.

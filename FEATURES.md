@@ -24,7 +24,7 @@ The phase column is a dependency sequence, not a release date. G2 entries for ex
 | C07  | Layer management and selection                                  | Rename, duplicate/remove and still-artwork fit available; rest proposed | G2    |
 | C08  | Timeline tools and easing                                       | Add/remove/move keys and frame entry available; rest proposed           | G2    |
 | C09  | Drawing tools and viewport                                      | Proposed implementation                                                 | G2    |
-| C10  | Durable local storage and portable packages                     | Proposed implementation                                                 | G2    |
+| C10  | Durable local storage and portable packages                     | Manual snapshot library available; migration/assets/packages proposed   | G2    |
 | C11  | Fixed-time rendering and complete animatic export               | Scene and approved-storyboard WebM available; broader formats pending   | G2    |
 | C12  | Scene presets and limits                                        | Proposed implementation                                                 | G3    |
 | C13  | Parent transforms and pivots                                    | Proposed implementation                                                 | G3    |
