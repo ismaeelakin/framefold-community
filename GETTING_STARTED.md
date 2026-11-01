@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.5.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.6.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -10,7 +10,11 @@ Open [Framefold](https://framefold-psi.vercel.app/) and choose **Open studio**. 
 
 ## Start a project
 
-Choose **New project**, name it and create a blank project. Download your existing project first if you want to keep it. New projects replace the local workspace; Undo works during the same session.
+Choose **New project** (or **Choose your starting point** on the homepage). Pick **Blank canvas**, **Moving illustration** or **Three-beat storyboard**, then name it. Keep the current workspace in the local library by default, or explicitly choose its editable download. Starting waits for preparation and preservation; a failure keeps the current workspace open. Cancel leaves it unchanged. Undo returns to it during the same session.
+
+Leave **Show project steps after starting** checked for practical guidance. **Next step** moves between selecting/adding artwork, changing a pose, trying a proposal and keeping/exporting the result. These buttons open the real tools; they do not perform the creative edits for you. Collapse **Project steps** to make more room. Experts can uncheck it before starting. Steps are session-only; reloading keeps the project but does not preserve this guide.
+
+The illustration keeps Last Light's ten-second motion and editable image layers. The storyboard starts with three frozen poses held for 3/2/3 seconds; use **Play animatic** or **Complete storyboard video** to see the eight-second result. Each start gets fresh identities. To collaborate on the same project, share its saved file rather than independently starting the same template.
 
 Use **Draw** for a basic sketch, **Import artwork** for PNG/JPEG/WebP, or **Add shape**. Imports must be smaller than 2 MiB. Images are resized to a longest edge of 1024 pixels and embedded in the project; this is not archival storage for your original files.
 

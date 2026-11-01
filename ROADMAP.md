@@ -2,7 +2,7 @@
 
 Updated 31 October 2026. This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
 
-## Available: browser alpha 0.5.0
+## Available: browser alpha 0.6.0
 
 Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and fixed-frame silent scene/storyboard WebM, duplicate/remove/fit layer commands and individual add/remove/move keys. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. No new editor features were released by the specification update.
 
@@ -75,3 +75,7 @@ C30A–D preserve public discovery, a marketplace, payments and remote rendering
 ## Canvas navigation admission
 
 0.5.0 adds session-only zoom/pan, Fit scene, keyboard pan directions and safe pointer cancellation. Actual fitted/double input and unchanged-output checks pass alongside nine controlled React gesture checks. Smoothing, pressure, erasing, native 3D and broader device-performance work retain their own gates.
+
+## First-project admission — 0.6.0
+
+Three starting points, current-work preservation, optional practical task guidance and a matching homepage entry are released. They use the existing format and renderer. Every later engine admission must identify its usable frontend controls, empty/error states and visible release evidence; engine work alone is not a complete artist workflow. User-facing usability remains part of each gate, with independent beginner/expert observation still pending.

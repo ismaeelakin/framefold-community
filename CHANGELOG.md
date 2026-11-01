@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.6.0 — 1 November 2026
+
+- Three starting points: Blank canvas, Moving illustration and Three-beat storyboard, with fresh identities and original embedded artwork.
+- Keep the current workspace before starting; identical library content is reused. Cancel/failure/late operations preserve current work; Undo returns to the previous workspace.
+- Optional four-step project guidance invokes real editing, proposal, playback, library and export controls. Updated homepage entry and narrow-screen chooser layout.
+- 44 model tests, eight controlled component boundary scenarios and ten actual-artifact groups pass. New starter videos fully decode to 240/192 frames and 10/8 seconds in Chromium. Independent artist usability and broader browser quality remain open.
+- No format migration, account requirement, hosted collaboration or navigation demo.
+
 ## 0.5.0 — 1 November 2026
 
 - Canvas view zoom, pan, keyboard directions and Fit scene. Navigation leaves artwork, keys and exports unchanged.

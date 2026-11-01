@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.5.0 available · Specification-first development · Application source private**
+**Browser alpha 0.6.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -24,6 +24,16 @@ Framefold starts with a practical creative problem: trying another direction sho
 Moving a character illustration is not skeletal or frame-by-frame character animation. The alpha has no cels, easing editor, audio timeline, native 3D, longer shots/transitions, accounts, hosted projects or in-app invitations. Fixed-frame WebM requires a supported browser encoder. Browser storage is not a backup service.
 
 Screenshots show actual alpha interfaces. The individual-key view below is from 0.3.0; older views remain representative of the original sample.
+
+## Start with a scene you can change
+
+Choose **New project** for a blank canvas, an editable moving illustration or a three-beat storyboard. Choose how to keep your current workspace first. Optional Project steps take you to a layer, its five-second pose, proposal review and real export controls. Collapse them or turn them off when starting.
+
+![The actual starting-point chooser](docs/images/starting-points.png)
+
+![Optional steps in the actual editing workspace](docs/images/project-steps.png)
+
+The illustration is ten seconds of layered motion. The storyboard holds three editable still poses for 3/2/3 seconds. They are starting points for your own work, not a frame-by-frame character animation tool. Project steps last for the session and do not enter your saved file.
 
 ## Try a complete project
 

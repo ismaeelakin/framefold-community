@@ -4,7 +4,7 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.5.0
+## Current system: alpha 0.6.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
@@ -44,3 +44,7 @@ This repository contains public documentation, approved screenshots and communit
 ## Canvas view boundary
 
 View pan/zoom is session state and does not enter project files. Input maps through the transformed canvas rectangle once. One primary pointer owns artwork input; cancellation discards unfinished work. Resulting scene edits are validated before committing. Export uses the full scene renderer and ignores viewport cropping.
+
+## Starting points and guidance
+
+The chooser prepares a fresh validated document, including actual artwork decoding, before preserving the current workspace. Scene/layer/asset identities are remapped and source proposals omitted. Identity checks around asynchronous work prevent late replacement after closing or newer edits. Optional steps call existing studio actions and stay outside project JSON and checkpoint hashes. These controls do not require a backend.

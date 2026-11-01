@@ -57,3 +57,11 @@ Current evidence is bounded operator testing in one Chromium browser, with injec
 Zoom and pan, then save the project and export a frame: source and full-scene output must stay unchanged. Move/draw at fitted and double zoom. Pan while Draw is selected must not add a stroke. Release a stroke outside the canvas, then draw another. Escape and pointer cancellation must not commit unfinished artwork.
 
 Current evidence includes actual mouse/file checks, nine synthetic React handler checks and eight stored-artifact assertion groups. Synthetic capture is explicitly shimmed in its private harness; it does not prove stylus feel, OS capture failures or latency. Narrow 319px layout was checked for reachable Save/Export, not mobile drawing quality.
+
+## 0.6.0 first-project checks to repeat
+
+Start each of the three project types. Keep current work in the library, then Undo: the original work and matching library association should return. Repeat from an identical detached file and check that another entry was not created. Test explicit download preservation and Cancel separately; keep your backup file.
+
+Follow Project steps to add/select a layer, seek five seconds, edit a pose, create/compare a proposal and save/export. Turn the guide off for another start. Steps must not appear in saved JSON. Artwork-loading or preservation failure must leave current work intact, and closing a busy dialog must not allow a late replacement.
+
+Current evidence:44 model tests, eight controlled component scenarios and ten stored-artifact groups. Actual new outputs fully decode to240 frames/10 seconds and192 frames/8 seconds. Narrow chooser controls and text fit at319px. These operator checks do not establish independent artist usability or a universal browser/device guarantee. No navigation demo was recorded.

@@ -15,7 +15,7 @@ The phase column is a dependency sequence, not a release date. G2 entries for ex
 
 | ID   | Capability                                                      | Public status                                                               | Phase |
 | ---- | --------------------------------------------------------------- | --------------------------------------------------------------------------- | ----- |
-| C01  | Scene creation and artwork intake                               | Available in 0.2; future compatibility changes proposed                     | G2    |
+| C01  | Scene creation and artwork intake                               | Starting points in 0.6; broader compatibility work proposed                 | G2    |
 | C02  | Frame evaluation and basic motion                               | Available in 0.2; future compatibility changes proposed                     | G2    |
 | C03  | Story panels and contact sheets                                 | Available in 0.2; future compatibility changes proposed                     | G2    |
 | C04  | Selective proposal review                                       | Available in 0.2; future compatibility changes proposed                     | G2    |
