@@ -65,3 +65,11 @@ Start each of the three project types. Keep current work in the library, then Un
 Follow Project steps to add/select a layer, seek five seconds, edit a pose, create/compare a proposal and save/export. Turn the guide off for another start. Steps must not appear in saved JSON. Artwork-loading or preservation failure must leave current work intact, and closing a busy dialog must not allow a late replacement.
 
 Current evidence:44 model tests, eight controlled component scenarios and ten stored-artifact groups. Actual new outputs fully decode to240 frames/10 seconds and192 frames/8 seconds. Narrow chooser controls and text fit at319px. These operator checks do not establish independent artist usability or a universal browser/device guarantee. No navigation demo was recorded.
+
+## 0.7.0 sketch-cleanup checks to repeat
+
+Draw several strokes, add or edit another layer, then inspect and remove an earlier stroke. Keep the later work; Undo/Redo must restore the exact state. Inspection alone must change neither an editable download nor a PNG export. Switch layers/modes and confirm the old choice clears. Remove a final stroke, keep the empty drawing and Undo.
+
+Try cleanup in a proposal and accept it into the original scene. Repeat on a captured panel: the main scene must remain unchanged. Concurrent list edits remain a conflict rather than an automatic per-stroke merge. Test a rotated/scaled drawing at another playhead time and keyboard access to the picker/removal buttons.
+
+Current evidence includes 49 model tests, four fixed-preview checks, nine repeated synthetic gesture checks and ten actual-artifact groups. Source/PNG inspection invariance is byte-exact. The first preview harness comparison failed with repeated-versus-fresh canvas readbacks; isolated one-read cases pass the same exact assertion. The failure remains recorded. This does not establish universal raster, device or artist usability.

@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.6.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.7.1**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -84,3 +84,11 @@ Limits: 20 entries including archived work, 10 checkpoints per entry,8 MiB per s
 View controls do not move layers, create keys or crop exports. Use Select/Draw for artwork. Escape cancels an unfinished drawing or object drag; losing pointer capture or switching scene/tool/time also cancels unfinished input. A completed stroke is one Undo step.
 
 If a drawing on a very small layer scale exceeds supported coordinates, it is rejected without changing source. Use a new drawing layer or a larger layer scale. Save/Export now wrap within narrow headers; desktop remains the primary editing layout.
+
+## Inspect and remove a sketch stroke
+
+Select a drawing layer, then use **Drawing stroke** in Properties. On a narrow screen, choose the layer's row in the timeline first. The picker names each stroke by its number, point count, colour and width. Choosing one adds an inspection outline on the canvas; **Clear stroke selection** removes that marker. Markers do not enter project files, PNGs or video.
+
+Choose **Remove selected stroke** to remove that entire path. Undo restores it without undoing later unrelated edits. Removing the final stroke leaves the drawing layer available for new drawing. Layer/mode changes clear the choice; list changes require another selection. Imported artwork cannot be erased with this control.
+
+For a separate alternative, choose **New proposal** before removing. Compare shows one drawing-list change, not independent merge choices for every stroke. Concurrent changes to that list require an explicit conflict choice. Panel proposals affect their target panel, keeping the main scene intact.

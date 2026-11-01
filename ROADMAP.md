@@ -2,7 +2,7 @@
 
 Updated 31 October 2026. This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
 
-## Available: browser alpha 0.6.0
+## Available: browser alpha 0.7.1
 
 Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and fixed-frame silent scene/storyboard WebM, duplicate/remove/fit layer commands and individual add/remove/move keys. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. No new editor features were released by the specification update.
 
@@ -79,3 +79,7 @@ C30A–D preserve public discovery, a marketplace, payments and remote rendering
 ## First-project admission — 0.6.0
 
 Three starting points, current-work preservation, optional practical task guidance and a matching homepage entry are released. They use the existing format and renderer. Every later engine admission must identify its usable frontend controls, empty/error states and visible release evidence; engine work alone is not a complete artist workflow. User-facing usability remains part of each gate, with independent beginner/expert observation still pending.
+
+## Sketch-cleanup admission — 0.7.0
+
+Whole-stroke inspection/removal in existing drawing layers is released, alongside a more compact task guide. Existing document limits and atomic drawing-list review are retained. Partial erasing, smoothing, pressure and raster painting remain later work; this does not complete the broader drawing packet.

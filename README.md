@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.6.0 available · Specification-first development · Application source private**
+**Browser alpha 0.7.1 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -48,6 +48,14 @@ Duplicate or remove layers, fit still artwork, enter an exact frame and add/remo
 ![Individual key controls in the actual 0.3.0 editor](docs/images/editing-controls.png)
 
 The complete approved storyboard can now be delivered as a silent WebM. [Download the eight-second Last Light storyboard](examples/last-light/last-light-storyboard.webm). The tested maximum is thirteen panels /130 seconds; ten-second individual scenes are unchanged.
+
+## Clean up a sketch without losing later work
+
+Select a drawing layer and choose a stroke in **Sketch strokes**. The canvas outlines that stroke for inspection. **Remove selected stroke** removes the whole stroke; Undo restores it. Other layers and later edits stay intact. Inspection does not change project files or exported images.
+
+![Inspecting a real drawn stroke in the released editor](docs/images/stroke-inspection.png)
+
+The same cleanup can be tried in a proposal and selectively accepted into the approved scene or panel. Drawing-list edits are reviewed together; this is not a partial eraser, raster editor or per-stroke merge engine. The desktop project guide is also more compact so the canvas and timeline are easier to use together.
 
 ## Look closer, keep the scene intact
 

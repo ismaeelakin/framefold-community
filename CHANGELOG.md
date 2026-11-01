@@ -1,5 +1,17 @@
 # Release notes
 
+## 0.7.1 — 1 November 2026
+
+The secondary host redirects its older platform hostname to another platform address. The main-address notice now covers all Sites hostnames. Vercel remains Framefold's main home. Website addresses have separate browser storage; a redirect does not migrate projects.
+
+## 0.7.0 — 1 November 2026
+
+- Inspect and remove a whole sketch stroke while retaining its layer and later work. Inspection stays outside files and exports; Undo/Redo restore exact source.
+- Mode, scene, layer and list identity guard stroke selection. A layer-switch selection defect found during testing is repaired and retained in the private evidence.
+- Existing atomic drawing-list review works for approved scenes and captured panels. Panel labels now identify the approved panel and use singular stroke counts correctly.
+- A more compact desktop guide recovers about 67 pixels at the tested editor width; collapse and keyboard navigation remain available. Narrow stroke controls were checked at 319 pixels.
+- 49 model tests, four preview checks, nine repeated synthetic gesture checks and ten stored-artifact groups pass. Actual mouse drawing and downloaded files are separate evidence. No navigation demo was recorded.
+
 ## 0.6.0 — 1 November 2026
 
 - Three starting points: Blank canvas, Moving illustration and Three-beat storyboard, with fresh identities and original embedded artwork.

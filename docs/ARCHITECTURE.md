@@ -4,13 +4,13 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.6.0
+## Current system: alpha 0.7.1
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
 Persistence keeps the legacy automatic localStorage workspace and a separate explicit IndexedDB library. Atomic checkpoint/head transactions compare generation and content fingerprint; stale saves fail. Recovery creates another entry and archives are reversible. JSON downloads remain portable. Scene and approved-storyboard WebM use fixed-time frame enumeration and a lazy-loaded local WebCodecs/Mediabunny muxing path. It has been decoded and timed in Chromium; broader codecs/browsers and longer sequence tools remain pending. The storyboard UI exports up to3,120 frames/130seconds using approved panel holds; exact boundary samples have been checked. Project/proposal exchange is manual. GitHub discussions and issues are separate public community records; app feedback is not automatically synchronized there.
 
-The primary address is [framefold-psi.vercel.app](https://framefold-psi.vercel.app/). The old Sites address retains a working deployment for continuity. Each origin has separate local storage; download and reopen projects to move them. The old-site migration notice and current releases are synchronized; there is no automatic redirect.
+The primary address is [framefold-psi.vercel.app](https://framefold-psi.vercel.app/). A secondary Sites deployment is retained. Its platform now redirects the older hostname to another platform hostname; the address notice covers both. Each origin has separate local storage. A redirect is not project migration: keep downloaded backups and reopen files on the main site.
 
 ## Proposed local engine
 
@@ -48,3 +48,7 @@ View pan/zoom is session state and does not enter project files. Input maps thro
 ## Starting points and guidance
 
 The chooser prepares a fresh validated document, including actual artwork decoding, before preserving the current workspace. Scene/layer/asset identities are remapped and source proposals omitted. Identity checks around asynchronous work prevent late replacement after closing or newer edits. Optional steps call existing studio actions and stay outside project JSON and checkpoint hashes. These controls do not require a backend.
+
+## Stroke inspection and cleanup
+
+Inspection selection is session-only and bound to mode, scene, layer, list contents and index. Target changes clear it; a changed list invalidates it. Removal checks current live content before cloning one array without changing other layer data. Stage adds the optional preview halo, while exports retain the ordinary renderer. Proposal review still compares the entire strokes list atomically and treats concurrent list edits conservatively.
