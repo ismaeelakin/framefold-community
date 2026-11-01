@@ -1,6 +1,6 @@
 # Test the current alpha
 
-This guide concerns **released 0.2.2 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
+This guide concerns **released 0.3.0 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
 
 ## Before a session
 
@@ -14,7 +14,7 @@ Record whether the artwork was selectable, movement matched the intended keys, r
 
 ## Probe 2: storyboard animatic
 
-Create three panels with visibly different artwork and holds. Capture a pose, change the source afterward, preview the sequence and export a contact sheet. Check panel order, hold timing, frozen poses and labels. There is no current full-sequence video export; report that distinction rather than treating it as a broken released control.
+Create three panels with visibly different artwork and holds. Capture a pose, change the source afterward, preview the sequence and export a contact sheet. Check panel order, hold timing, frozen poses and labels. Export Complete storyboard video and check the approved panels in order. Proposal drafts must not enter that output. The current cap is thirteen panels/130seconds; each editable scene remains ten seconds.
 
 ## Probe 3: selectively reviewed alternative
 
@@ -37,3 +37,9 @@ Later specifications require fixture hashes, exact source/browser versions, timi
 ## 0.2.2 checks to repeat
 
 Try layer naming with Enter, Escape and Undo. Seek an animatic across a hold boundary and restart. Export a scene: check 240 decoded frames and 10-second duration with compatible tooling; an unsupported browser should show save/PNG alternatives. Cancel an export and confirm that it returns a visible cancellation message without a completed download. These are reproducible checks, not claims that every browser has passed.
+
+## 0.3.0 checks to repeat
+
+Duplicate/remove a layer in a proposal, then review and accept only that change. One Undo must restore the approved layer; Redo reapplies it. Check shared artwork survives. Fit a still imported image and reopen the saved project. Add a key, move it to an empty frame, cancel a collision and explicitly replace a destination. Remove a final key and confirm its pose stays constant. Imported off-grid keys must not move until requested.
+
+Try picker and hex colours on an empty scene; invalid hex text must not change source. Cancel a long storyboard export, then save and reopen the unchanged project. Supported-browser evidence currently covers one Chromium browser, not universal codec support or peak memory guarantees.

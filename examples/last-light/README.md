@@ -20,7 +20,7 @@ An original paper plane crosses a coastal landscape at sunset. This complete sam
 
 ## What the files represent
 
-The project holds the approved scene, two captured panels and two proposals. The scene WebM is the accepted version before the separate drawing study; the drawing study is deliberately not applied to main. Scene video is silent, 960 × 540, 240 frames at 24 fps, 10 seconds. The storyboard holds are 3/2/3 seconds; full-sequence video export is not available in the editor.
+The project holds the approved scene, two captured panels and two proposals. The scene WebM is the accepted version before the separate drawing study; the drawing study is deliberately not applied to main. Scene video is silent, 960 × 540, 240 frames at 24 fps, 10 seconds. The storyboard holds are 3/2/3 seconds; Complete storyboard video is available in0.3.0.
 
 This is project data and original artwork, not the private application source. The material is distributed under this repository's existing [MIT license](../../LICENSE). No third-party artist assets are included.
 
@@ -29,3 +29,7 @@ This is project data and original artwork, not the private application source. T
 Actual browser-created/downloaded checkpoints were reopened on another local origin. Eleven source assertions, six encoding/failure-path checks and six actual-editor download/decode checks passed in Chromium 155. That is one-browser operator evidence, not independent artist usability, clean-device recovery or a guarantee of identical results on every browser. Use the [reporting guide](../../TESTING.md) for problems.
 
 A full tools-and-navigation video series is planned. The WebM here is artwork playback, not that future walkthrough.
+
+## Complete storyboard output (0.3.0)
+
+[Download the approved storyboard WebM](last-light-storyboard.webm): three panels, holds3/2/3seconds,192 decoded frames at24fps. This is an actual editor export while a proposal was selected; the output uses the approved scenes. It is finished artwork output, not a navigation demo. Current maximum is thirteen panels/130seconds; each editable scene remains ten seconds.

@@ -1,5 +1,15 @@
 # Release notes
 
+## 0.3.0 — 31 October 2026
+
+- Duplicate/remove layers, fit still imported artwork and enter exact playhead frames.
+- Add/remove/move individual property keys, with explicit collision replacement and preserved imported off-grid times.
+- Complete approved-storyboard WebM, excluding proposal drafts: up to thirteen panels/130seconds. Actual files decoded to192frames/8seconds and3,120frames/130seconds in one Chromium browser, with checked boundaries.
+- Validated hex colour entry and repaired picker commits.
+- Fixed a history snapshot bug found during accepted layer deletion; actual downloads verify Undo/Redo and independent edits. Format2 remains compatible.
+
+No navigation walkthrough was recorded. Audio, cels, longer shots, native3D and hosted collaboration remain future work. This is bounded operator verification, not independent artist adoption.
+
 ## 0.2.2 — 31 October 2026
 
 - Fixed-frame scene WebM replaces the imprecise real-time recorder: 240 frames at 24 fps, ten-second decoded duration in the tested Chromium browser.

@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.2.2 available · Specification-first development · Application source private**
+**Browser alpha 0.3.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -19,17 +19,25 @@ Framefold starts with a practical creative problem: trying another direction sho
 | Plan a story           | A first scene and up to twelve additional panels, holds, captured poses and animatic preview        |
 | Explore an alternative | Independent proposals, synchronized comparisons, selected changes and explicit conflict choices     |
 | Keep editable work     | Browser-local saves, downloaded project files and portable proposal exchange                        |
-| Deliver an output      | Still PNG, storyboard contact sheet and fixed-frame silent WebM export of one scene                 |
+| Deliver an output      | Still PNG, contact sheet, fixed-frame scene and approved-storyboard WebM (up to 130 seconds)        |
 
-Moving a character illustration is not skeletal or frame-by-frame character animation. The alpha has no cels, easing editor, audio timeline, native 3D, full-sequence video export, accounts, hosted projects or in-app invitations. Fixed-frame WebM requires a supported browser encoder. Browser storage is not a backup service.
+Moving a character illustration is not skeletal or frame-by-frame character animation. The alpha has no cels, easing editor, audio timeline, native 3D, longer shots/transitions, accounts, hosted projects or in-app invitations. Fixed-frame WebM requires a supported browser encoder. Browser storage is not a backup service.
 
-All screenshots here show the released **0.2 alpha**, not future features.
+Screenshots show actual alpha interfaces. The individual-key view below is from 0.3.0; older views remain representative of the original sample.
 
 ## Try a complete project
 
 [**Last Light**](https://framefold-psi.vercel.app/learn/last-light.html) includes an editable project, the finished scene video and a three-panel storyboard. Open it, inspect the flight keys, scrub the animatic and try your own proposal. All artwork is embedded.
 
 ![Last Light — an actual exported scene](examples/last-light/last-light.png)
+
+## More control over the scene
+
+Duplicate or remove layers, fit still artwork, enter an exact frame and add/remove/move individual property keys. An occupied destination requires a choice; Undo restores the previous edit. Colours support both the picker and exact hex entry.
+
+![Individual key controls in the actual 0.3.0 editor](docs/images/editing-controls.png)
+
+The complete approved storyboard can now be delivered as a silent WebM. [Download the eight-second Last Light storyboard](examples/last-light/last-light-storyboard.webm). The tested maximum is thirteen panels /130 seconds; ten-second individual scenes are unchanged.
 
 ## Try a selective review
 
@@ -64,7 +72,7 @@ The intended product connects **creation, alternatives, review and delivery**. T
 
 **Specification review comes before further feature coding.** The private engineering set contains 48 proposed capability packets, 149 acceptance recipes and 12 mathematical vectors. Each packet addresses data, interactions, algorithms, limits, failure handling, dependencies and evidence required for release. These counts describe planning coverage, not working features or passing tests.
 
-Archive, codec/muxer, geometry-kernel, device-budget and hosted-service decisions remain open. The next steps are to resolve the relevant designs, prepare real fixture assets and then run three current-alpha creative probes. [Read how features enter a release](SPECIFICATION.md).
+Archive, codec/muxer, geometry-kernel, device-budget and hosted-service decisions remain open. Three bounded creative operator probes are complete. Layer/key editing and approved-storyboard export have also passed actual-file checks; storage recovery and independent artist usability remain next. [Read how features enter a release](SPECIFICATION.md).
 
 ## Architecture and ownership
 

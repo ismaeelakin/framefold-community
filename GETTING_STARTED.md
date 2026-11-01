@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.2.2**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.3.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -31,7 +31,7 @@ Sharing is manual. The studio does not email collaborators, upload files or sync
 
 Download project files regularly. Browser storage can fill up, be disabled or be cleared. Undo history is limited and does not survive a reload. Saving pauses if another tab writes to the workspace.
 
-PNG exports the current frame without selection guides. WebM renders one ten-second scene as 240 frames at 24 fps, with no audio, using a supported browser encoder. Storyboard PNG exports a contact sheet. The animatic preview is not a full-sequence video export.
+PNG exports the current frame without selection guides. WebM renders one ten-second scene as 240 frames at 24 fps, with no audio, using a supported browser encoder. Storyboard PNG exports a contact sheet. Choose **Complete storyboard video** in Export for the approved panels in order, using their holds. Up to thirteen panels /130 seconds; proposal drafts are excluded.
 
 If a step fails, use [the bug template](https://github.com/ismaeelakin/framefold-community/issues/new?template=bug_report.yml). Use a small, non-confidential reproduction.
 
@@ -45,10 +45,18 @@ There is no hosted gallery, public player page, audio timeline, frame-by-frame c
 
 New courier captures keep their visual wheel phase fixed, including after saving and reopening. Their transforms remain editable. Share these files with Framefold **0.2.1 or newer**; earlier versions reject the new captured-layer type rather than silently animating it.
 
-Older captured panels never stored their visual capture time. Recapture at the intended pose in the current app. Ordinary earlier projects remain supported. The two observed renderer defects are resolved in 0.2.1; scene WebM uses fixed timestamps in 0.2.2; wider sequence/export-format work remains research.
+Older captured panels never stored their visual capture time. Recapture at the intended pose in the current app. Ordinary earlier projects remain supported. The two observed renderer defects are resolved in 0.2.1; scene WebM uses fixed timestamps in 0.2.2; complete approved-storyboard WebM is available in 0.3.0; longer shots, transitions and additional output formats remain planned.
 
 ## Find your way around
 
 Use **Guide** for a first movement and the vocabulary. **Layer name** in Properties commits with Enter or leaving the field; Escape cancels, blank text preserves the old name, and Undo restores the previous name. Storyboard thumbnails/contact sheets show first frames. In **Play animatic**, seek with **Animatic time** (this pauses), then Resume or Restart.
 
 Export success, cancellation and errors stay visible inside the Export dialog. An unsupported encoder offers editable project/PNG alternatives. [Open the complete Last Light example](examples/last-light/README.md) for a project you can inspect and change.
+
+## Edit the details
+
+Select a layer, then use **Duplicate layer** or **Remove layer**. Duplicate offsets all its movement by24 pixels and shares the artwork. Undo restores the edit. **Fit artwork to scene** centres and contains a still imported image; animated transform keys must be removed first.
+
+Enter **Playhead frame** for exact timing (0–240). Expand **Edit individual keyframes** in Properties. Choose a property, then a key. **Add key here** samples the motion at the playhead. **Remove selected key** affects only that property; deleting its final key keeps the pose constant. **Move key** preserves the value and asks before replacing another key. Imported off-grid keys remain exact until you explicitly move them.
+
+Scene background and shape fill accept a six-digit hex value such as `#153b40`. Enter or leaving the field commits; Escape restores; invalid text leaves the project intact. Property editing pauses playback. Save a project file after finishing your changes.
