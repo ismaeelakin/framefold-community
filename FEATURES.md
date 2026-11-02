@@ -26,7 +26,7 @@ The phase column is a dependency sequence, not a release date. G2 entries for ex
 | C09  | Drawing tools and viewport                                      | Pan/zoom and whole-stroke cleanup shipped; other tools proposed                                                  | G2    |
 | C10  | Durable local storage and portable packages                     | Manual library and opt-in automatic recovery available; assets/packages proposed                                 | G2    |
 | C11  | Fixed-time rendering and complete animatic export               | Scene and approved-storyboard WebM available; broader formats pending                                            | G2    |
-| C12  | Scene presets and limits                                        | Proposed implementation                                                                                          | G3    |
+| C12  | Scene presets and limits                                        | Isolated profile/export study passed a bounded matrix; production format and editor integration remain pending   | G3    |
 | C13  | Parent transforms and pivots                                    | Proposed implementation                                                                                          | G3    |
 | C14  | Paths, masks and compositing                                    | Proposed implementation                                                                                          | G3    |
 | C15  | Cels, exposures and onion skins                                 | Proposed implementation                                                                                          | G4    |

@@ -62,6 +62,8 @@ C30A–D preserve public discovery, a marketplace, payments and remote rendering
 
 ## Rules for moving forward
 
+C12's isolated scene-profile study has passed a bounded arithmetic, interaction and native-export matrix. The next admission is format/storage compatibility, then visible main-editor integration. The public alpha's current size, frame rate and duration limits remain in place; the experiment does not complete G3.
+
 - A specification is not a shipped feature; a request is not a delivery commitment.
 - Capability dependencies determine order within a gate. Research uncertainty stays visible.
 - Local files and useful exports must survive unavailable services.

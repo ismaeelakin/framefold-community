@@ -65,6 +65,12 @@ The owner's authorized hosting spend remains zero. If conditions cannot be met, 
 
 Research is limited to a specific artist task, acceptable licences/privacy and bounded local execution. No paid inference dependency or automatic replacement of approved work. Attribution notes can record what a user claims; they cannot adjudicate legal ownership.
 
+## Scene profile admission study · C12
+
+A private, separate-format experiment now has actual resize, frame-rate and duration previews with explicit Apply/Cancel and Undo/Redo. Thirteen model tests include 1,004 independently generated rational frame-mapping vectors. Seven native cases decode 1,754 frames, including a sixty-second 540p output, a short 1080p/60 fps output, a fractional frame rate and embedded artwork. A separate actual-UI export checks that an unapplied larger-canvas preview cannot change the committed output. The original failed quality trials remain retained; the final quality setting passed the same tolerances.
+
+This is evidence for further compatibility work, **not a released scene-profile feature**. Alpha 0.14.0 still uses 960 × 540, 24 fps and ten seconds. One browser and simple fixtures do not establish all preset combinations, complex-scene performance or device memory limits. Production admission still needs a file-format contract, migration/rollback and old-tab storage safety, storyboard clock/fitting rules, and visible editor controls. No paid service or tutorial recording was introduced.
+
 ## Proposing research
 
 State the blocked artist task, hypothesis, alternatives, safe fixture, measurements, cost ceiling and stop condition. Report failures as carefully as successes. See [the specification process](SPECIFICATION.md).

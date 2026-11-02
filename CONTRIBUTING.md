@@ -35,3 +35,5 @@ There is no guaranteed response time, bounty, employment offer or release date. 
 ## Public release dates
 
 Only the newest release heading in CHANGELOG.md carries its publication date. When publishing a new version, remove the date from the previous heading while retaining its version and notes. Do not remove commit history, alter evidence timestamps inside example project data, or invent release dates. Guides link to the current release notes rather than repeating historical release dates.
+
+Run `node scripts/check-release-notes.mjs` before a public documentation release. CI checks the latest-only date rule and keeps the README, first-session guide, testing guide and architecture versions aligned.
