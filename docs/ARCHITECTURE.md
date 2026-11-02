@@ -4,11 +4,11 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.9.0
+## Current system: alpha 0.10.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
-Persistence keeps the legacy automatic localStorage workspace and a separate explicit IndexedDB library. Atomic checkpoint/head transactions compare generation and content fingerprint; stale saves fail. Recovery creates another entry and archives are reversible. JSON downloads remain portable. Scene and approved-storyboard WebM use fixed-time frame enumeration and a lazy-loaded local WebCodecs/Mediabunny muxing path. It has been decoded and timed in Chromium; broader codecs/browsers and longer sequence tools remain pending. The storyboard UI exports up to3,120 frames/130seconds using approved panel holds; exact boundary samples have been checked. Project/proposal exchange is manual. GitHub discussions and issues are separate public community records; app feedback is not automatically synchronized there.
+Persistence keeps original localStorage slots, an opt-in transactional automatic workspace and a separate explicit IndexedDB library. Atomic checkpoint/head transactions compare generation and content fingerprint; stale saves fail. Recovery creates another entry and archives are reversible. JSON downloads remain portable. Scene and approved-storyboard WebM use fixed-time frame enumeration and a lazy-loaded local WebCodecs/Mediabunny muxing path. It has been decoded and timed in Chromium; broader codecs/browsers and longer sequence tools remain pending. The storyboard UI exports up to3,120 frames/130seconds using approved panel holds; exact boundary samples have been checked. Project/proposal exchange is manual. GitHub discussions and issues are separate public community records; app feedback is not automatically synchronized there.
 
 The primary address is [framefold-psi.vercel.app](https://framefold-psi.vercel.app/). A secondary Sites deployment is retained. Its platform now redirects the older hostname to another platform hostname; the address notice covers both. Each origin has separate local storage. A redirect is not project migration: keep downloaded backups and reopen files on the main site.
 
@@ -21,7 +21,7 @@ The primary address is [framefold-psi.vercel.app](https://framefold-psi.vercel.a
 - Bounded rendering jobs with cancellation, format checks and resource preflight.
 - Optional 3D geometry, rigging and shot bridges, admitted through research gates.
 
-Remaining design boundaries include automatic workspace migration, externalized assets, full archives and the 3D kernel. A bounded manual IndexedDB library and fixed-time WebM are already released; their existence does not complete the full future architecture.
+Remaining design boundaries include externalized assets, full archives and the 3D kernel. Bounded manual and automatic IndexedDB storage and fixed-time WebM are released; their existence does not complete the full future architecture.
 
 ## Optional services
 
@@ -62,3 +62,9 @@ Applying imports use a generation, content identity and editing-target guard aft
 ## Reviewed layer stacking
 
 Existing scene.order stays back-to-front. Immutable layer commands alter only that array. An atomic review item appears when a draft's order differs from ordinary membership-only add/remove effects. Node/property changes apply first, stacking last; the order must reference each resulting layer exactly once. Overlapping order edits need explicit resolution, and approved-only layers cannot silently disappear. No schema migration is introduced.
+
+## Automatic workspace and recovery
+
+Original localStorage saving remains until explicit opt-in. A startup gate verifies any transactional workspace and its artwork before mounting a writing editor. The separate automatic IndexedDB record contains a generation and current/prior canonical snapshots with byte counts and hashes. Native write transactions reread the exact verified record and compare generation/hash; missing keys and stored null are distinct. Save completion follows transaction completion. A bounded serial queue coalesces edits and leaves errors paused with the same expected head on Retry.
+
+Recovery previews are derived first frames, not extra stored snapshots. Opening a recovery copy validates artwork, preserves the current project in the manual library and applies only while its initiating context is still current. Damaged/conflicted automatic saving stays paused. Returning to the homepage retains the entered studio and saver while disabling hidden keyboard commands and playback. Limits are two 8 MiB logical snapshots, per-origin storage and no cloud synchronization.

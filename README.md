@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.9.0 available · Specification-first development · Application source private**
+**Browser alpha 0.10.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -120,7 +120,15 @@ The intended product connects **creation, alternatives, review and delivery**. T
 
 **Specification review comes before further feature coding.** The private engineering set contains 48 proposed capability packets, 149 acceptance recipes and 12 mathematical vectors. Each packet addresses data, interactions, algorithms, limits, failure handling, dependencies and evidence required for release. These counts describe planning coverage, not working features or passing tests.
 
-Archive, codec/muxer, geometry-kernel, device-budget and hosted-service decisions remain open. Three bounded creative operator probes are complete. Layer/key editing and approved-storyboard export have also passed actual-file checks; storage recovery and independent artist usability remain next. [Read how features enter a release](SPECIFICATION.md).
+Archive, codec/muxer, geometry-kernel, device-budget and hosted-service decisions remain open. Three bounded creative operator probes are complete. Layer/key editing, approved-storyboard export and bounded local workspace recovery have passed actual-file checks; broader storage packages and independent artist usability remain ahead. [Read how features enter a release](SPECIFICATION.md).
+
+## Save, recover and return
+
+In the studio, open **Saving and recovery** to opt into transactional workspace saving. Your original browser save files stay intact. The latest and previous automatic saves have artwork previews and can open as library copies after keeping your current work. Conflicting tabs stop with a clear error instead of silently replacing another save. The homepage resumes an entered workspace while pending saves continue.
+
+![Saving and recovery with real project previews](docs/images/workspace-recovery.png)
+
+Everything stays local to this website/browser. Automatic recovery keeps two versions up to 8 MiB each, separately from manual library checkpoints. Browser data can still be cleared; download backups. There is no cloud synchronization or unlimited storage.
 
 ## Architecture and ownership
 

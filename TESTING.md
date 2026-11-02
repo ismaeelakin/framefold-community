@@ -87,3 +87,11 @@ Recorded release evidence includes 58 tests, 12 artwork artifact groups, eight n
 Place overlapping artwork forward/backward, check the layer list and output, then Undo/Redo. Save and reopen: IDs, motion and image bytes must stay intact. Try the same action in a proposal and a captured panel. Stacking should appear as one review item; accepting it must preserve unselected properties and other panels.
 
 Conflicting reorders require explicit resolution. A proposed order cannot discard layers added only on the approved scene; incompatible membership must reject with current work intact. Eight new model tests and six retained artifact groups cover these boundaries. Keyboard/narrow checks and actual downloads are recorded separately from model tests.
+
+## Automatic workspace recovery — 0.10.0
+
+78 unit tests include twelve workspace cases. Fifteen actual native IndexedDB checks cover exact content, canonical integrity, aborted/injected-quota transactions, same-head and absent/null races, cancellation, unsupported versions and blocked/timeout opens. Two independent browser documents race the production adapter; one wins and one conflicts.
+
+Twenty-one retained browser/artifact assertion groups cover opt-in preservation, original raw slots, Undo/Redo/reload, keep-current recovery, two-editor conflicts, Retry after Undo, delayed saves across the homepage, unmount, quota recovery, corrupt records, cancelled recovery with newer edits, artwork errors and homepage starter/library routing. Final narrow recovery targets fit 319px and measure at least 44px high. Earlier failures are retained separately from passing evidence.
+
+These are one Chromium environment and explicit fault injections. Real device exhaustion, power loss, the complete browser/permission matrix and independent artist studies have not been established. No tutorial or navigation video is included in these checks.

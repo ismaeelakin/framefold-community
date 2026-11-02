@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.10.0 — 2 November 2026
+
+- Opt-in transactional workspace saving preserves original browser save files and keeps the latest/prior automatic versions. Generation checks reject conflicting tabs; Retry cannot hide a conflict even after Undo returns to cached content.
+- Saving and recovery provides real first-frame previews, verified-content downloads, raw preservation downloads and recovery as a manual-library copy. Damaged or unavailable storage leaves saving paused and the current project downloadable.
+- Leaving for the homepage retains an entered studio and pending saves. Resume controls show the open project and save state. Hidden editor shortcuts no longer affect the homepage. Recovery controls fit 319px and have at least 44px target heights.
+- 78 unit tests, fifteen actual native IndexedDB checks and twenty-one retained browser/artifact assertion groups pass. Fault injection does not claim real disk exhaustion, physical crash durability or a complete browser matrix.
+- Two automatic versions up to 8 MiB each; separate manual-library limits remain. No package archive, externalized asset store, cloud service, paid dependency or navigation demo was added.
+
 ## 0.9.0 — 1 November 2026
 
 - Four layer-position commands preserve motion, artwork and other scene data. Endpoint controls disable correctly and remain keyboard accessible at 319px.

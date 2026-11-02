@@ -104,3 +104,11 @@ While opening a project/proposal or importing artwork, the status shows **Cancel
 Select the layer and find **Layer position** in Properties. Move forward/backward changes one position; Bring to front/Send to back moves to an end. The top layer row is in front. Endpoint buttons are disabled, and Undo restores the prior order.
 
 Try stacking in a proposal to compare before applying. Review lists starting and proposed order from back to front. An overlapping reorder needs an explicit decision. When stacking requires added/removed layers, select those related changes too; leave stacking unchecked to apply other edits while keeping the approved order.
+
+## Reliable workspace saving
+
+Open **Saving and recovery → Use reliable workspace saving** when you want automatic transactional saves on this browser. Existing original save files are preserved. Latest/prior previews help identify a version before downloading or opening it as a library copy. Opening a copy first keeps your current work in the library.
+
+If another tab saves first, download or keep your local project, then use **Keep current in library and reopen stored workspace**. Retry does not merge or adopt the other tab's generation. If storage is damaged or unavailable, saving stays paused; raw recovery downloads preserve what could be read. Keep downloaded backups: clearing browser data removes local saves. The main and secondary website addresses have separate storage.
+
+The homepage's **Resume studio** button returns to an already entered workspace. Saving can finish while you view the homepage; editing shortcuts and playback stay inactive there. Starting another project still asks how to keep current work first.
