@@ -1,6 +1,6 @@
 # Capability register
 
-Updated 31 October 2026. These IDs match the private engineering packets. This is public scope and sequencing, not application source or a claim that future tools work.
+Updated 1 November 2026. These IDs match the private engineering packets. This is public scope and sequencing, not application source or a claim that future tools work.
 
 **48 proposed packets · 149 acceptance recipes · 12 mathematical vectors.** Recipes/vectors are design inputs, not passed implementation tests. The active gate is specification review. [Process and open decisions](SPECIFICATION.md)
 
@@ -15,11 +15,11 @@ The phase column is a dependency sequence, not a release date. G2 entries for ex
 
 | ID   | Capability                                                      | Public status                                                           | Phase |
 | ---- | --------------------------------------------------------------- | ----------------------------------------------------------------------- | ----- |
-| C01  | Scene creation and artwork intake                               | Starting points in 0.6; broader compatibility work proposed             | G2    |
+| C01  | Scene creation and artwork intake                               | Starting points and guarded imports available; broader intake proposed  | G2    |
 | C02  | Frame evaluation and basic motion                               | Available in 0.2; future compatibility changes proposed                 | G2    |
 | C03  | Story panels and contact sheets                                 | Available in 0.2; future compatibility changes proposed                 | G2    |
 | C04  | Selective proposal review                                       | Available in 0.2; future compatibility changes proposed                 | G2    |
-| C05  | Legacy saving and exchange compatibility                        | Available in 0.2; future compatibility changes proposed                 | G2    |
+| C05  | Legacy saving and exchange compatibility                        | Guarded file exchange available; broader compatibility proposed         | G2    |
 | C06  | Still PNG and fixed-frame scene WebM                            | Available in 0.2.2; browser matrix remains limited                      | G2    |
 | C07  | Layer management and selection                                  | Rename, duplicate/remove and still-artwork fit available; rest proposed | G2    |
 | C08  | Timeline tools and easing                                       | Add/remove/move keys and frame entry available; rest proposed           | G2    |
@@ -74,3 +74,7 @@ The phase column is a dependency sequence, not a release date. G2 entries for ex
 - No mandatory paid hosting or AI dependency. Optional services can remain deferred if free operation is not viable.
 
 See [ROADMAP.md](ROADMAP.md) for order, [RESEARCH.md](RESEARCH.md) for experiments/conditions and [GETTING_STARTED.md](GETTING_STARTED.md) for actual current usage.
+
+## 0.8.0 admission
+
+C01/C05 now include operation ownership for applying project/proposal/raster imports, visible cancellation and native dimension validation. A bounded C37/C38 slice adds an embedded artwork inventory and operation-owned render contexts. This does not complete those broader packets: package formats, asset cleanup, measured process-memory budgets and hosted assets remain proposed or conditional.

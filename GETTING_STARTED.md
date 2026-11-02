@@ -92,3 +92,9 @@ Select a drawing layer, then use **Drawing stroke** in Properties. On a narrow s
 Choose **Remove selected stroke** to remove that entire path. Undo restores it without undoing later unrelated edits. Removing the final stroke leaves the drawing layer available for new drawing. Layer/mode changes clear the choice; list changes require another selection. Imported artwork cannot be erased with this control.
 
 For a separate alternative, choose **New proposal** before removing. Compare shows one drawing-list change, not independent merge choices for every stroke. Concurrent changes to that list require an explicit conflict choice. Panel proposals affect their target panel, keeping the main scene intact.
+
+## Inspect and keep embedded artwork
+
+Choose **Project artwork** in the studio toolbar. Pick an image to preview its embedded copy, dimensions, size and usage. **Download embedded image** retains the exact stored bytes; the upload may have been resized, so keep your originals separately. **Check embedded artwork** opens the images in your browser and checks their dimensions. The memory estimate describes one uncompressed copy per image, not peak browser usage.
+
+While opening a project/proposal or importing artwork, the status shows **Cancel import**. Cancel preserves current work, though the native read/decode may still finish. If you edit the project or switch targets before completion, the import stops; choose the file again when ready. A failed import leaves the current editable source intact.

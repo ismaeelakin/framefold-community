@@ -73,3 +73,11 @@ Draw several strokes, add or edit another layer, then inspect and remove an earl
 Try cleanup in a proposal and accept it into the original scene. Repeat on a captured panel: the main scene must remain unchanged. Concurrent list edits remain a conflict rather than an automatic per-stroke merge. Test a rotated/scaled drawing at another playhead time and keyboard access to the picker/removal buttons.
 
 Current evidence includes 49 model tests, four fixed-preview checks, nine repeated synthetic gesture checks and ten actual-artifact groups. Source/PNG inspection invariance is byte-exact. The first preview harness comparison failed with repeated-versus-fresh canvas readbacks; isolated one-read cases pass the same exact assertion. The failure remains recorded. This does not establish universal raster, device or artist usability.
+
+## 0.8.0 checks to repeat
+
+Save a project and a frame PNG, inspect Project artwork, then save/export again without editing: inspection should not change either output. Download an embedded image and compare it with the image bytes in the editable JSON. Run Check embedded artwork and try the picker, download and check controls with a keyboard and a narrow window.
+
+Cancel a pending import and confirm no late replacement. Editing or changing targets while a read/decode is pending must preserve the newer work and ask you to choose the file again. Very fast files may finish before cancellation; controlled timing proofs use the actual App with held native-operation delivery in the private engineering harness. Those tests do not imply every operating-system decoder follows the same ordering.
+
+Recorded release evidence includes 58 tests, 12 artwork artifact groups, eight native preparation checks, four inventory lifecycle cases, exact downloaded-file comparisons, closed bitmap resources and a fully decoded 192-frame storyboard. It remains one-browser evidence; independent creator sessions and a wider browser matrix are open.

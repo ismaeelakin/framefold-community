@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.8.0 — 1 November 2026
+
+- Project artwork inventory: embedded previews, sizes, approved/proposal usage, exact-image downloads and native dimension checks. Readable desktop and 319px layouts.
+- Pending project/proposal/artwork imports show Cancel import and preserve newer work when delayed operations finish. Native bitmap resources close after cancellation or stale delivery.
+- Rendering and exports retain operation-owned artwork. A reproduced same-ID concurrent preparation defect is repaired; all 240 decoded test frames retain the intended image.
+  - 58 tests and 12 artwork artifact groups pass. A newly downloaded complete storyboard decodes all 192 frames with correct timing and panel boundaries; source/PNG/embedded image comparisons are exact. Broader asset packages and cloud collaboration remain planned.
+- No navigation demo, paid dependency or hosting service was added.
+
 ## 0.7.1 — 1 November 2026
 
 The secondary host redirects its older platform hostname to another platform address. The main-address notice now covers all Sites hostnames. Vercel remains Framefold's main home. Website addresses have separate browser storage; a redirect does not migrate projects.

@@ -4,7 +4,7 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.7.1
+## Current system: alpha 0.8.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
@@ -52,3 +52,9 @@ The chooser prepares a fresh validated document, including actual artwork decodi
 ## Stroke inspection and cleanup
 
 Inspection selection is session-only and bound to mode, scene, layer, list contents and index. Target changes clear it; a changed list invalidates it. Removal checks current live content before cloning one array without changing other layer data. Stage adds the optional preview halo, while exports retain the ordinary renderer. Proposal review still compares the entire strokes list atomically and treats concurrent list edits conservatively.
+
+## Artwork and import ownership
+
+Prepared images belong to each render/export operation. Native decodes must match declared dimensions; another project preparing the same image ID cannot change an in-flight output. Missing context fails before clearing the destination. Reusable decoding is an optimization, not a total memory guarantee.
+
+Applying imports use a generation, content identity and editing-target guard after asynchronous work. Cancellation prevents application, while native decoding may still complete. Older completion cannot clear a newer pending operation; bitmap resources close. The artwork inventory is derived metadata and session UI. Project format2 and existing limits remain unchanged.

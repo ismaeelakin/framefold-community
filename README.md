@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.7.1 available · Specification-first development · Application source private**
+**Browser alpha 0.8.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -56,6 +56,14 @@ Select a drawing layer and choose a stroke in **Sketch strokes**. The canvas out
 ![Inspecting a real drawn stroke in the released editor](docs/images/stroke-inspection.png)
 
 The same cleanup can be tried in a proposal and selectively accepted into the approved scene or panel. Drawing-list edits are reviewed together; this is not a partial eraser, raster editor or per-stroke merge engine. The desktop project guide is also more compact so the canvas and timeline are easier to use together.
+
+## See the artwork inside a project
+
+**Project artwork** shows embedded images, dimensions, usage in approved scenes and proposals, and their embedded size. Preview an image, download its exact embedded copy, or run **Check embedded artwork**. The memory estimate covers one uncompressed copy, not peak browser memory; keep original uploads separately.
+
+![The artwork inventory in the current editor](docs/images/artwork-inventory.png)
+
+Imports show their progress with **Cancel import**, including on narrow screens. A delayed file read or image decode cannot replace newer edits, a changed target or a newer import. Rendering and exports keep their own prepared images so unrelated image preparation cannot substitute artwork during an export.
 
 ## Look closer, keep the scene intact
 
