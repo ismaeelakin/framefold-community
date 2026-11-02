@@ -4,7 +4,7 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.8.0
+## Current system: alpha 0.9.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
@@ -58,3 +58,7 @@ Inspection selection is session-only and bound to mode, scene, layer, list conte
 Prepared images belong to each render/export operation. Native decodes must match declared dimensions; another project preparing the same image ID cannot change an in-flight output. Missing context fails before clearing the destination. Reusable decoding is an optimization, not a total memory guarantee.
 
 Applying imports use a generation, content identity and editing-target guard after asynchronous work. Cancellation prevents application, while native decoding may still complete. Older completion cannot clear a newer pending operation; bitmap resources close. The artwork inventory is derived metadata and session UI. Project format2 and existing limits remain unchanged.
+
+## Reviewed layer stacking
+
+Existing scene.order stays back-to-front. Immutable layer commands alter only that array. An atomic review item appears when a draft's order differs from ordinary membership-only add/remove effects. Node/property changes apply first, stacking last; the order must reference each resulting layer exactly once. Overlapping order edits need explicit resolution, and approved-only layers cannot silently disappear. No schema migration is introduced.

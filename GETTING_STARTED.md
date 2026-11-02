@@ -98,3 +98,9 @@ For a separate alternative, choose **New proposal** before removing. Compare sho
 Choose **Project artwork** in the studio toolbar. Pick an image to preview its embedded copy, dimensions, size and usage. **Download embedded image** retains the exact stored bytes; the upload may have been resized, so keep your originals separately. **Check embedded artwork** opens the images in your browser and checks their dimensions. The memory estimate describes one uncompressed copy per image, not peak browser usage.
 
 While opening a project/proposal or importing artwork, the status shows **Cancel import**. Cancel preserves current work, though the native read/decode may still finish. If you edit the project or switch targets before completion, the import stops; choose the file again when ready. A failed import leaves the current editable source intact.
+
+## Put a layer in front or behind
+
+Select the layer and find **Layer position** in Properties. Move forward/backward changes one position; Bring to front/Send to back moves to an end. The top layer row is in front. Endpoint buttons are disabled, and Undo restores the prior order.
+
+Try stacking in a proposal to compare before applying. Review lists starting and proposed order from back to front. An overlapping reorder needs an explicit decision. When stacking requires added/removed layers, select those related changes too; leave stacking unchecked to apply other edits while keeping the approved order.

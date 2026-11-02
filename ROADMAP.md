@@ -2,9 +2,9 @@
 
 Updated 1 November 2026. This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
 
-## Available: browser alpha 0.8.0
+## Available: browser alpha 0.9.0
 
-Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and fixed-frame silent scene/storyboard WebM, duplicate/remove/fit layer commands and individual add/remove/move keys. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. Recent bounded releases add starting points, a manual local project library, viewport navigation, whole-stroke cleanup, guarded imports and the artwork inventory. Broader gates below remain proposed.
+Basic local 2D artwork, ten-second linear motion, story panels, selective proposals, downloaded files, PNG/contact sheets and fixed-frame silent scene/storyboard WebM, duplicate/remove/fit layer commands and individual add/remove/move keys. See [the first-session guide](GETTING_STARTED.md) for actual controls and limits. Recent bounded releases add starting points, a manual local project library, viewport navigation, whole-stroke cleanup, guarded imports the artwork inventory and reviewed layer stacking. Broader gates below remain proposed.
 
 ## G0 — Specification review · active
 

@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.8.0 available · Specification-first development · Application source private**
+**Browser alpha 0.9.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -56,6 +56,14 @@ Select a drawing layer and choose a stroke in **Sketch strokes**. The canvas out
 ![Inspecting a real drawn stroke in the released editor](docs/images/stroke-inspection.png)
 
 The same cleanup can be tried in a proposal and selectively accepted into the approved scene or panel. Drawing-list edits are reviewed together; this is not a partial eraser, raster editor or per-stroke merge engine. The desktop project guide is also more compact so the canvas and timeline are easier to use together.
+
+## Put artwork in the right order
+
+Select a layer, then use **Move forward**, **Move backward**, **Bring to front** or **Send to back** in Properties. The top layer row is in front. Motion and embedded artwork remain intact; Undo restores the previous order.
+
+Stacking changes also work in proposals. Review shows starting and proposed layer orders alongside synchronized previews. Conflicting order edits require an explicit choice. If the chosen order needs different layers, the operation stops instead of discarding approved work.
+
+![Reviewing a stacking alternative in the released editor](docs/images/layer-stacking-review.png)
 
 ## See the artwork inside a project
 

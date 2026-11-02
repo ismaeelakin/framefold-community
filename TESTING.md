@@ -81,3 +81,9 @@ Save a project and a frame PNG, inspect Project artwork, then save/export again 
 Cancel a pending import and confirm no late replacement. Editing or changing targets while a read/decode is pending must preserve the newer work and ask you to choose the file again. Very fast files may finish before cancellation; controlled timing proofs use the actual App with held native-operation delivery in the private engineering harness. Those tests do not imply every operating-system decoder follows the same ordering.
 
 Recorded release evidence includes 58 tests, 12 artwork artifact groups, eight native preparation checks, four inventory lifecycle cases, exact downloaded-file comparisons, closed bitmap resources and a fully decoded 192-frame storyboard. It remains one-browser evidence; independent creator sessions and a wider browser matrix are open.
+
+## 0.9.0 checks to repeat
+
+Place overlapping artwork forward/backward, check the layer list and output, then Undo/Redo. Save and reopen: IDs, motion and image bytes must stay intact. Try the same action in a proposal and a captured panel. Stacking should appear as one review item; accepting it must preserve unselected properties and other panels.
+
+Conflicting reorders require explicit resolution. A proposed order cannot discard layers added only on the approved scene; incompatible membership must reject with current work intact. Eight new model tests and six retained artifact groups cover these boundaries. Keyboard/narrow checks and actual downloads are recorded separately from model tests.

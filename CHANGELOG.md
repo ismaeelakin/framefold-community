@@ -1,5 +1,12 @@
 # Release notes
 
+## 0.9.0 — 1 November 2026
+
+- Four layer-position commands preserve motion, artwork and other scene data. Endpoint controls disable correctly and remain keyboard accessible at 319px.
+- Order-only alternatives now appear as atomic stacking changes in proposal review. Readable starting/proposed order replaces the old array-as-strokes wording. Overlapping order edits require explicit resolution; incompatible layer membership rejects without discarding approved layers.
+- 66 tests and six stacking artifact groups pass. Actual editor files cover keyboard movement, exact Undo/Redo, proposal acceptance/Undo, captured-panel isolation and changed PNG with identical artwork.
+- Existing format 2 and limits remain. Groups, hide/lock and drag sorting remain planned. No navigation demo was recorded.
+
 ## 0.8.0 — 1 November 2026
 
 - Project artwork inventory: embedded previews, sizes, approved/proposal usage, exact-image downloads and native dimension checks. Readable desktop and 319px layouts.
