@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.13.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.14.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -131,4 +131,10 @@ Open the motion workspace and choose a property with at least two keys. Tick exa
 
 **Preview easing** shows a temporary version on the scene preview. Play it or move the playhead to inspect it. The range summary tells you how many frame keys will be generated and which interior keys will be replaced. **Apply** commits the sampled motion in one Undo step. **Cancel easing preview** or closing the workspace keeps the original source and save intact. Changing the source, layer, property, preset or tool also discards an obsolete preview.
 
-Generated samples remain individually editable numeric keys. Their endpoint values and outside keys stay intact; movement between samples is linear. Native curve handles and overshoot are not available. A captured panel still contributes a held first frame to storyboard output; choose that panel's **Scene video** export to deliver its internal motion.
+Generated samples remain individually editable numeric keys. Their endpoint values and outside keys stay intact; movement between samples is linear. Native curve handles and overshoot are not available. Storyboard output plays each approved scene from frame zero for its panel hold. A captured pose is initially still; adding keys animates it within that hold. Choose that panel's **Scene video** export for its full ten-second motion.
+
+## Open a busy stretch of motion
+
+The timeline groups nearby key times into numbered targets. Choose a group to select its layer, seek the group's first time and open the motion workspace. Every exact key remains there. A single diamond still goes straight to that time. In a review, a numbered group seeks the preview while keeping review open.
+
+The number counts distinct times across the layer's properties. Two properties keyed at the same instant count as one time in this overview. Resizing can change the groups without changing any motion or saved project data.

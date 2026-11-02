@@ -1,6 +1,14 @@
 # Release notes
 
-## 0.13.0 — 2 November 2026
+## 0.14.0 — 2 November 2026
+
+- Nearby timeline timestamps form counted groups with 44-pixel targets. Activating a group opens exact motion controls for that layer; isolated keys still navigate directly. Review groups seek their first key and keep the synchronized comparison open. No source keys are removed or retimed.
+- Corrected a misleading explanation introduced in 0.12.0: storyboard output plays each approved scene from frame zero for its panel hold. Captured poses remain still until you add motion. The renderer is unchanged.
+- 105 unit tests and nine retained creator acceptance groups pass. An actual complete workflow covers sampled easing, selected-only review with exact Undo/Redo, independently captured panels, library checkpoints/reload and proposal/panel target isolation.
+- A real five-second storyboard decodes all 120 frames, with the expected boundary at frame 72. Independent scalar poses feed the shared artwork renderer; per-frame mean RGB error stays below 0.76 against the declared codec tolerance of 3. This is one browser and does not replace independent artist evaluation.
+- Source format, scene limits and zero-spend setup remain. No tutorial recording, paid service or native 3D was added.
+
+## 0.13.0
 
 - Previous/Next animation frame controls stop playback, clamp at scene boundaries and retain an unapplied easing preview. The preview label remains visible below the persistent workspace header; narrow controls measure 44 × 44 pixels.
 - Single-pass property evaluation replaces repeated key sorting without cached results or a document change. Exact legacy arithmetic, interior-key rounding, infinities, missing tracks and live mutation behaviour are preserved.

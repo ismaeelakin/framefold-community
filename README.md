@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.13.0 available · Specification-first development · Application source private**
+**Browser alpha 0.14.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -144,7 +144,15 @@ In the motion workspace, select two keys and choose **Shape timing**. Preview a 
 
 ![Easing preview with original illustrated artwork](docs/images/sampled-easing.png)
 
-The graph describes timing progress, rather than a drawn motion path. These are sampled numeric keys, with linear movement between frames. Captured-panel storyboards still hold each panel’s first frame; use the panel’s Scene video export for its motion. Native editable curve handles and animated shot sequences remain later work.
+The graph describes timing progress, rather than a drawn motion path. These are sampled numeric keys, with linear movement between frames. Storyboard delivery plays each approved scene from frame zero for its panel hold. A captured pose stays still until you add motion; Scene video delivers the full selected scene. Native editable curve handles and animated shot sequences remain later work.
+
+## Keep a dense timeline readable
+
+After sampled easing, a layer can contain many closely spaced key times. The timeline groups nearby times into counted targets. Choose a numbered group to open that layer’s exact motion controls; no keys are deleted or moved. During review, a group seeks its first key without opening an editing surface.
+
+![Counted motion groups in the actual 0.14.0 interface](docs/images/dense-timeline.png)
+
+The groups adapt to the available width, with 44-pixel targets checked at desktop and 319 pixels. Isolated keys still navigate directly. These are overview controls; use the motion workspace to inspect individual keys.
 
 ## Inspect motion one frame at a time
 

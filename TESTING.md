@@ -1,6 +1,6 @@
 # Test the current alpha
 
-This guide concerns **released 0.13.0 behaviour**; versioned evidence below remains tied to its original release. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
+This guide concerns **released 0.14.0 behaviour**; versioned evidence below remains tied to its original release. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
 
 ## Before a session
 
@@ -119,3 +119,11 @@ Alternating baseline trials measured aggregate evaluator CPU improvement of 2.38
 Repeat in a disposable project: step 0 → 1 → 0; check the previous button disables at zero; step 240 → 239; start playback then step and confirm playback stops. Preview easing and step 30 → 31 → 30: the temporary preview must remain, while Cancel leaves exact downloaded source unchanged. Check the label below the workspace header and 44-pixel controls at 319 pixels wide.
 
 The earlier 0.12.0 240-frame decoded WebM is separate export evidence. This release adds exact evaluator and pixel-hash comparisons, not a new codec or a newly encoded video claim.
+
+## Dense overview and complete creator path — 0.14.0
+
+105 unit tests and nine retained creator assertion groups pass. Create an illustration, rename its layer, edit a pose, apply sampled easing, propose two changes, accept one, Undo/Redo, capture a panel, export, checkpoint and reopen. A native five-second storyboard has 120 decoded frames and the declared 3/2-second boundary. Expected scalar poses are calculated separately, then drawn by the shared renderer; this is not an independent renderer or multi-browser study.
+
+Actual desktop/319-pixel overview targets measure at least 44 × 44 pixels, remain separated and do not add horizontal overflow. The 122-time fixture retains exact source bytes through grouped main/review/narrow navigation. Proposal/panel groups open the right context; copying keys into a captured panel preserves main, proposal and artwork. Library reload/checkpoint/continuation preserve canonical creative data; save timestamps differ by design.
+
+The initial media report is retained. Its extra decoded-to-decoded threshold conflicted with the declared source/codec budget. The final check keeps the original mean RGB tolerance of 3, verifies exact uncompressed expected still pixels and records compressed variation as diagnostic. No navigation demo was recorded. Independent artist studies remain pending.

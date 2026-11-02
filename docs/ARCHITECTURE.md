@@ -4,7 +4,7 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.13.0
+## Current system: alpha 0.14.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
@@ -86,3 +86,9 @@ An easing preview belongs to the exact source scene, layer, property, endpoint s
 Evaluation scans a track once to find the greatest stamp strictly before the requested time and the least stamp at or after it. It preserves the legacy interpolation operation order, including rounding at exact interior stamps. Empty/missing tracks, endpoint clamping and observed mutation remain compatible. There is no key cache to invalidate and no project-format change.
 
 A frozen old evaluator, adversarial/random tracks and actual project fixtures support exact comparisons. The production renderer produces identical RGBA hashes at six fixture frames. Alternating timing trials measure evaluator CPU only on one browser; wider resource budgets, device studies and other C37 engine work remain open. Previous/Next frame controls change session time and playback, not saved scene data.
+
+## Timeline overview
+
+Each layer derives a sorted numeric union of timestamp keys. Adjacent overview targets whose centers would overlap are merged into a counted range, using measured lane width and a 44-pixel minimum separation. This changes presentation only. The motion workspace retains every exact key; review groups only seek their first timestamp. The derived index is memoized independently of playback time, and its observer disconnects on unmount.
+
+Storyboard output and animatic preview play each approved scene from frame zero for the panel hold. Capture current pose initially produces a still scene. Subsequent motion keys animate in that panel's allotted time. This corrects older help wording; it does not introduce a new shot-sequence renderer.
