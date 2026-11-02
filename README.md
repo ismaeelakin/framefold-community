@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.11.0 available · Specification-first development · Application source private**
+**Browser alpha 0.12.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -136,7 +136,15 @@ Select a layer and choose **Open motion workspace**. See the scene beside its mo
 
 ![Motion workspace with an illustrated scene](docs/images/motion-workspace.png)
 
-Copied keys stay in this studio session and clear on reload. This does not access your system clipboard or change the project format. Easing curves, loops and longer scenes remain future work.
+Copied keys stay in this studio session and clear on reload. This does not access your system clipboard or change the project format. Native curve handles, loops and longer scenes remain future work.
+
+## Give movement a different pace
+
+In the motion workspace, select two keys and choose **Shape timing**. Preview a gentle start, finish or both, inspect the movement, then Apply or Cancel. Applying creates editable frame samples between the same endpoint values. Previewing and cancelling leave your project and automatic save unchanged; Undo restores an applied change.
+
+![Easing preview with original illustrated artwork](docs/images/sampled-easing.png)
+
+The graph describes timing progress, rather than a drawn motion path. These are sampled numeric keys, with linear movement between frames. Captured-panel storyboards still hold each panel’s first frame; use the panel’s Scene video export for its motion. Native editable curve handles and animated shot sequences remain later work.
 
 ## Architecture and ownership
 

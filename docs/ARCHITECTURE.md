@@ -4,7 +4,7 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.11.0
+## Current system: alpha 0.12.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
@@ -74,3 +74,9 @@ Recovery previews are derived first frames, not extra stored snapshots. Opening 
 A typed application clipboard stores selected same-property key values at relative integer-frame offsets. Capture and paste validate numeric/property/time limits. Destination planning enforces the final track budget and identifies occupied stamps before one immutable scene command. Explicit replacement and existing Undo/history preserve the old motion. Existing per-key proposal review handles the resulting values; no document fields or interpolation rules change.
 
 Copied keys belong to the mounted application session; selection and pending decisions belong to the current scene/layer/property/track context. Target, frame, clipboard or scene changes invalidate replacement decisions. The dedicated motion workspace shares the inspector's key editor and clipboard beside a non-editable Stage preview, with one active key-control surface. Closing stops playback. Reload clears copied motion while ordinary project data remains saved.
+
+## Sampled easing
+
+A bracketed cubic solver derives bounded whole-frame numeric keys from one of four presets. Plans retain exact endpoints and outside keys, count replaced interior keys and enforce the final property budget before changing a scene. Existing linear evaluation, numeric proposal review and export consume those samples; no native curve field or new document format is written.
+
+An easing preview belongs to the exact source scene, layer, property, endpoint selection and preset. Time changes inspect it; source/target/preset/tool changes invalidate it. Competing key-copy/edit commands are disabled while previewing. Apply recomputes and commits one ordinary scene command. Cancel and modal unmount discard temporary state without changing source, automatic saves or history. Property and track changes permanently clear old selection. The preview and final numeric motion are verified separately.

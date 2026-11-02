@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.12.0 — 2 November 2026
+
+- Four easing presets generate ordinary editable frame keys between two selected endpoints. Preview is separate from source and saved data; Apply is one edit, while Cancel or Close preserves exact project bytes and save generation.
+- The motion workspace gains separate Reuse keys / Shape timing tools, a timing diagram, preview ownership label and compact transport. Source, target, preset and tool changes discard obsolete previews. An older property/track round-trip selection defect is repaired.
+- The four-step beginner guide now reaches motion controls, handles an empty scene and completes a pose-to-easing-preview path. Captured-panel guidance distinguishes held storyboard delivery from a panel's Scene video. Final measured narrow controls fit 319 pixels and are at least 44 pixels tall.
+- 97 unit tests and fourteen retained easing assertion groups pass. The solver is checked against 980 independently calculated high-precision values. An actual 240-frame export is decoded and checked against independent positions, within the declared 2.5-pixel codec/edge tolerance.
+- Format 2 and linear evaluation remain. No native curve fields, overshoot, longer scenes, 3D, hosted service, new dependency or tutorial recording was added.
+
 ## 0.11.0 — 2 November 2026
 
 - Copy selected same-property motion keys with their relative frame gaps. Paste onto another layer, proposal or captured panel with explicit occupied-key review and exact one-step Undo/Redo. Wrong properties, off-grid source keys and out-of-range/over-budget pastes reject safely.

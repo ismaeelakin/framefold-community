@@ -120,3 +120,11 @@ Choose a layer in the sidebar or its timeline row, then **Open motion workspace*
 If destination keys are occupied, inspect the listed frames and choose **Replace occupied keys** or **Cancel paste**. Unselected keys stay intact; Undo restores the whole paste. Closing the workspace returns to the normal editor and stops preview playback. You can also use the smaller **Edit individual keyframes** controls in Properties.
 
 For another panel or proposal, close the motion workspace, change **Editing version** and reopen it. Copied motion remains available in the same session. Reload clears it. An off-grid imported key must first be moved to a whole frame; a paste beyond the current scene cannot silently extend it. These are ordinary numeric motion keys, with the existing linear interpolation.
+
+## Preview a gentler start or finish
+
+Open the motion workspace and choose a property with at least two keys. Tick exactly two keys to mark the beginning and end of the change, then choose **Shape timing**. Pick Linear, Ease in, Ease out or Ease in/out. The graph shows timing progress; it is not a motion-path drawing tool.
+
+**Preview easing** shows a temporary version on the scene preview. Play it or move the playhead to inspect it. The range summary tells you how many frame keys will be generated and which interior keys will be replaced. **Apply** commits the sampled motion in one Undo step. **Cancel easing preview** or closing the workspace keeps the original source and save intact. Changing the source, layer, property, preset or tool also discards an obsolete preview.
+
+Generated samples remain individually editable numeric keys. Their endpoint values and outside keys stay intact; movement between samples is linear. Native curve handles and overshoot are not available. A captured panel still contributes a held first frame to storyboard output; choose that panel's **Scene video** export to deliver its internal motion.

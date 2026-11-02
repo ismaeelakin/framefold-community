@@ -101,3 +101,11 @@ These are one Chromium environment and explicit fault injections. Real device ex
 87 unit tests include nine motion-copy boundaries. Eleven retained artifact groups check source-preserving copy/cancel, exact paste Undo/Redo, stale/property rejection, individual proposal acceptance, captured-panel isolation, session reset and illustrated preview/no-op behavior. The dedicated motion workspace was checked with keyboard actions and319px controls; all measured targets are at least44px. Invalid frame entry leaves the prior playhead unchanged, and closing stops preview playback.
 
 The actual exported scene video decodes all240 frames at24fps,960×540 and10seconds. A separate frozen piecewise-linear oracle checks the teal card's bounds in every frame: maximum1.25px error within the declared2.5px codec/edge tolerance. This is one Chromium environment and artist-output verification, not a tutorial recording or a general device-performance claim.
+
+## Sampled easing — 0.12.0
+
+97 unit tests include ten new numerical and command checks. A Python Decimal/bisection oracle independently supplies 980 curve values and the expected positions for every exported frame. Fourteen retained artifact groups check exact preview/cancel/close source and save records, one-step Undo/Redo, reopening, stale preview ownership, repaired selection lifecycle, proposal/panel isolation, narrow controls and the beginner guide.
+
+The actual eased WebM decodes all 240 frames at 24 fps, 960 × 540 and 10 seconds. Every card position matches the independent oracle within the declared 2.5-pixel codec/edge tolerance; maximum measured error is 2 pixels. Native screenshot checks separately show the preview movement after correcting captured viewport-to-bitmap scaling. The initial coordinate-check failure remains recorded, and the tolerance was not relaxed.
+
+This is one Chromium environment, not a complete device/browser matrix, independent artist study or navigation tutorial. The full deferred demonstration series remains future work.
