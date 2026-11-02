@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.13.0 — 2 November 2026
+
+- Previous/Next animation frame controls stop playback, clamp at scene boundaries and retain an unapplied easing preview. The preview label remains visible below the persistent workspace header; narrow controls measure 44 × 44 pixels.
+- Single-pass property evaluation replaces repeated key sorting without cached results or a document change. Exact legacy arithmetic, interior-key rounding, infinities, missing tracks and live mutation behaviour are preserved.
+- 102 unit tests pass. Eight retained evaluation assertion groups cover 96,000 exact candidate/legacy comparisons, an 80-layer/96,400-key fixture, six identical renderer pixel hashes, source/save preservation and real frame navigation.
+- Alternating browser microbenchmarks measured 2.38× aggregate evaluator CPU improvement before integration and 3.38× in a follow-up. These are one-host evaluator measurements, not whole-app FPS or a supported-device guarantee. No fresh video encode is claimed for this release; the 0.12.0 decoded export remains separate evidence.
+- Format 2, scene limits and output rules remain. No service, dependency, 3D feature or tutorial recording was added.
+
 ## 0.12.0 — 2 November 2026
 
 - Four easing presets generate ordinary editable frame keys between two selected endpoints. Preview is separate from source and saved data; Apply is one edit, while Cancel or Close preserves exact project bytes and save generation.

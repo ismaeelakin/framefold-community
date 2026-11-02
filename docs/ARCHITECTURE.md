@@ -4,7 +4,7 @@ This page separates the **released alpha** from **proposed architecture**. The d
 
 ![Current and proposed boundaries](architecture.svg)
 
-## Current system: alpha 0.12.0
+## Current system: alpha 0.13.0
 
 The static website loads into a browser. Local project state contains the approved scene, proposals, embedded artwork and story panels. Scene evaluation supplies the same drawing path for preview and local exports. Review compares a proposal's base/draft against current approved content and asks for explicit decisions on overlapping changes.
 
@@ -80,3 +80,9 @@ Copied keys belong to the mounted application session; selection and pending dec
 A bracketed cubic solver derives bounded whole-frame numeric keys from one of four presets. Plans retain exact endpoints and outside keys, count replaced interior keys and enforce the final property budget before changing a scene. Existing linear evaluation, numeric proposal review and export consume those samples; no native curve field or new document format is written.
 
 An easing preview belongs to the exact source scene, layer, property, endpoint selection and preset. Time changes inspect it; source/target/preset/tool changes invalidate it. Competing key-copy/edit commands are disabled while previewing. Apply recomputes and commits one ordinary scene command. Cancel and modal unmount discard temporary state without changing source, automatic saves or history. Property and track changes permanently clear old selection. The preview and final numeric motion are verified separately.
+
+## Dense property evaluation
+
+Evaluation scans a track once to find the greatest stamp strictly before the requested time and the least stamp at or after it. It preserves the legacy interpolation operation order, including rounding at exact interior stamps. Empty/missing tracks, endpoint clamping and observed mutation remain compatible. There is no key cache to invalidate and no project-format change.
+
+A frozen old evaluator, adversarial/random tracks and actual project fixtures support exact comparisons. The production renderer produces identical RGBA hashes at six fixture frames. Alternating timing trials measure evaluator CPU only on one browser; wider resource budgets, device studies and other C37 engine work remain open. Previous/Next frame controls change session time and playback, not saved scene data.

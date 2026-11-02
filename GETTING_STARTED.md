@@ -113,6 +113,10 @@ If another tab saves first, download or keep your local project, then use **Keep
 
 The homepage's **Resume studio** button returns to an already entered workspace. Saving can finish while you view the homepage; editing shortcuts and playback stay inactive there. Starting another project still asks how to keep current work first.
 
+## Check a frame precisely
+
+In **Open motion workspace**, use **Previous animation frame** or **Next animation frame** beside the play controls. Each moves exactly 1/24 second and stops playback. At the beginning or end, the unavailable direction is disabled. You can still enter an exact frame or return to the start. Stepping during an easing preview inspects that preview without applying it.
+
 ## Copy timing to another layer
 
 Choose a layer in the sidebar or its timeline row, then **Open motion workspace** in Properties. Pick the property you want and tick the keys to reuse. **Copy selected keys** captures their values and the gaps between frames. Select the destination layer and the same property, move the playhead to the first destination frame and choose **Paste at playhead**.

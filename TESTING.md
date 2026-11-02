@@ -1,6 +1,6 @@
 # Test the current alpha
 
-This guide concerns **released 0.5.0 behaviour**. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
+This guide concerns **released 0.13.0 behaviour**; versioned evidence below remains tied to its original release. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
 
 ## Before a session
 
@@ -109,3 +109,13 @@ The actual exported scene video decodes all240 frames at24fps,960×540 and10seco
 The actual eased WebM decodes all 240 frames at 24 fps, 960 × 540 and 10 seconds. Every card position matches the independent oracle within the declared 2.5-pixel codec/edge tolerance; maximum measured error is 2 pixels. Native screenshot checks separately show the preview movement after correcting captured viewport-to-bitmap scaling. The initial coordinate-check failure remains recorded, and the tolerance was not relaxed.
 
 This is one Chromium environment, not a complete device/browser matrix, independent artist study or navigation tutorial. The full deferred demonstration series remains future work.
+
+## Dense motion and frame stepping — 0.13.0
+
+102 unit tests include five new evaluator-compatibility checks. Eight retained artifact groups cover 96,000 exact numeric comparisons with the frozen 0.12.0 evaluator, a validated 80-layer / 96,400-key scene, six byte-identical production renderer RGBA hashes, integrated evaluator comparisons and exact source/save preservation.
+
+Alternating baseline trials measured aggregate evaluator CPU improvement of 2.38×; the integrated follow-up measured 3.38×. Measurements vary on one host/browser. They exclude drawing, React, encoding and overall interaction latency; they do not establish whole-editor FPS, a device matrix, real artist usability or a million-user service capacity.
+
+Repeat in a disposable project: step 0 → 1 → 0; check the previous button disables at zero; step 240 → 239; start playback then step and confirm playback stops. Preview easing and step 30 → 31 → 30: the temporary preview must remain, while Cancel leaves exact downloaded source unchanged. Check the label below the workspace header and 44-pixel controls at 319 pixels wide.
+
+The earlier 0.12.0 240-frame decoded WebM is separate export evidence. This release adds exact evaluator and pixel-hash comparisons, not a new codec or a newly encoded video claim.
