@@ -2,7 +2,8 @@ import fs from "node:fs";
 import assert from "node:assert/strict";
 
 const root = new URL("../", import.meta.url);
-const read = (path) => fs.readFileSync(new URL(path, root), "utf8");
+const read = (path) =>
+  fs.readFileSync(new URL(path, root), "utf8").replace(/\r\n/g, "\n");
 const changelog = read("CHANGELOG.md");
 const releases = [...changelog.matchAll(/^## (\d+\.\d+(?:\.\d+)?)(.*)$/gm)];
 assert.ok(releases.length, "The release history needs a version heading.");

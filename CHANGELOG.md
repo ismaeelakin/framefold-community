@@ -1,6 +1,12 @@
 # Release notes
 
-## 0.14.0 — 2 November 2026
+## 0.14.1 — 2 November 2026
+
+The studio Guide now starts with three practical tasks: make movement, explore a proposal, and keep or deliver work. It names the current scene or alternative and links to existing motion, library and export panels. The full tool reference remains available in a collapsed section. Opening help does not change artwork, create a proposal or checkpoint, or begin an export.
+
+Desktop, keyboard and 319-pixel checks include empty-scene guidance and preserved project files. Scene profiles remain private research; the released canvas, frame rate and duration limits are unchanged. No tutorial video has been recorded.
+
+## 0.14.0
 
 - Nearby timeline timestamps form counted groups with 44-pixel targets. Activating a group opens exact motion controls for that layer; isolated keys still navigate directly. Review groups seek their first key and keep the synchronized comparison open. No source keys are removed or retimed.
 - Corrected a misleading explanation introduced in 0.12.0: storyboard output plays each approved scene from frame zero for its panel hold. Captured poses remain still until you add motion. The renderer is unchanged.

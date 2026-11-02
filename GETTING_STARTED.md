@@ -1,6 +1,6 @@
 # Your first Framefold session
 
-This guide describes released **alpha 0.14.0**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
+This guide describes released **alpha 0.14.1**. Future tools in the [feature register](FEATURES.md) are not available until a release explicitly introduces them.
 
 Use a recent desktop browser. The studio works without a Framefold account. GitHub sign-in is needed only to participate in the community.
 
@@ -138,3 +138,9 @@ Generated samples remain individually editable numeric keys. Their endpoint valu
 The timeline groups nearby key times into numbered targets. Choose a group to select its layer, seek the group's first time and open the motion workspace. Every exact key remains there. A single diamond still goes straight to that time. In a review, a numbered group seeks the preview while keeping review open.
 
 The number counts distinct times across the layer's properties. Two properties keyed at the same instant count as one time in this overview. Resizing can change the groups without changing any motion or saved project data.
+
+## Choose a task in the studio
+
+Open **Guide** to choose movement, proposals or delivery. The guide names the scene you are editing and opens the relevant existing controls. Its full reference stays available below the task chooser.
+
+![The task-based studio Guide](docs/images/studio-guide.png)
