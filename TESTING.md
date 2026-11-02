@@ -95,3 +95,9 @@ Conflicting reorders require explicit resolution. A proposed order cannot discar
 Twenty-one retained browser/artifact assertion groups cover opt-in preservation, original raw slots, Undo/Redo/reload, keep-current recovery, two-editor conflicts, Retry after Undo, delayed saves across the homepage, unmount, quota recovery, corrupt records, cancelled recovery with newer edits, artwork errors and homepage starter/library routing. Final narrow recovery targets fit 319px and measure at least 44px high. Earlier failures are retained separately from passing evidence.
 
 These are one Chromium environment and explicit fault injections. Real device exhaustion, power loss, the complete browser/permission matrix and independent artist studies have not been established. No tutorial or navigation video is included in these checks.
+
+## Motion reuse — 0.11.0
+
+87 unit tests include nine motion-copy boundaries. Eleven retained artifact groups check source-preserving copy/cancel, exact paste Undo/Redo, stale/property rejection, individual proposal acceptance, captured-panel isolation, session reset and illustrated preview/no-op behavior. The dedicated motion workspace was checked with keyboard actions and319px controls; all measured targets are at least44px. Invalid frame entry leaves the prior playhead unchanged, and closing stops preview playback.
+
+The actual exported scene video decodes all240 frames at24fps,960×540 and10seconds. A separate frozen piecewise-linear oracle checks the teal card's bounds in every frame: maximum1.25px error within the declared2.5px codec/edge tolerance. This is one Chromium environment and artist-output verification, not a tutorial recording or a general device-performance claim.

@@ -1,5 +1,12 @@
 # Release notes
 
+## 0.11.0 — 2 November 2026
+
+- Copy selected same-property motion keys with their relative frame gaps. Paste onto another layer, proposal or captured panel with explicit occupied-key review and exact one-step Undo/Redo. Wrong properties, off-grid source keys and out-of-range/over-budget pastes reject safely.
+- Open motion workspace provides a larger scene preview beside layer selection, key controls and whole-frame navigation. Playback stops on close. Invalid frame entry gives a clear error. Narrow controls fit319px with44px targets; the close control stays visible while scrolling.
+- 87 unit tests and eleven retained motion artifact groups pass. An actual ten-second WebM decodes all240 frames; independent position checks find the intended card on every frame, within the declared codec/edge tolerance.
+- Clipboard and selection stay outside saved documents and exports. No new file format, interpolation, hosted service, dependency or navigation demo. Easing, loops and grouped dragging remain planned.
+
 ## 0.10.0 — 2 November 2026
 
 - Opt-in transactional workspace saving preserves original browser save files and keeps the latest/prior automatic versions. Generation checks reject conflicting tabs; Retry cannot hide a conflict even after Undo returns to cached content.

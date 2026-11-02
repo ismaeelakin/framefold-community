@@ -112,3 +112,11 @@ Open **Saving and recovery → Use reliable workspace saving** when you want aut
 If another tab saves first, download or keep your local project, then use **Keep current in library and reopen stored workspace**. Retry does not merge or adopt the other tab's generation. If storage is damaged or unavailable, saving stays paused; raw recovery downloads preserve what could be read. Keep downloaded backups: clearing browser data removes local saves. The main and secondary website addresses have separate storage.
 
 The homepage's **Resume studio** button returns to an already entered workspace. Saving can finish while you view the homepage; editing shortcuts and playback stay inactive there. Starting another project still asks how to keep current work first.
+
+## Copy timing to another layer
+
+Choose a layer in the sidebar or its timeline row, then **Open motion workspace** in Properties. Pick the property you want and tick the keys to reuse. **Copy selected keys** captures their values and the gaps between frames. Select the destination layer and the same property, move the playhead to the first destination frame and choose **Paste at playhead**.
+
+If destination keys are occupied, inspect the listed frames and choose **Replace occupied keys** or **Cancel paste**. Unselected keys stay intact; Undo restores the whole paste. Closing the workspace returns to the normal editor and stops preview playback. You can also use the smaller **Edit individual keyframes** controls in Properties.
+
+For another panel or proposal, close the motion workspace, change **Editing version** and reopen it. Copied motion remains available in the same session. Reload clears it. An off-grid imported key must first be moved to a whole frame; a paste beyond the current scene cannot silently extend it. These are ordinary numeric motion keys, with the existing linear interpolation.

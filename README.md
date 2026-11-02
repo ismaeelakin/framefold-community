@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.10.0 available · Specification-first development · Application source private**
+**Browser alpha 0.11.0 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -129,6 +129,14 @@ In the studio, open **Saving and recovery** to opt into transactional workspace 
 ![Saving and recovery with real project previews](docs/images/workspace-recovery.png)
 
 Everything stays local to this website/browser. Automatic recovery keeps two versions up to 8 MiB each, separately from manual library checkpoints. Browser data can still be cleared; download backups. There is no cloud synchronization or unlimited storage.
+
+## Reuse motion without rebuilding it
+
+Select a layer and choose **Open motion workspace**. See the scene beside its motion keys, move the playhead by frame, and copy selected values with their timing gaps. Paste on the same property of another layer, proposal or captured panel. Occupied frames require review before replacement; Undo restores the whole paste.
+
+![Motion workspace with an illustrated scene](docs/images/motion-workspace.png)
+
+Copied keys stay in this studio session and clear on reload. This does not access your system clipboard or change the project format. Easing curves, loops and longer scenes remain future work.
 
 ## Architecture and ownership
 
