@@ -8,7 +8,7 @@
 - Alternating browser microbenchmarks measured 2.38× aggregate evaluator CPU improvement before integration and 3.38× in a follow-up. These are one-host evaluator measurements, not whole-app FPS or a supported-device guarantee. No fresh video encode is claimed for this release; the 0.12.0 decoded export remains separate evidence.
 - Format 2, scene limits and output rules remain. No service, dependency, 3D feature or tutorial recording was added.
 
-## 0.12.0 — 2 November 2026
+## 0.12.0
 
 - Four easing presets generate ordinary editable frame keys between two selected endpoints. Preview is separate from source and saved data; Apply is one edit, while Cancel or Close preserves exact project bytes and save generation.
 - The motion workspace gains separate Reuse keys / Shape timing tools, a timing diagram, preview ownership label and compact transport. Source, target, preset and tool changes discard obsolete previews. An older property/track round-trip selection defect is repaired.
@@ -16,14 +16,14 @@
 - 97 unit tests and fourteen retained easing assertion groups pass. The solver is checked against 980 independently calculated high-precision values. An actual 240-frame export is decoded and checked against independent positions, within the declared 2.5-pixel codec/edge tolerance.
 - Format 2 and linear evaluation remain. No native curve fields, overshoot, longer scenes, 3D, hosted service, new dependency or tutorial recording was added.
 
-## 0.11.0 — 2 November 2026
+## 0.11.0
 
 - Copy selected same-property motion keys with their relative frame gaps. Paste onto another layer, proposal or captured panel with explicit occupied-key review and exact one-step Undo/Redo. Wrong properties, off-grid source keys and out-of-range/over-budget pastes reject safely.
 - Open motion workspace provides a larger scene preview beside layer selection, key controls and whole-frame navigation. Playback stops on close. Invalid frame entry gives a clear error. Narrow controls fit319px with44px targets; the close control stays visible while scrolling.
 - 87 unit tests and eleven retained motion artifact groups pass. An actual ten-second WebM decodes all240 frames; independent position checks find the intended card on every frame, within the declared codec/edge tolerance.
 - Clipboard and selection stay outside saved documents and exports. No new file format, interpolation, hosted service, dependency or navigation demo. Easing, loops and grouped dragging remain planned.
 
-## 0.10.0 — 2 November 2026
+## 0.10.0
 
 - Opt-in transactional workspace saving preserves original browser save files and keeps the latest/prior automatic versions. Generation checks reject conflicting tabs; Retry cannot hide a conflict even after Undo returns to cached content.
 - Saving and recovery provides real first-frame previews, verified-content downloads, raw preservation downloads and recovery as a manual-library copy. Damaged or unavailable storage leaves saving paused and the current project downloadable.
@@ -31,14 +31,14 @@
 - 78 unit tests, fifteen actual native IndexedDB checks and twenty-one retained browser/artifact assertion groups pass. Fault injection does not claim real disk exhaustion, physical crash durability or a complete browser matrix.
 - Two automatic versions up to 8 MiB each; separate manual-library limits remain. No package archive, externalized asset store, cloud service, paid dependency or navigation demo was added.
 
-## 0.9.0 — 1 November 2026
+## 0.9.0
 
 - Four layer-position commands preserve motion, artwork and other scene data. Endpoint controls disable correctly and remain keyboard accessible at 319px.
 - Order-only alternatives now appear as atomic stacking changes in proposal review. Readable starting/proposed order replaces the old array-as-strokes wording. Overlapping order edits require explicit resolution; incompatible layer membership rejects without discarding approved layers.
 - 66 tests and six stacking artifact groups pass. Actual editor files cover keyboard movement, exact Undo/Redo, proposal acceptance/Undo, captured-panel isolation and changed PNG with identical artwork.
 - Existing format 2 and limits remain. Groups, hide/lock and drag sorting remain planned. No navigation demo was recorded.
 
-## 0.8.0 — 1 November 2026
+## 0.8.0
 
 - Project artwork inventory: embedded previews, sizes, approved/proposal usage, exact-image downloads and native dimension checks. Readable desktop and 319px layouts.
 - Pending project/proposal/artwork imports show Cancel import and preserve newer work when delayed operations finish. Native bitmap resources close after cancellation or stale delivery.
@@ -46,11 +46,11 @@
   - 58 tests and 12 artwork artifact groups pass. A newly downloaded complete storyboard decodes all 192 frames with correct timing and panel boundaries; source/PNG/embedded image comparisons are exact. Broader asset packages and cloud collaboration remain planned.
 - No navigation demo, paid dependency or hosting service was added.
 
-## 0.7.1 — 1 November 2026
+## 0.7.1
 
 The secondary host redirects its older platform hostname to another platform address. The main-address notice now covers all Sites hostnames. Vercel remains Framefold's main home. Website addresses have separate browser storage; a redirect does not migrate projects.
 
-## 0.7.0 — 1 November 2026
+## 0.7.0
 
 - Inspect and remove a whole sketch stroke while retaining its layer and later work. Inspection stays outside files and exports; Undo/Redo restore exact source.
 - Mode, scene, layer and list identity guard stroke selection. A layer-switch selection defect found during testing is repaired and retained in the private evidence.
@@ -58,7 +58,7 @@ The secondary host redirects its older platform hostname to another platform add
 - A more compact desktop guide recovers about 67 pixels at the tested editor width; collapse and keyboard navigation remain available. Narrow stroke controls were checked at 319 pixels.
 - 49 model tests, four preview checks, nine repeated synthetic gesture checks and ten stored-artifact groups pass. Actual mouse drawing and downloaded files are separate evidence. No navigation demo was recorded.
 
-## 0.6.0 — 1 November 2026
+## 0.6.0
 
 - Three starting points: Blank canvas, Moving illustration and Three-beat storyboard, with fresh identities and original embedded artwork.
 - Keep the current workspace before starting; identical library content is reused. Cancel/failure/late operations preserve current work; Undo returns to the previous workspace.
@@ -66,7 +66,7 @@ The secondary host redirects its older platform hostname to another platform add
 - 44 model tests, eight controlled component boundary scenarios and ten actual-artifact groups pass. New starter videos fully decode to 240/192 frames and 10/8 seconds in Chromium. Independent artist usability and broader browser quality remain open.
 - No format migration, account requirement, hosted collaboration or navigation demo.
 
-## 0.5.0 — 1 November 2026
+## 0.5.0
 
 - Canvas view zoom, pan, keyboard directions and Fit scene. Navigation leaves artwork, keys and exports unchanged.
 - Pointer ownership, Escape/capture cancellation, final stroke endpoints and rejection of excess samples without truncated commits.
@@ -75,7 +75,7 @@ The secondary host redirects its older platform hostname to another platform add
 
 Format2 remains unchanged. Pressure/smoothing/erasers and broader device performance remain future work. No navigation demo was recorded.
 
-## 0.4.0 — 31 October 2026 local / 1 November UTC
+## 0.4.0
 
 - Manual local project library: named work, checkpoints, recovery copies and reversible archives, separate from automatic workspace saving.
 - Atomic IndexedDB saves with generation/hash conflict checks, content integrity validation and explicit resource caps. No automatic deletion.
@@ -84,7 +84,7 @@ Format2 remains unchanged. Pressure/smoothing/erasers and broader device perform
 
 Format2 and JSON interchange remain compatible. Full autosave migration, external assets, ZIP packages and cloud collaboration remain future work. No tools/navigation demo was recorded.
 
-## 0.3.0 — 31 October 2026
+## 0.3.0
 
 - Duplicate/remove layers, fit still imported artwork and enter exact playhead frames.
 - Add/remove/move individual property keys, with explicit collision replacement and preserved imported off-grid times.
@@ -94,7 +94,7 @@ Format2 and JSON interchange remain compatible. Full autosave migration, externa
 
 No navigation walkthrough was recorded. Audio, cels, longer shots, native 3D and hosted collaboration remain future work. This is bounded operator verification, not independent artist adoption.
 
-## 0.2.2 — 31 October 2026
+## 0.2.2
 
 - Fixed-frame scene WebM replaces the imprecise real-time recorder: 240 frames at 24 fps, ten-second decoded duration in the tested Chromium browser.
 - Visible export success/cancel/error status and actionable unsupported-encoder fallback.
@@ -104,7 +104,7 @@ No navigation walkthrough was recorded. Audio, cels, longer shots, native 3D and
 - Eleven actual-source assertions, six encoding/failure-path checks and six actual-editor decode checks pass. Independent artist usability and other browsers remain unverified.
 - Full-sequence video remains a private experiment. The navigation demo has not been recorded.
 
-## 0.2.1 — 31 October 2026
+## 0.2.1
 
 - Isolated canvas drawing state so repeated rendering no longer carries styles between calls.
 - New captured courier panels preserve their visual wheel phase through save/reopen, while transforms remain editable.
@@ -112,15 +112,15 @@ No navigation walkthrough was recorded. Audio, cels, longer shots, native 3D and
 - Added captured-file compatibility guidance: use 0.2.1 or newer. Older captures need recapturing because they did not store their phase.
 - Verification: 23 model tests and 12 bounded browser render checks pass; 464 PNGs were written, reopened, decoded and hash-checked. The research PNG-sequence harness is not a released export tool.
 
-## Fixed-frame PNG research — 31 October 2026
+## Fixed-frame PNG research
 
-The isolated trial verified 464 PNG files and recorded eight passing checks plus two failing renderer/capture probes. These historical failures were repaired in 0.2.1; their original reports remain preserved. No new export feature is live. See [research results and limitations](RESEARCH.md#fixed-frame-png-experiment--31-october-2026).
+The isolated trial verified 464 PNG files and recorded eight passing checks plus two failing renderer/capture probes. These historical failures were repaired in 0.2.1; their original reports remain preserved. No new export feature is live. See [research results and limitations](RESEARCH.md#fixed-frame-png-experiment).
 
-## Local-storage research result — 31 October 2026
+## Local-storage research result
 
-An isolated browser prototype passed eight bounded transaction/recovery checks, including two-tab conflict handling. This is research evidence, not a new alpha feature or a completed migration. See [the result and limitations](RESEARCH.md#storage-experiment--31-october-2026).
+An isolated browser prototype passed eight bounded transaction/recovery checks, including two-tab conflict handling. This is research evidence, not a new alpha feature or a completed migration. See [the result and limitations](RESEARCH.md#storage-experiment).
 
-## Community and specification update — 31 October 2026
+## Community and specification update
 
 Documentation-only update; the available application remains alpha 0.2.
 
@@ -132,7 +132,7 @@ Documentation-only update; the available application remains alpha 0.2.
 - The private design set contains 48 proposed packets, 149 acceptance recipes and 12 mathematical vectors. These are not new tools or passed implementation tests.
 - No paid hosting or new backend service was provisioned.
 
-## Hosting and identity update — 31 October 2026
+## Hosting and identity update
 
 - Primary public address: https://framefold-psi.vercel.app/
 - Petrol, mineral white and citron interface with Chivo, Source Sans 3 and Fragment Mono.
@@ -140,7 +140,7 @@ Documentation-only update; the available application remains alpha 0.2.
 - The old address stays available so existing local projects can be downloaded and reopened on the new site.
 - Accounts, platform invitations and shared storage remain unreleased.
 
-## 0.2 — 31 October 2026
+## 0.2
 
 - Public product introduction with interactive sample versions.
 - Blank-project creation and a file-based collaborator guide.
@@ -153,6 +153,6 @@ Documentation-only update; the available application remains alpha 0.2.
 
 Accounts, live multiplayer, cloud storage, native 3D and full-sequence video export are not part of this release.
 
-## 0.1 — 31 October 2026
+## 0.1
 
 Private engineering alpha: original sample scene, transforms, keyframes, selective proposals, local persistence, portable files, PNG and WebM exports.

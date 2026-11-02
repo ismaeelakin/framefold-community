@@ -1,6 +1,6 @@
 # Roadmap
 
-Updated 1 November 2026. This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
+This is the public sequence. It distinguishes released work, proposed implementation and research. Dates are not promised. The capability IDs below match [the feature register](FEATURES.md).
 
 ## Available: browser alpha 0.9.0
 

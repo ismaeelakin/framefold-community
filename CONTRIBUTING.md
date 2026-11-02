@@ -31,3 +31,7 @@ This repository does not build the studio. Do not upload private implementation,
 Follow [GETTING_STARTED.md](GETTING_STARTED.md) and [TESTING.md](TESTING.md) with disposable files. Keep backups and record the browser/task/result. Do not post another person's work without permission. GitHub participation is separate from manually exchanging private project files.
 
 There is no guaranteed response time, bounty, employment offer or release date. Maintainers may combine duplicates, request evidence, defer research or decline a proposal. See [community rules](CODE_OF_CONDUCT.md), [privacy](PRIVACY.md) and [security](SECURITY.md).
+
+## Public release dates
+
+Only the newest release heading in CHANGELOG.md carries its publication date. When publishing a new version, remove the date from the previous heading while retaining its version and notes. Do not remove commit history, alter evidence timestamps inside example project data, or invent release dates. Guides link to the current release notes rather than repeating historical release dates.

@@ -1,6 +1,6 @@
 # Capability register
 
-Updated 2 November 2026. These IDs match the private engineering packets. This is public scope and sequencing, not application source or a claim that future tools work.
+These IDs match the private engineering packets. This is public scope and sequencing, not application source or a claim that future tools work.
 
 **48 proposed packets · 149 acceptance recipes · 12 mathematical vectors.** Recipes/vectors are design inputs, not passed implementation tests. Specification review remains required for each unimplemented capability; bounded G2 releases now have their own evidence. [Process and open decisions](SPECIFICATION.md)
 

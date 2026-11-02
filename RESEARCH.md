@@ -24,13 +24,13 @@ Intended outcome: understand changes through synchronized playback, trails and p
 
 Intended outcome: useful finished work, recovery and export without a service account. Measure on named devices and clean browser profiles. Test fixed-time evaluation, memory limits, corrupt/missing assets and worker/storage failures. A same-machine reopen or polished preview does not prove portability or output reliability.
 
-### Storage experiment — 31 October 2026
+### Storage experiment
 
 An isolated local prototype passed eight checks in Chromium 155: database reopen integrity, transaction-abort rollback, injected quota rollback, stale-generation rejection after undo, save-completion ordering, simulated newer-edit dirty state, blocked-upgrade recovery and competing writes from two real tabs. In the two-tab check, one writer committed and the other received an explicit conflict. The private evidence records the frozen fixture, environment and source hashes.
 
 This supports further work on the transaction/revision design, not a claim that the editor has migrated. Quota failure was injected; editor dirty state was simulated. Actual storage exhaustion/eviction, power loss, separate-profile file recovery, broad browser support and production UI integration remain unverified. The experiment is not included in the public app build.
 
-### Fixed-frame PNG experiment — 31 October 2026
+### Fixed-frame PNG experiment
 
 The isolated trial wrote, reopened, decoded and hash-verified **464 PNGs**: 240 scene frames, 144 animatic frames and 80 partial frames from a controlled cancellation. Eight checks passed; two renderer/capture defect probes failed. Frame counts, timestamps, panel boundaries and partial-output status were checked. Sampled pixel comparisons used a documented, measured tolerance of at most four changed channels per image, each differing by at most one colour level.
 
@@ -69,7 +69,7 @@ Research is limited to a specific artist task, acceptable licences/privacy and b
 
 State the blocked artist task, hypothesis, alternatives, safe fixture, measurements, cost ceiling and stop condition. Report failures as carefully as successes. See [the specification process](SPECIFICATION.md).
 
-## First creative workflow trace — 31 October 2026
+## First creative workflow trace
 
 The primitive-motion source was downloaded through Save project, then opened using the actual file chooser on a separate localhost origin. Its two position keys and evaluated midpoint were preserved. This is one-browser, separate-origin portability evidence, not clean-device recovery or independent artist feedback.
 

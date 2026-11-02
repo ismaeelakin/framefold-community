@@ -10,7 +10,7 @@ The hosting service receives ordinary requests needed to serve the website and m
 
 GitHub is a separate service. Public discussions, issues, pull requests and attachments can be read by anyone. Do not post confidential work, contact details, credentials or private information there.
 
-For concerns, use the security guidance or ask for a contact channel without publishing sensitive details. This page describes the current alpha, not a promise about an unreleased cloud service. Updated 31 October 2026.
+For concerns, use the security guidance or ask for a contact channel without publishing sensitive details. This page describes the current alpha, not a promise about an unreleased cloud service.
 
 The primary app is hosted on Vercel at https://framefold-psi.vercel.app/. The earlier Sites address remains available for continuity. Each origin has separate local browser storage; download project files to move your work between them.
 

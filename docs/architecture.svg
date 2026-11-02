@@ -19,5 +19,5 @@
 <text class="label" x="832" y="510">OPTIONAL SERVICES / G6, G8</text><text class="heading" x="832" y="547">Hosted collaboration</text><text class="body" x="832" y="586">Identity, permissions, invitations</text><text class="body" x="832" y="617">Private assets and revisions</text><text class="body" x="832" y="648">Opt-in feedback sync and viewing</text><text class="body" x="832" y="679">Hard quotas; zero-spend gate</text>
 <rect x="48" y="763" width="1104" height="126" fill="#123b43" rx="4"/>
 <text x="72" y="800" style="fill:#d2e35b;font-size:20px;font-weight:700">Local work must remain useful without hosted services.</text><text x="72" y="834" style="fill:#f3f6f3;font-size:17px">Private implementation and full design packets stay separate from public documentation.</text><text x="72" y="864" style="fill:#f3f6f3;font-size:17px">Research is not a shipped feature. Free static hosting is not unlimited private-media storage.</text>
-<text class="small" x="48" y="920">Public architecture summary · 2 November 2026 · See ROADMAP.md and SPECIFICATION.md for gates.</text>
+<text class="small" x="48" y="920">Public architecture summary · See ROADMAP.md and SPECIFICATION.md for gates.</text>
 </svg>
