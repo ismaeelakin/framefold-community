@@ -2,7 +2,7 @@
 
 A local-first animation studio for creating scenes, exploring alternatives and reviewing the changes worth keeping.
 
-**Browser alpha 0.14.1 available · Specification-first development · Application source private**
+**Browser alpha 0.15.1 available · Specification-first development · Application source private**
 
 [Open Framefold](https://framefold-psi.vercel.app/) · [First session](GETTING_STARTED.md) · [Roadmap](ROADMAP.md) · [Community discussion](https://github.com/ismaeelakin/framefold-community/discussions)
 
@@ -150,7 +150,7 @@ The graph describes timing progress, rather than a drawn motion path. These are 
 
 After sampled easing, a layer can contain many closely spaced key times. The timeline groups nearby times into counted targets. Choose a numbered group to open that layer’s exact motion controls; no keys are deleted or moved. During review, a group seeks its first key without opening an editing surface.
 
-![Counted motion groups in the actual 0.14.1 interface](docs/images/dense-timeline.png)
+![Counted motion groups in the actual 0.15.1 interface](docs/images/dense-timeline.png)
 
 The groups adapt to the available width, with 44-pixel targets checked at desktop and 319 pixels. Isolated keys still navigate directly. These are overview controls; use the motion workspace to inspect individual keys.
 

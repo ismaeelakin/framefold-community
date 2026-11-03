@@ -1,6 +1,10 @@
 # Release notes
 
-## 0.14.1 — 2 November 2026
+## 0.15.1 — 3 November 2026
+
+The export menu now shows output size, frame rate, frame count and duration for scene and storyboard video. Storyboard totals follow the approved panel holds.
+
+## 0.14.1
 
 The studio Guide now starts with three practical tasks: make movement, explore a proposal, and keep or deliver work. It names the current scene or alternative and links to existing motion, library and export panels. The full tool reference remains available in a collapsed section. Opening help does not change artwork, create a proposal or checkpoint, or begin an export.
 

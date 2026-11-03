@@ -3,7 +3,7 @@
 <desc id="description">Solid boxes describe released browser-local editing and a separate public GitHub community. Dashed boxes describe proposed local-engine work, 3D research and optional hosted services.</desc>
 <defs><style>text{font-family:'Source Sans 3','Segoe UI',sans-serif;fill:#123b43}.title{font-size:30px;font-weight:700}.heading{font-size:22px;font-weight:700}.body{font-size:18px}.small{font-size:16px}.label{font-size:14px;letter-spacing:1px;font-weight:700}.live{fill:#fff;stroke:#22656b;stroke-width:2}.future{fill:#f3f6f3;stroke:#64817c;stroke-width:2;stroke-dasharray:7 6}</style></defs>
 <rect width="1200" height="940" fill="#f3f6f3"/><rect x="48" y="38" width="12" height="38" fill="#d2e35b"/>
-<text class="title" x="78" y="67">Framefold / system boundaries</text><text class="body" x="48" y="101">Solid: released alpha 0.14.1. Dashed: proposed or conditional work.</text>
+<text class="title" x="78" y="67">Framefold / system boundaries</text><text class="body" x="48" y="101">Solid: released alpha 0.15.1. Dashed: proposed or conditional work.</text>
 <text class="label" x="48" y="145">CURRENT SYSTEM</text>
 <rect class="live" x="48" y="166" width="716" height="234" rx="4"/>
 <text class="heading" x="72" y="203">Your browser</text><text class="body" x="72" y="239">Artwork, scene evaluation and local rendering</text><text class="body" x="72" y="270">Motion, story panels and selected-change review</text><text class="body" x="72" y="301">Transactional workspace, checkpoints and backups</text><line x1="72" y1="323" x2="738" y2="323" stroke="#bacdc8"/>

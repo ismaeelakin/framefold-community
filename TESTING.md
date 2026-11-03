@@ -1,6 +1,6 @@
 # Test the current alpha
 
-This guide concerns **released 0.14.1 behaviour**; versioned evidence below remains tied to its original release. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
+This guide concerns **released 0.15.1 behaviour**; versioned evidence below remains tied to its original release. Proposed specification recipes are not implemented tests or features. The three creative probes below have a bounded Last Light operator trace; independent artist evaluation is still needed.
 
 ## Before a session
 
@@ -120,7 +120,7 @@ Repeat in a disposable project: step 0 → 1 → 0; check the previous button di
 
 The earlier 0.12.0 240-frame decoded WebM is separate export evidence. This release adds exact evaluator and pixel-hash comparisons, not a new codec or a newly encoded video claim.
 
-## Dense overview and complete creator path — 0.14.1
+## Dense overview and complete creator path — 0.15.1
 
 105 unit tests and nine retained creator assertion groups pass. Create an illustration, rename its layer, edit a pose, apply sampled easing, propose two changes, accept one, Undo/Redo, capture a panel, export, checkpoint and reopen. A native five-second storyboard has 120 decoded frames and the declared 3/2-second boundary. Expected scalar poses are calculated separately, then drawn by the shared renderer; this is not an independent renderer or multi-browser study.
 
